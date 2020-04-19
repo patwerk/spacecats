@@ -74,3 +74,5 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 UE_SpaceCats/Saved/*
 UE_SpaceCats/Intermediate/*
+UE_SpaceCats/Saved
+UE_SpaceCats/Intermediate
