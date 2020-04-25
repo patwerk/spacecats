@@ -76,3 +76,5 @@ UE_SpaceCats/Saved/*
 UE_SpaceCats/Intermediate/*
 UE_SpaceCats/Saved
 UE_SpaceCats/Intermediate
+*.log
+UE_SpaceCats/Intermediate/CachedAssetRegistry.bin
