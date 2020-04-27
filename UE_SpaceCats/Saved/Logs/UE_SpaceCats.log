@@ -1,4 +1,4 @@
-﻿Log file open, 04/27/20 15:22:44
+﻿Log file open, 04/27/20 18:13:16
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: UE_SpaceCats
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.067910
+LogStats: Stats thread started at 0.627075
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -163,470 +163,907 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
-[2020.04.27-13.22.44:728][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.04.27-13.22.44:728][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
-[2020.04.27-13.22.44:729][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
-[2020.04.27-13.22.44:741][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.04.27-13.22.44:741][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.04.27-13.22.44:742][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.04.27-13.22.44:742][  0]LogInit: Selected Device Profile: [Windows]
-[2020.04.27-13.22.44:742][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.04.27-13.22.44:745][  0]LogHAL: Display: Platform has ~ 16 GB [17137975296 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.04.27-13.22.44:745][  0]LogInit: Going up to parent DeviceProfile []
-[2020.04.27-13.22.44:745][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.04.27-13.22.44:745][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.04.27-13.22.44:745][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.04.27-13.22.44:746][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
-[2020.04.27-13.22.44:746][  0]LogInit: Computer: DESKTOP-PGCHC1P
-[2020.04.27-13.22.44:746][  0]LogInit: User: phand
-[2020.04.27-13.22.44:746][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.04.27-13.22.44:746][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.04.27-13.22.44:747][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2020.04.27-13.22.44:747][  0]LogMemory: Platform Memory Stats for Windows
-[2020.04.27-13.22.44:747][  0]LogMemory: Process Physical Memory: 105.05 MB used, 105.06 MB peak
-[2020.04.27-13.22.44:747][  0]LogMemory: Process Virtual Memory: 99.86 MB used, 99.86 MB peak
-[2020.04.27-13.22.44:747][  0]LogMemory: Physical Memory: 4626.11 MB used,  11717.94 MB free, 16344.05 MB total
-[2020.04.27-13.22.44:747][  0]LogMemory: Virtual Memory: 5121.17 MB used,  134212608.00 MB free, 134217728.00 MB total
-[2020.04.27-13.22.44:749][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.04.27-13.22.44:767][  0]LogInit: Using OS detected language (de-DE).
-[2020.04.27-13.22.44:767][  0]LogInit: Using OS detected locale (de-DE).
-[2020.04.27-13.22.44:768][  0]LogTextLocalizationManager: No specific localization for 'de-DE' exists, so the 'de' localization will be used.
-[2020.04.27-13.22.44:768][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/de/Editor.locres' could not be opened for reading!
-[2020.04.27-13.22.44:768][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/de/EditorTutorials.locres' could not be opened for reading!
-[2020.04.27-13.22.44:768][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/de/Keywords.locres' could not be opened for reading!
-[2020.04.27-13.22.44:768][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/de/Category.locres' could not be opened for reading!
-[2020.04.27-13.22.44:768][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/de/ToolTips.locres' could not be opened for reading!
-[2020.04.27-13.22.44:768][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/de/PropertyNames.locres' could not be opened for reading!
-[2020.04.27-13.22.44:768][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/de/Engine.locres' could not be opened for reading!
-[2020.04.27-13.22.44:769][  0]LogInit: Setting process to per monitor DPI aware
-[2020.04.27-13.22.44:810][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.04.27-13.22.44:810][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.04.27-13.22.44:936][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.04.27-13.22.44:936][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.04.27-13.22.44:936][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.04.27-13.22.44:936][  0]LogD3D11RHI: D3D11 adapters:
-[2020.04.27-13.22.44:994][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2020.04.27-13.22.44:994][  0]LogD3D11RHI:       6052/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
-[2020.04.27-13.22.44:996][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.04.27-13.22.44:996][  0]LogD3D11RHI:       0/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.04.27-13.22.44:996][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.04.27-13.22.45:003][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.04.27-13.22.45:004][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2020.04.27-13.22.45:004][  0]LogWindows: EnumDisplayDevices:
-[2020.04.27-13.22.45:004][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
-[2020.04.27-13.22.45:004][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
-[2020.04.27-13.22.45:004][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2020.04.27-13.22.45:005][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2020.04.27-13.22.45:005][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.04.27-13.22.45:005][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2020.04.27-13.22.45:005][  0]LogD3D11RHI:   Driver Version: 442.74 (internal:26.21.14.4274, unified:442.74)
-[2020.04.27-13.22.45:005][  0]LogD3D11RHI:      Driver Date: 3-13-2020
-[2020.04.27-13.22.45:005][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2020.04.27-13.22.45:044][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.04.27-13.22.45:044][  0]LogD3D11RHI: Async texture creation enabled
-[2020.04.27-13.22.45:049][  0]LogD3D11RHI: HDR output is supported on display 2 (NvId: 0x80061080).
-[2020.04.27-13.22.45:066][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.04.27-13.22.45:327][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.04.27-13.22.45:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.04.27-13.22.45:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.04.27-13.22.45:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.04.27-13.22.45:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.04.27-13.22.45:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.04.27-13.22.45:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.04.27-13.22.45:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.04.27-13.22.45:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.04.27-13.22.45:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.04.27-13.22.45:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.04.27-13.22.45:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.04.27-13.22.45:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.04.27-13.22.45:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.04.27-13.22.45:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.04.27-13.22.45:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.04.27-13.22.45:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.04.27-13.22.45:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.04.27-13.22.45:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.04.27-13.22.45:375][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.04.27-13.22.45:375][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.04.27-13.22.45:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.04.27-13.22.45:388][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.04.27-13.22.45:395][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.04.27-13.22.45:402][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.04.27-13.22.45:408][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.04.27-13.22.45:415][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.04.27-13.22.45:438][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.04.27-13.22.45:438][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.04.27-13.22.45:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.04.27-13.22.45:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.04.27-13.22.45:459][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.04.27-13.22.45:466][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.04.27-13.22.45:474][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.04.27-13.22.45:480][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.04.27-13.22.45:480][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.04.27-13.22.45:483][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.04.27-13.22.45:506][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (D:/GitFork/spacecats/UE_SpaceCats/Intermediate/Shaders/WorkingDirectory/5260/).
-[2020.04.27-13.22.45:506][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/phand/AppData/Local/Temp/UnrealShaderWorkingDir/00F9A0554DB2551F711C06B9986D0368/'.
-[2020.04.27-13.22.45:506][  0]LogXGEController: Cleaning working directory: C:/Users/phand/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.04.27-13.22.45:507][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.04.27-13.22.45:507][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.04.27-13.22.45:507][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.04.27-13.22.46:198][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.04.27-13.22.46:259][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/phand/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.04.27-13.22.46:259][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/phand/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.04.27-13.22.46:259][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GitFork/spacecats/UE_SpaceCats/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.04.27-13.22.46:259][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.04.27-13.22.46:259][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GitFork/spacecats/UE_SpaceCats/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.04.27-13.22.46:259][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.04.27-13.22.46:270][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.04.27-13.22.46:270][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.04.27-13.22.46:270][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.04.27-13.22.46:272][  0]LogDerivedDataCache: Using Local data cache path C:/Users/phand/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.04.27-13.22.46:272][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.04.27-13.22.46:272][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.04.27-13.22.46:295][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.04.27-13.22.46:298][  0]LogSlate: Using FreeType 2.10.0
-[2020.04.27-13.22.46:299][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.04.27-13.22.46:350][  0]LogAssetRegistry: FAssetRegistry took 0.0028 seconds to start up
-[2020.04.27-13.22.46:624][  0]LogInit: Selected Device Profile: [Windows]
-[2020.04.27-13.22.46:773][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.04.27-13.22.46:773][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.04.27-13.22.46:773][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.04.27-13.22.46:773][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.04.27-13.22.46:773][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.04.27-13.22.46:797][  0]LogNetVersion: UE_SpaceCats 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1511205519)
-[2020.04.27-13.22.47:834][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.043868 seconds
-[2020.04.27-13.22.47:842][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2020.04.27-13.22.47:842][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2020.04.27-13.22.47:842][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.04.27-13.22.48:228][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.04.27-13.22.48:232][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.04.27-13.22.48:282][  0]SourceControl: Source control is disabled
-[2020.04.27-13.22.48:282][  0]SourceControl: Source control is disabled
-[2020.04.27-13.22.48:283][  0]SourceControl: Source control is disabled
-[2020.04.27-13.22.48:284][  0]SourceControl: Source control is disabled
-[2020.04.27-13.22.48:285][  0]SourceControl: Source control is disabled
-[2020.04.27-13.22.48:292][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.04.27-13.22.48:293][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.04.27-13.22.48:365][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.04.27-13.22.48:376][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.04.27-13.22.48:376][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.04.27-13.22.48:460][  0]LogOcInput: OculusInput pre-init called
-[2020.04.27-13.22.48:468][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.04.27-13.22.48:468][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.04.27-13.22.48:532][  0]LogEngine: Initializing Engine...
-[2020.04.27-13.22.48:533][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.04.27-13.22.48:534][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.04.27-13.22.48:879][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.04.27-13.22.48:886][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.04.27-13.22.48:906][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.04.27-13.22.48:906][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.04.27-13.22.48:906][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.04.27-13.22.48:906][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.04.27-13.22.48:906][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.04.27-13.22.48:906][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.04.27-13.22.48:906][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.04.27-13.22.48:906][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.04.27-13.22.48:906][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.04.27-13.22.48:906][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.04.27-13.22.48:938][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.04.27-13.22.48:938][  0]LogAudioMixer: Display: Name: Smart TV (2- NVIDIA High Definition Audio)
-[2020.04.27-13.22.48:938][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.04.27-13.22.48:938][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.04.27-13.22.48:938][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2020.04.27-13.22.48:938][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2020.04.27-13.22.48:938][  0]LogAudioMixer: Display: Channel Order:
-[2020.04.27-13.22.48:938][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.04.27-13.22.48:938][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.04.27-13.22.48:979][  0]LogAudioMixer: Display: Using Audio Device Smart TV (2- NVIDIA High Definition Audio)
-[2020.04.27-13.22.48:984][  0]LogInit: FAudioDevice initialized.
-[2020.04.27-13.22.48:985][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.04.27-13.22.49:080][  0]LogDerivedDataCache: Saved boot cache 0.10s 78MB C:/Users/phand/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.04.27-13.22.49:088][  0]LogInit: Texture streaming: Enabled
-[2020.04.27-13.22.49:097][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.04.27-13.22.49:097][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.04.27-13.22.49:099][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.04.27-13.22.49:146][  0]LogInit: Transaction tracking system initialized
-[2020.04.27-13.22.49:156][  0]BlueprintLog: New page: Editor Load
-[2020.04.27-13.22.49:181][  0]LocalizationService: Localization service is disabled
-[2020.04.27-13.22.49:230][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.04.27-13.22.49:231][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.04.27-13.22.49:435][  0]LogFileCache: Scanning file cache for directory 'D:/GitFork/spacecats/UE_SpaceCats/Content/' took 0.01s
-[2020.04.27-13.22.49:436][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.04.27-13.22.49:436][  0]LogCook: Display: Mobile HDR setting 1
-[2020.04.27-13.22.50:053][  0]SourceControl: Source control is disabled
-[2020.04.27-13.22.50:053][  0]Cmd: MAP LOAD FILE="D:/GitFork/spacecats/UE_SpaceCats/Content/Level/Greybox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.04.27-13.22.50:054][  0]LightingResults: New page: Lighting Build
-[2020.04.27-13.22.50:054][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.04.27-13.22.50:055][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.27-13.22.50:055][  0]MapCheck: New page: Map Check
-[2020.04.27-13.22.50:055][  0]LightingResults: New page: Lighting Build
-[2020.04.27-13.22.50:078][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
-[2020.04.27-13.22.50:174][  0]LogAIModule: Creating AISystem for world Greybox
-[2020.04.27-13.22.50:179][  0]PIE: Warning: AttachTo: '/Game/Level/Greybox.Greybox:PersistentLevel.FbxScene_greybox_test.DefaultSceneRoot' is not static  (in blueprint "FbxScene_greybox_test"), cannot attach '/Game/Level/Greybox.Greybox:PersistentLevel.FbxScene_greybox_test.DefaultSceneRoot1' which is static to it. Aborting.
-[2020.04.27-13.22.50:180][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.04.27-13.22.50:209][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
-[2020.04.27-13.22.50:209][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.04.27-13.22.50:209][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,091ms to complete.
-[2020.04.27-13.22.50:210][  0]LogFileHelpers: Loading map 'Greybox' took 0.157
-[2020.04.27-13.22.50:360][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.27-13.22.50:367][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.27-13.22.50:374][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.27-13.22.50:380][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.27-13.22.50:385][  0]LogCollectionManager: Loaded 0 collections in 0.001741 seconds
-[2020.04.27-13.22.50:400][  0]LogFileCache: Scanning file cache for directory 'D:/GitFork/spacecats/UE_SpaceCats/Saved/Collections/' took 0.00s
-[2020.04.27-13.22.50:400][  0]LogFileCache: Scanning file cache for directory 'D:/GitFork/spacecats/UE_SpaceCats/Content/Developers/phand/Collections/' took 0.00s
-[2020.04.27-13.22.50:400][  0]LogFileCache: Scanning file cache for directory 'D:/GitFork/spacecats/UE_SpaceCats/Content/Collections/' took 0.00s
-[2020.04.27-13.22.50:400][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 3015 classes and 717 folders.
-[2020.04.27-13.22.50:404][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.04.27-13.22.50:463][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.04.27-13.22.50:470][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
-[2020.04.27-13.22.50:548][  0]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.04.27-13.22.50:550][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.04.27-13.22.50:554][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.04.27-13.22.50:658][  0]LogRenderer: Reallocating scene render targets to support 1360x676 Format 10 NumSamples 1 (Frame:1).
-[2020.04.27-13.22.50:763][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.04.27-13.22.50:763][  0]LogLoad: (Engine Initialization) Total time: 7.12 seconds
-[2020.04.27-13.22.50:763][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.04.27-13.22.50:820][  0]LogAssetRegistry: Asset discovery search completed in 4.4711 seconds
-[2020.04.27-13.22.50:825][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000012 seconds (updated 0 objects)
-[2020.04.27-13.22.50:826][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.04.27-13.22.50:860][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.04.27-13.22.51:112][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/GitFork/spacecats/UE_SpaceCats/Content/' took 0.33s
-[2020.04.27-13.23.19:272][ 85]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{ac134246-b5b2-4cb8-972e-8c7923b6815d}.
-[2020.04.27-13.23.19:272][ 85]LogTemp: Resetting audio stream to device id 
-[2020.04.27-13.23.19:311][ 85]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.04.27-13.23.19:311][ 85]LogAudioMixer: Display: Name: Lautsprecher (Line 6 UX2)
-[2020.04.27-13.23.19:311][ 85]LogAudioMixer: Display: Is Default: Yes
-[2020.04.27-13.23.19:311][ 85]LogAudioMixer: Display: Sample Rate: 44100
-[2020.04.27-13.23.19:311][ 85]LogAudioMixer: Display: Channel Count Used: 2
-[2020.04.27-13.23.19:311][ 85]LogAudioMixer: Display: Device Channel Count: 2
-[2020.04.27-13.23.19:311][ 85]LogAudioMixer: Display: Channel Order:
-[2020.04.27-13.23.19:311][ 85]LogAudioMixer: Display: 0: FrontLeft
-[2020.04.27-13.23.19:311][ 85]LogAudioMixer: Display: 1: FrontRight
+[2020.04.27-16.13.16:993][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.27-16.13.16:993][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.27-16.13.16:993][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
+[2020.04.27-16.13.16:993][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.27-16.13.16:993][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
+[2020.04.27-16.13.16:993][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
+[2020.04.27-16.13.16:993][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.27-16.13.16:993][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.27-16.13.16:993][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.27-16.13.16:993][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.27-16.13.16:993][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.27-16.13.16:993][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.27-16.13.16:994][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.27-16.13.16:994][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.27-16.13.16:994][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.27-16.13.16:994][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.27-16.13.16:994][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.27-16.13.16:994][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.27-16.13.16:994][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.27-16.13.16:994][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.04.27-16.13.16:994][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
+[2020.04.27-16.13.16:994][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.27-16.13.16:994][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.27-16.13.16:994][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.27-16.13.16:994][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.27-16.13.16:994][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.27-16.13.16:994][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.27-16.13.16:994][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.04.27-16.13.16:994][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.27-16.13.16:994][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.27-16.13.16:994][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.27-16.13.16:994][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.27-16.13.16:994][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.27-16.13.16:994][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.27-16.13.16:994][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
+[2020.04.27-16.13.16:994][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
+[2020.04.27-16.13.17:010][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.04.27-16.13.17:010][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.27-16.13.17:010][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.27-16.13.17:010][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.04.27-16.13.17:010][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.27-16.13.17:010][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.04.27-16.13.17:010][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.27-16.13.17:010][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.27-16.13.17:010][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.27-16.13.17:010][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.27-16.13.17:010][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.27-16.13.17:010][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.27-16.13.17:010][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.27-16.13.17:010][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.27-16.13.17:010][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.27-16.13.17:010][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.27-16.13.17:010][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.27-16.13.17:010][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.27-16.13.17:010][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.27-16.13.17:010][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.27-16.13.17:010][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.27-16.13.17:011][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.27-16.13.17:012][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.27-16.13.17:012][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.27-16.13.17:012][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.27-16.13.17:012][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.27-16.13.17:012][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.27-16.13.17:012][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.27-16.13.17:012][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.27-16.13.17:012][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.27-16.13.17:012][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.27-16.13.17:012][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.27-16.13.17:012][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.27-16.13.17:012][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.27-16.13.17:012][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.27-16.13.17:012][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.27-16.13.17:012][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.27-16.13.17:012][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.04.27-16.13.17:012][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.27-16.13.17:012][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.27-16.13.17:012][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.04.27-16.13.17:012][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.27-16.13.17:012][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.27-16.13.17:012][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.27-16.13.17:012][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.27-16.13.17:012][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.27-16.13.17:022][  0]LogHAL: Display: Platform has ~ 16 GB [17137975296 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.27-16.13.17:022][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.27-16.13.17:022][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.27-16.13.17:022][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.27-16.13.17:023][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.27-16.13.17:029][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.27-16.13.17:029][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.27-16.13.17:029][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/GitFork/spacecats/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
+[2020.04.27-16.13.17:030][  0]LogInit: Computer: DESKTOP-PGCHC1P
+[2020.04.27-16.13.17:030][  0]LogInit: User: phand
+[2020.04.27-16.13.17:030][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.04.27-16.13.17:030][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.27-16.13.17:030][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.04.27-16.13.17:030][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.27-16.13.17:030][  0]LogMemory: Process Physical Memory: 105.13 MB used, 105.13 MB peak
+[2020.04.27-16.13.17:030][  0]LogMemory: Process Virtual Memory: 99.88 MB used, 99.88 MB peak
+[2020.04.27-16.13.17:030][  0]LogMemory: Physical Memory: 4169.41 MB used,  12174.63 MB free, 16344.05 MB total
+[2020.04.27-16.13.17:030][  0]LogMemory: Virtual Memory: 5121.17 MB used,  134212608.00 MB free, 134217728.00 MB total
+[2020.04.27-16.13.17:037][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.04.27-16.13.17:258][  0]LogInit: Using OS detected language (de-DE).
+[2020.04.27-16.13.17:258][  0]LogInit: Using OS detected locale (de-DE).
+[2020.04.27-16.13.17:260][  0]LogTextLocalizationManager: No specific localization for 'de-DE' exists, so the 'de' localization will be used.
+[2020.04.27-16.13.17:260][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/de/Editor.locres' could not be opened for reading!
+[2020.04.27-16.13.17:260][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/de/EditorTutorials.locres' could not be opened for reading!
+[2020.04.27-16.13.17:260][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/de/Keywords.locres' could not be opened for reading!
+[2020.04.27-16.13.17:261][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/de/Category.locres' could not be opened for reading!
+[2020.04.27-16.13.17:261][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/de/ToolTips.locres' could not be opened for reading!
+[2020.04.27-16.13.17:261][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/de/PropertyNames.locres' could not be opened for reading!
+[2020.04.27-16.13.17:261][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/de/Engine.locres' could not be opened for reading!
+[2020.04.27-16.13.17:289][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.27-16.13.17:386][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.27-16.13.17:386][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.27-16.13.20:171][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.27-16.13.20:171][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.04.27-16.13.20:172][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.04.27-16.13.20:172][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.27-16.13.20:241][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2020.04.27-16.13.20:241][  0]LogD3D11RHI:       6052/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2020.04.27-16.13.20:243][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.27-16.13.20:243][  0]LogD3D11RHI:       0/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.27-16.13.20:243][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.27-16.13.20:251][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.27-16.13.20:251][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.27-16.13.20:251][  0]LogWindows: EnumDisplayDevices:
+[2020.04.27-16.13.20:251][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2020.04.27-16.13.20:251][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2020.04.27-16.13.20:251][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2020.04.27-16.13.20:251][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.04.27-16.13.20:252][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.04.27-16.13.20:252][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2020.04.27-16.13.20:252][  0]LogD3D11RHI:   Driver Version: 442.74 (internal:26.21.14.4274, unified:442.74)
+[2020.04.27-16.13.20:252][  0]LogD3D11RHI:      Driver Date: 3-13-2020
+[2020.04.27-16.13.20:252][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2020.04.27-16.13.20:297][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.04.27-16.13.20:298][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.27-16.13.20:303][  0]LogD3D11RHI: HDR output is supported on display 2 (NvId: 0x80061080).
+[2020.04.27-16.13.20:353][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.04.27-16.13.20:702][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.04.27-16.13.20:739][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.04.27-16.13.20:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.04.27-16.13.20:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.04.27-16.13.20:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.04.27-16.13.20:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.04.27-16.13.20:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.04.27-16.13.20:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.04.27-16.13.20:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.04.27-16.13.20:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.04.27-16.13.20:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.27-16.13.20:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.04.27-16.13.20:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.04.27-16.13.20:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.27-16.13.20:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.27-16.13.20:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.27-16.13.20:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.27-16.13.20:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.04.27-16.13.20:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.04.27-16.13.20:770][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.04.27-16.13.20:770][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.04.27-16.13.20:778][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.27-16.13.20:786][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.04.27-16.13.20:794][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.04.27-16.13.20:803][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.04.27-16.13.20:811][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.04.27-16.13.20:820][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.04.27-16.13.20:850][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.04.27-16.13.20:850][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.04.27-16.13.20:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.04.27-16.13.20:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.04.27-16.13.20:873][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.27-16.13.20:882][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.04.27-16.13.20:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.04.27-16.13.20:897][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.04.27-16.13.20:897][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.27-16.13.20:936][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.27-16.13.21:036][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (D:/GitFork/spacecats/UE_SpaceCats/Intermediate/Shaders/WorkingDirectory/1888/).
+[2020.04.27-16.13.21:036][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/phand/AppData/Local/Temp/UnrealShaderWorkingDir/93871D80425617934A98A2B33B7C9C9B/'.
+[2020.04.27-16.13.21:037][  0]LogXGEController: Cleaning working directory: C:/Users/phand/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.04.27-16.13.21:037][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.27-16.13.21:038][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.27-16.13.21:038][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.27-16.13.24:038][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.27-16.13.24:245][  0]LogDerivedDataCache: Loaded boot cache 0.21s 78MB C:/Users/phand/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.27-16.13.24:246][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/phand/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.04.27-16.13.24:246][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GitFork/spacecats/UE_SpaceCats/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.27-16.13.24:246][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.27-16.13.24:246][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GitFork/spacecats/UE_SpaceCats/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.27-16.13.24:246][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.27-16.13.24:269][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.27-16.13.24:269][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.27-16.13.24:269][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.27-16.13.24:270][  0]LogDerivedDataCache: Using Local data cache path C:/Users/phand/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.27-16.13.24:270][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.27-16.13.24:270][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.27-16.13.24:299][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.27-16.13.24:308][  0]LogSlate: Using FreeType 2.10.0
+[2020.04.27-16.13.24:323][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.27-16.13.24:527][  0]LogAssetRegistry: FAssetRegistry took 0.0043 seconds to start up
+[2020.04.27-16.13.24:964][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.27-16.13.25:295][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.27-16.13.25:295][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.27-16.13.25:295][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.27-16.13.25:295][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.27-16.13.25:295][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.27-16.13.25:357][  0]LogNetVersion: UE_SpaceCats 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1511205519)
+[2020.04.27-16.13.28:716][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.052136 seconds
+[2020.04.27-16.13.28:725][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.04.27-16.13.28:725][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.04.27-16.13.28:725][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.27-16.13.29:534][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.27-16.13.29:540][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.27-16.13.29:642][  0]SourceControl: Source control is disabled
+[2020.04.27-16.13.29:642][  0]SourceControl: Source control is disabled
+[2020.04.27-16.13.29:650][  0]SourceControl: Source control is disabled
+[2020.04.27-16.13.29:654][  0]SourceControl: Source control is disabled
+[2020.04.27-16.13.29:657][  0]SourceControl: Source control is disabled
+[2020.04.27-16.13.29:669][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.04.27-16.13.29:669][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.04.27-16.13.29:848][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.27-16.13.29:868][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.27-16.13.29:868][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.27-16.13.30:020][  0]LogOcInput: OculusInput pre-init called
+[2020.04.27-16.13.30:034][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.04.27-16.13.30:034][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.04.27-16.13.30:148][  0]LogEngine: Initializing Engine...
+[2020.04.27-16.13.30:150][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.27-16.13.30:154][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.002 s
+[2020.04.27-16.13.30:517][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.27-16.13.30:549][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.27-16.13.30:559][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.27-16.13.30:559][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.27-16.13.30:559][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.27-16.13.30:559][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.27-16.13.30:559][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.27-16.13.30:559][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.27-16.13.30:559][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.27-16.13.30:559][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.27-16.13.30:560][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.27-16.13.30:560][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.27-16.13.30:597][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.27-16.13.30:597][  0]LogAudioMixer: Display: Name: Smart TV (2- NVIDIA High Definition Audio)
+[2020.04.27-16.13.30:597][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.04.27-16.13.30:597][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.27-16.13.30:597][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.27-16.13.30:597][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.27-16.13.30:597][  0]LogAudioMixer: Display: Channel Order:
+[2020.04.27-16.13.30:597][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.27-16.13.30:597][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.04.27-16.13.30:622][  0]LogAudioMixer: Display: Using Audio Device Smart TV (2- NVIDIA High Definition Audio)
+[2020.04.27-16.13.30:628][  0]LogInit: FAudioDevice initialized.
+[2020.04.27-16.13.30:628][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.27-16.13.30:707][  0]LogDerivedDataCache: Saved boot cache 0.08s 78MB C:/Users/phand/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.27-16.13.30:715][  0]LogInit: Texture streaming: Enabled
+[2020.04.27-16.13.30:732][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.27-16.13.30:732][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.04.27-16.13.30:734][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.04.27-16.13.30:947][  0]LogInit: Transaction tracking system initialized
+[2020.04.27-16.13.30:980][  0]BlueprintLog: New page: Editor Load
+[2020.04.27-16.13.31:087][  0]LocalizationService: Localization service is disabled
+[2020.04.27-16.13.31:234][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.04.27-16.13.31:235][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.04.27-16.13.31:547][  0]LogFileCache: Scanning file cache for directory 'D:/GitFork/spacecats/UE_SpaceCats/Content/' took 0.02s
+[2020.04.27-16.13.31:547][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.27-16.13.31:547][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.27-16.13.32:436][  0]SourceControl: Source control is disabled
+[2020.04.27-16.13.32:438][  0]Cmd: MAP LOAD FILE="D:/GitFork/spacecats/UE_SpaceCats/Content/Level/Greybox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.27-16.13.32:668][  0]LightingResults: New page: Lighting Build
+[2020.04.27-16.13.32:674][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.27-16.13.32:674][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.27-16.13.32:675][  0]MapCheck: New page: Map Check
+[2020.04.27-16.13.32:675][  0]LightingResults: New page: Lighting Build
+[2020.04.27-16.13.32:706][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.04.27-16.13.33:006][  0]LogAIModule: Creating AISystem for world Greybox
+[2020.04.27-16.13.33:020][  0]PIE: Warning: AttachTo: '/Game/Level/Greybox.Greybox:PersistentLevel.FbxScene_greybox_test.DefaultSceneRoot' is not static  (in blueprint "FbxScene_greybox_test"), cannot attach '/Game/Level/Greybox.Greybox:PersistentLevel.FbxScene_greybox_test.DefaultSceneRoot1' which is static to it. Aborting.
+[2020.04.27-16.13.33:024][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.27-16.13.33:053][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.04.27-16.13.33:053][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.27-16.13.33:054][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,398ms to complete.
+[2020.04.27-16.13.33:054][  0]LogFileHelpers: Loading map 'Greybox' took 0.618
+[2020.04.27-16.13.33:267][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.27-16.13.33:275][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.27-16.13.33:282][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.27-16.13.33:289][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.27-16.13.33:304][  0]LogCollectionManager: Loaded 0 collections in 0.001871 seconds
+[2020.04.27-16.13.33:330][  0]LogFileCache: Scanning file cache for directory 'D:/GitFork/spacecats/UE_SpaceCats/Saved/Collections/' took 0.00s
+[2020.04.27-16.13.33:330][  0]LogFileCache: Scanning file cache for directory 'D:/GitFork/spacecats/UE_SpaceCats/Content/Developers/phand/Collections/' took 0.00s
+[2020.04.27-16.13.33:330][  0]LogFileCache: Scanning file cache for directory 'D:/GitFork/spacecats/UE_SpaceCats/Content/Collections/' took 0.00s
+[2020.04.27-16.13.33:330][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 3015 classes and 717 folders.
+[2020.04.27-16.13.33:340][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.27-16.13.33:684][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.27-16.13.33:697][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2020.04.27-16.13.33:854][  0]LogSlate: Took 0.007746 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.27-16.13.33:862][  0]LogSlate: Took 0.005174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.27-16.13.33:872][  0]LogSlate: Took 0.006301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.27-16.13.34:010][  0]LogRenderer: Reallocating scene render targets to support 1360x676 Format 10 NumSamples 1 (Frame:1).
+[2020.04.27-16.13.34:137][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.27-16.13.34:137][  0]LogLoad: (Engine Initialization) Total time: 21.51 seconds
+[2020.04.27-16.13.34:137][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.27-16.13.34:179][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.27-16.13.38:209][382]LogAssetRegistry: Asset discovery search completed in 13.6833 seconds
+[2020.04.27-16.13.38:212][382]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000011 seconds (updated 0 objects)
+[2020.04.27-16.13.38:251][383]LogSlate: Took 0.007179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.27-16.13.38:284][383]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.27-16.13.39:297][452]LogFileCache: Retrieving MD5 hashes for directory 'D:/GitFork/spacecats/UE_SpaceCats/Content/' took 5.15s
+[2020.04.27-16.13.43:207][867]AssetReimport: New page: Detailed File System Changes from 18:13:43
+[2020.04.27-16.13.43:258][867]AssetReimport: 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_all_furniture_together.fbx' has been created.
+[2020.04.27-16.13.43:258][867]AssetReimport: 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_armchair.fbx' has been created.
+[2020.04.27-16.13.43:258][867]AssetReimport: 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_ceiling_blanket.fbx' has been created.
+[2020.04.27-16.13.43:258][867]AssetReimport: 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_crescent_pillow_with_normal_map.fbx' has been created.
+[2020.04.27-16.13.43:258][867]AssetReimport: 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_cuckoo_clock.fbx' has been created.
+[2020.04.27-16.13.43:259][867]AssetReimport: 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_glass_table.fbx' has been created.
+[2020.04.27-16.13.43:259][867]AssetReimport: 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_horoscope_carpet.fbx' has been created.
+[2020.04.27-16.13.43:259][867]AssetReimport: 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_sofa.fbx' has been created.
+[2020.04.27-16.13.43:259][867]AssetReimport: 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/recipe_outcomes/R_1.fbx' has been created.
+[2020.04.27-16.13.43:259][867]AssetReimport: 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/plants/Plant_1.fbx' has been modified.
+[2020.04.27-16.13.43:259][867]AssetReimport: 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/plant_pots/Pot_1.fbx' has been modified.
+[2020.04.27-16.13.43:259][867]AssetReimport: 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/ingredients/leafs_berries/Leaf_1.fbx' has been modified.
+[2020.04.27-16.13.58:105][574]AssetReimport: New page: Outstanding source content changes 20:13:58
+[2020.04.27-16.13.58:109][574]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_all_furniture_together.fbx)
+[2020.04.27-16.13.58:135][574]LogFbx: Loading FBX Scene from D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_all_furniture_together.fbx
+[2020.04.27-16.13.58:156][574]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.13.59:398][574]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.04.27-16.13.59:591][574]LogStaticMesh: Building static mesh fireplace_all_furniture_together_fireplace_armchair...
+[2020.04.27-16.13.59:630][574]LogStaticMesh: Built static mesh [0.04s] /Game/meshes/static/furniture/fireplace_all_furniture_together_fireplace_armchair.fireplace_all_furniture_together_fireplace_armchair
+[2020.04.27-16.13.59:754][574]LogStaticMesh: Building static mesh fireplace_all_furniture_together_fireplace_blanket...
+[2020.04.27-16.13.59:772][574]LogStaticMesh: Built static mesh [0.02s] /Game/meshes/static/furniture/fireplace_all_furniture_together_fireplace_blanket.fireplace_all_furniture_together_fireplace_blanket
+[2020.04.27-16.13.59:803][574]LogStaticMesh: Building static mesh fireplace_all_furniture_together_crescent_lowpoly...
+[2020.04.27-16.13.59:807][574]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/static/furniture/fireplace_all_furniture_together_crescent_lowpoly.fireplace_all_furniture_together_crescent_lowpoly
+[2020.04.27-16.13.59:906][574]LogStaticMesh: Building static mesh fireplace_all_furniture_together_clock1...
+[2020.04.27-16.13.59:921][574]LogStaticMesh: Built static mesh [0.02s] /Game/meshes/static/furniture/fireplace_all_furniture_together_clock1.fireplace_all_furniture_together_clock1
+[2020.04.27-16.13.59:946][574]LogStaticMesh: Building static mesh fireplace_all_furniture_together_fireplace_glass_table...
+[2020.04.27-16.13.59:951][574]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/static/furniture/fireplace_all_furniture_together_fireplace_glass_table.fireplace_all_furniture_together_fireplace_glass_table
+[2020.04.27-16.13.59:971][574]LogStaticMesh: Building static mesh fireplace_all_furniture_together_fireplace_horoscope_carpet...
+[2020.04.27-16.13.59:976][574]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/static/furniture/fireplace_all_furniture_together_fireplace_horoscope_carpet.fireplace_all_furniture_together_fireplace_horoscope_carpet
+[2020.04.27-16.14.00:300][574]LogStaticMesh: Building static mesh fireplace_all_furniture_together_sofa...
+[2020.04.27-16.14.00:384][574]LogStaticMesh: Built static mesh [0.08s] /Game/meshes/static/furniture/fireplace_all_furniture_together_sofa.fireplace_all_furniture_together_sofa
+[2020.04.27-16.14.00:470][575]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_armchair.fbx)
+[2020.04.27-16.14.00:479][575]LogFbx: Loading FBX Scene from D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_armchair.fbx
+[2020.04.27-16.14.00:487][575]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.14.01:267][575]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.04.27-16.14.01:456][575]LogStaticMesh: Building static mesh fireplace_armchair...
+[2020.04.27-16.14.01:494][575]LogStaticMesh: Built static mesh [0.04s] /Game/meshes/static/furniture/fireplace_armchair.fireplace_armchair
+[2020.04.27-16.14.01:556][576]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_ceiling_blanket.fbx)
+[2020.04.27-16.14.01:564][576]LogFbx: Loading FBX Scene from D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_ceiling_blanket.fbx
+[2020.04.27-16.14.01:571][576]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.14.02:310][576]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.04.27-16.14.02:420][576]LogStaticMesh: Building static mesh fireplace_ceiling_blanket...
+[2020.04.27-16.14.02:437][576]LogStaticMesh: Built static mesh [0.02s] /Game/meshes/static/furniture/fireplace_ceiling_blanket.fireplace_ceiling_blanket
+[2020.04.27-16.14.02:474][577]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_crescent_pillow_with_normal_map.fbx)
+[2020.04.27-16.14.02:487][577]LogFbx: Loading FBX Scene from D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_crescent_pillow_with_normal_map.fbx
+[2020.04.27-16.14.02:496][577]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.14.03:094][577]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.04.27-16.14.03:144][577]LogStaticMesh: Building static mesh fireplace_crescent_pillow_with_normal_map...
+[2020.04.27-16.14.03:149][577]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/static/furniture/fireplace_crescent_pillow_with_normal_map.fireplace_crescent_pillow_with_normal_map
+[2020.04.27-16.14.03:190][578]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_cuckoo_clock.fbx)
+[2020.04.27-16.14.03:198][578]LogFbx: Loading FBX Scene from D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_cuckoo_clock.fbx
+[2020.04.27-16.14.03:206][578]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.14.03:761][578]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.04.27-16.14.03:880][578]LogStaticMesh: Building static mesh fireplace_cuckoo_clock...
+[2020.04.27-16.14.03:896][578]LogStaticMesh: Built static mesh [0.02s] /Game/meshes/static/furniture/fireplace_cuckoo_clock.fireplace_cuckoo_clock
+[2020.04.27-16.14.03:923][579]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_glass_table.fbx)
+[2020.04.27-16.14.03:930][579]LogFbx: Loading FBX Scene from D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_glass_table.fbx
+[2020.04.27-16.14.03:937][579]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.14.04:465][579]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.04.27-16.14.04:507][579]LogStaticMesh: Building static mesh fireplace_glass_table...
+[2020.04.27-16.14.04:512][579]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/static/furniture/fireplace_glass_table.fireplace_glass_table
+[2020.04.27-16.14.04:558][580]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_horoscope_carpet.fbx)
+[2020.04.27-16.14.04:565][580]LogFbx: Loading FBX Scene from D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_horoscope_carpet.fbx
+[2020.04.27-16.14.04:571][580]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.14.05:147][580]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.04.27-16.14.05:184][580]LogStaticMesh: Building static mesh fireplace_horoscope_carpet...
+[2020.04.27-16.14.05:189][580]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/static/furniture/fireplace_horoscope_carpet.fireplace_horoscope_carpet
+[2020.04.27-16.14.05:223][581]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_sofa.fbx)
+[2020.04.27-16.14.05:231][581]LogFbx: Loading FBX Scene from D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_sofa.fbx
+[2020.04.27-16.14.05:241][581]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.14.05:865][581]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.04.27-16.14.06:192][581]LogStaticMesh: Building static mesh fireplace_sofa...
+[2020.04.27-16.14.06:276][581]LogStaticMesh: Built static mesh [0.09s] /Game/meshes/static/furniture/fireplace_sofa.fireplace_sofa
+[2020.04.27-16.14.06:322][582]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/recipe_outcomes/R_1.fbx)
+[2020.04.27-16.14.06:330][582]LogFbx: Loading FBX Scene from D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/recipe_outcomes/R_1.fbx
+[2020.04.27-16.14.06:337][582]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.14.07:311][582]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.04.27-16.14.07:383][582]LogStaticMesh: Building static mesh R_1...
+[2020.04.27-16.14.07:395][582]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/static/recipe_outcomes/R_1.R_1
+[2020.04.27-16.14.07:610][583]LogEditorFactories: Performing atomic reimport of [D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/plants/Plant_1.fbx]
+[2020.04.27-16.14.07:620][583]LogFbx: Loading FBX Scene from D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/plants/Plant_1.fbx
+[2020.04.27-16.14.07:628][583]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.14.07:898][583]LogStaticMesh: Building static mesh Plant_1...
+[2020.04.27-16.14.07:991][583]LogStaticMesh: Built static mesh [0.09s] /Game/meshes/static/plants/Plant_1.Plant_1
+[2020.04.27-16.14.08:023][583]LogEditorFactories: -- imported successfully
+[2020.04.27-16.14.08:075][584]LogEditorFactories: Performing atomic reimport of [D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/plant_pots/Pot_1.fbx]
+[2020.04.27-16.14.08:083][584]LogFbx: Loading FBX Scene from D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/plant_pots/Pot_1.fbx
+[2020.04.27-16.14.08:088][584]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.14.08:102][584]LogStaticMesh: Building static mesh Pot_1...
+[2020.04.27-16.14.08:105][584]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/static/plant_pots/Pot_1.Pot_1
+[2020.04.27-16.14.08:111][584]LogEditorFactories: -- imported successfully
+[2020.04.27-16.14.08:160][585]LogStaticMesh: Building static mesh Leaf_1...
+[2020.04.27-16.14.08:164][585]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/static/ingredients/leafs_berries/Leaf_1.Leaf_1
+[2020.04.27-16.14.08:167][585]LogEditorFactories: Performing atomic reimport of [D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/ingredients/leafs_berries/Leaf_1.fbx]
+[2020.04.27-16.14.08:176][585]LogFbx: Loading FBX Scene from D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/ingredients/leafs_berries/Leaf_1.fbx
+[2020.04.27-16.14.08:182][585]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.14.08:211][585]LogStaticMesh: Building static mesh Leaf_1...
+[2020.04.27-16.14.08:214][585]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/static/ingredients/leafs_berries/Leaf_1.Leaf_1
+[2020.04.27-16.14.08:221][585]LogEditorFactories: -- imported successfully
+[2020.04.27-16.14.08:328][586]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_all_furniture_together3328BE114F699816DAA76D8243B3EAF6.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_all_furniture_together.uasset'
+[2020.04.27-16.14.08:338][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/static/furniture/fireplace_armchair" FILE="D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_armchair.uasset" SILENT=true
+[2020.04.27-16.14.08:364][586]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_armchairD60BC06341CCCB706F33D797FE9DE7E6.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_armchair.uasset'
+[2020.04.27-16.14.08:379][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/static/furniture/fireplace_ceiling_blanket" FILE="D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_ceiling_blanket.uasset" SILENT=true
+[2020.04.27-16.14.08:408][586]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_ceiling_blanket3A3887784B629D24FD04EFBDEA7B739E.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_ceiling_blanket.uasset'
+[2020.04.27-16.14.08:437][586]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_crescent_pillow_with_n5C7031A6457A421E618692928978C358.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_crescent_pillow_with_normal_map.uasset'
+[2020.04.27-16.14.08:447][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/static/furniture/fireplace_cuckoo_clock" FILE="D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_cuckoo_clock.uasset" SILENT=true
+[2020.04.27-16.14.08:465][586]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_cuckoo_clockCCE7DB104A88B0C1F7D77AA024529540.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_cuckoo_clock.uasset'
+[2020.04.27-16.14.08:478][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/static/furniture/fireplace_glass_table" FILE="D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_glass_table.uasset" SILENT=true
+[2020.04.27-16.14.08:494][586]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_glass_tableF2F903C047D33F02483C43B0CAE0D233.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_glass_table.uasset'
+[2020.04.27-16.14.08:567][586]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_horoscope_carpetB6AA40504594642B28EEF4A5C9EEFC6F.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_horoscope_carpet.uasset'
+[2020.04.27-16.14.08:579][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/static/furniture/fireplace_sofa" FILE="D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_sofa.uasset" SILENT=true
+[2020.04.27-16.14.08:621][586]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_sofa7E3F20EE4D0E5CF6FAF463AD47E896C7.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_sofa.uasset'
+[2020.04.27-16.14.08:632][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/static/recipe_outcomes/R_1" FILE="D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/recipe_outcomes/R_1.uasset" SILENT=true
+[2020.04.27-16.14.08:653][586]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/R_138CA311E44993B9D617A5295FE9DF7C1.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/recipe_outcomes/R_1.uasset'
+[2020.04.27-16.14.08:664][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/static/plants/Plant_1" FILE="D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/plants/Plant_1.uasset" SILENT=true
+[2020.04.27-16.14.08:758][586]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/Plant_15A2831704C40A44516F96F9858A116AF.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/plants/Plant_1.uasset'
+[2020.04.27-16.14.08:770][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/static/plant_pots/Pot_1" FILE="D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/plant_pots/Pot_1.uasset" SILENT=true
+[2020.04.27-16.14.08:796][586]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/Pot_13228EF4C4FB25C4DAF8F80B645EC67E7.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/plant_pots/Pot_1.uasset'
+[2020.04.27-16.14.08:808][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/static/ingredients/leafs_berries/Leaf_1" FILE="D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/ingredients/leafs_berries/Leaf_1.uasset" SILENT=true
+[2020.04.27-16.14.08:835][586]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/Leaf_1916ABE694AFBBEEB5724CBADA20E523A.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/ingredients/leafs_berries/Leaf_1.uasset'
+[2020.04.27-16.14.08:959][587]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.27-16.14.08:959][587]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_armchair.fireplace_armchair
+[2020.04.27-16.14.08:959][587]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_ceiling_blanket.fireplace_ceiling_blanket
+[2020.04.27-16.14.08:959][587]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_crescent_pillow_with_normal_map.fireplace_crescent_pillow_with_normal_map
+[2020.04.27-16.14.08:959][587]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_cuckoo_clock.fireplace_cuckoo_clock
+[2020.04.27-16.14.08:959][587]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_glass_table.fireplace_glass_table
+[2020.04.27-16.14.08:959][587]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_horoscope_carpet.fireplace_horoscope_carpet
+[2020.04.27-16.14.08:959][587]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_sofa.fireplace_sofa
+[2020.04.27-16.14.08:959][587]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/recipe_outcomes/R_1.R_1
+[2020.04.27-16.14.08:959][587]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/plants/Plant_1.Plant_1
+[2020.04.27-16.14.08:959][587]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/plant_pots/Pot_1.Pot_1
+[2020.04.27-16.14.08:959][587]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/ingredients/leafs_berries/Leaf_1.Leaf_1
+[2020.04.27-16.14.11:848][837]AssetReimport: Importing new asset /Game/meshes/static/furniture/fireplace_all_furniture_together.
+[2020.04.27-16.14.11:848][837]AssetReimport: Importing new asset /Game/meshes/static/furniture/fireplace_armchair.
+[2020.04.27-16.14.11:849][837]AssetReimport: Importing new asset /Game/meshes/static/furniture/fireplace_ceiling_blanket.
+[2020.04.27-16.14.11:849][837]AssetReimport: Importing new asset /Game/meshes/static/furniture/fireplace_crescent_pillow_with_normal_map.
+[2020.04.27-16.14.11:849][837]AssetReimport: Importing new asset /Game/meshes/static/furniture/fireplace_cuckoo_clock.
+[2020.04.27-16.14.11:849][837]AssetReimport: Importing new asset /Game/meshes/static/furniture/fireplace_glass_table.
+[2020.04.27-16.14.11:849][837]AssetReimport: Importing new asset /Game/meshes/static/furniture/fireplace_horoscope_carpet.
+[2020.04.27-16.14.11:849][837]AssetReimport: Importing new asset /Game/meshes/static/furniture/fireplace_sofa.
+[2020.04.27-16.14.11:849][837]AssetReimport: Importing new asset /Game/meshes/static/recipe_outcomes/R_1.
+[2020.04.27-16.14.11:849][837]AssetReimport: Reimported asset Plant_1 from D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/plants/Plant_1.fbx.
+[2020.04.27-16.14.11:849][837]AssetReimport: Reimported asset Pot_1 from D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/plant_pots/Pot_1.fbx.
+[2020.04.27-16.14.11:849][837]AssetReimport: Reimported asset Leaf_1 from D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/ingredients/leafs_berries/Leaf_1.fbx.
+[2020.04.27-16.14.12:290][890]LogSlate: Window 'Message Log' being destroyed
+[2020.04.27-16.14.12:293][890]LogSlate: Window 'Message Log' being destroyed
+[2020.04.27-16.14.13:645][  5]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/meshes/static/furniture/fireplace_armchair.fireplace_armchair
+[2020.04.27-16.14.14:262][  5]LogRenderer: Reallocating scene render targets to support 1432x960 Format 10 NumSamples 1 (Frame:1).
+[2020.04.27-16.14.14:262][  5]LogSlate: Took 0.007587 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.27-16.14.20:780][564]LogEditorFactories: Performing atomic reimport of [D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_armchair.fbx]
+[2020.04.27-16.14.20:826][564]LogFbx: Loading FBX Scene from D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_armchair.fbx
+[2020.04.27-16.14.20:832][564]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.14.20:841][564]LogFbx: Display: Triangulating static mesh fireplace_armchair
+[2020.04.27-16.14.20:994][564]LogStaticMesh: Building static mesh fireplace_armchair...
+[2020.04.27-16.14.21:030][564]LogStaticMesh: Built static mesh [0.04s] /Game/meshes/static/furniture/fireplace_armchair.fireplace_armchair
+[2020.04.27-16.14.21:044][564]LogEditorFactories: -- imported successfully
+[2020.04.27-16.14.21:047][564]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.04.27-16.14.37:019][174]LogSlate: Window 'FBX Export Options' being destroyed
+[2020.04.27-16.14.37:035][174]LogFbx: Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2020.04.27-16.14.59:351][771]LogSlate: Window 'Message' being destroyed
+[2020.04.27-16.14.59:356][771]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/phand/Desktop/fireplace_armchair.FBX)
+[2020.04.27-16.14.59:358][771]LogEditorFactories: Performing atomic reimport of [C:/Users/phand/Desktop/fireplace_armchair.FBX]
+[2020.04.27-16.14.59:369][771]LogFbx: Loading FBX Scene from C:/Users/phand/Desktop/fireplace_armchair.FBX
+[2020.04.27-16.14.59:380][771]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.14.59:390][771]LogFbx: Display: Triangulating mesh UCX_fireplace_armchair for collision model
+[2020.04.27-16.14.59:411][771]LogStaticMesh: Building static mesh fireplace_armchair...
+[2020.04.27-16.14.59:444][771]LogStaticMesh: Built static mesh [0.03s] /Game/meshes/static/furniture/fireplace_armchair.fireplace_armchair
+[2020.04.27-16.15.04:205][771]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2020.04.27-16.15.04:211][771]LogEditorFactories: -- imported successfully
+[2020.04.27-16.15.04:214][771]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.04.27-16.15.07:827][948]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2020.04.27-16.15.09:072][948]LogSlate: Window 'Delete Assets' being destroyed
+[2020.04.27-16.15.09:247][948]LogSlate: Window 'fireplace_armchair' being destroyed
+[2020.04.27-16.15.09:333][948]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.04.27-16.15.09:333][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.27-16.15.09:359][948]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/meshes/static/furniture/fireplace_armchair.fireplace_armchair
+[2020.04.27-16.15.09:912][948]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2020.04.27-16.15.09:937][948]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.04.27-16.15.09:959][948]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.04.27-16.15.20:131][717]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/phand/Desktop/fireplace_armchair.FBX)
+[2020.04.27-16.15.20:141][717]LogFbx: Loading FBX Scene from ../../../../../../Users/phand/Desktop/fireplace_armchair.FBX
+[2020.04.27-16.15.20:150][717]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.15.30:772][717]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.04.27-16.15.30:813][717]LogFbx: Display: Triangulating mesh UCX_fireplace_armchair for collision model
+[2020.04.27-16.15.30:837][717]LogStaticMesh: Building static mesh fireplace_armchair...
+[2020.04.27-16.15.30:873][717]LogStaticMesh: Built static mesh [0.04s] /Game/meshes/static/furniture/fireplace_armchair.fireplace_armchair
+[2020.04.27-16.15.30:883][717]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.04.27-16.15.31:979][798]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/meshes/static/furniture/fireplace_armchair.fireplace_armchair
+[2020.04.27-16.15.37:169][169]LogSlate: Window 'Message Log' being destroyed
+[2020.04.27-16.15.37:174][169]LogSlate: Window 'Message Log' being destroyed
+[2020.04.27-16.15.39:815][357]LogActorFactory: Actor Factory created fireplace_armchair
+[2020.04.27-16.15.40:406][411]LogActorFactory: Actor Factory created fireplace_armchair
+[2020.04.27-16.15.41:668][510]Cmd: DELETE
+[2020.04.27-16.15.41:669][510]Cmd: ACTOR DELETE
+[2020.04.27-16.15.41:675][510]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.04.27-16.15.41:698][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.04.27-16.15.41:700][510]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2020.04.27-16.15.59:767][777]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.04.27-16.16.10:048][777]LogSlate: Window 'Save Content' being destroyed
+[2020.04.27-16.16.10:086][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Greybox" FILE="D:/GitFork/spacecats/UE_SpaceCats/Content/Level/Greybox.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.04.27-16.16.10:111][777]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.04.27-16.16.10:134][777]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/Greybox71659ABE4AD8AF076464A888B1A97474.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/Level/Greybox.umap'
+[2020.04.27-16.16.10:163][777]LogFileHelpers: Saving map 'Greybox' took 0.078
+[2020.04.27-16.16.10:192][777]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_all_furniture_together6C6FD2C24C1BCB88F0F1F0ADE98DAC00.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_all_furniture_together_clock1.uasset'
+[2020.04.27-16.16.10:225][777]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_all_furniture_together08AA1EA7472EE4A9E3D086BFE31612A4.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_all_furniture_together_crescent_lowpoly.uasset'
+[2020.04.27-16.16.10:273][777]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_all_furniture_together67E867004A7B58E861B19CA17C367860.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_all_furniture_together_fireplace_armchair.uasset'
+[2020.04.27-16.16.10:313][777]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_all_furniture_together92955CA842EA2121428216BEDEB09D8B.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_all_furniture_together_fireplace_blanket.uasset'
+[2020.04.27-16.16.10:340][777]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_all_furniture_together8EC7B41C455704E8E94F62B37579B1A6.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_all_furniture_together_fireplace_glass_table.uasset'
+[2020.04.27-16.16.10:367][777]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_all_furniture_togetherF617B2504B5C3E017DA589A91424E9E2.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_all_furniture_together_fireplace_horoscope_carpet.uasset'
+[2020.04.27-16.16.10:446][777]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_all_furniture_togetherA00EF7EB4950DB9524797EAD0CED776F.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_all_furniture_together_sofa.uasset'
+[2020.04.27-16.16.10:458][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/static/furniture/fireplace_armchair" FILE="D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_armchair.uasset" SILENT=true
+[2020.04.27-16.16.10:488][777]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_armchair562C1B9D4D2BBB2FF4C85590347E718B.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_armchair.uasset'
+[2020.04.27-16.16.10:530][777]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.27-16.16.10:530][777]LogContentValidation: Display: Validating World /Game/Level/Greybox.Greybox
+[2020.04.27-16.16.10:530][777]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_all_furniture_together_clock1.fireplace_all_furniture_together_clock1
+[2020.04.27-16.16.10:530][777]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_all_furniture_together_crescent_lowpoly.fireplace_all_furniture_together_crescent_lowpoly
+[2020.04.27-16.16.10:530][777]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_all_furniture_together_fireplace_armchair.fireplace_all_furniture_together_fireplace_armchair
+[2020.04.27-16.16.10:530][777]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_all_furniture_together_fireplace_blanket.fireplace_all_furniture_together_fireplace_blanket
+[2020.04.27-16.16.10:530][777]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_all_furniture_together_fireplace_glass_table.fireplace_all_furniture_together_fireplace_glass_table
+[2020.04.27-16.16.10:530][777]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_all_furniture_together_fireplace_horoscope_carpet.fireplace_all_furniture_together_fireplace_horoscope_carpet
+[2020.04.27-16.16.10:530][777]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_all_furniture_together_sofa.fireplace_all_furniture_together_sofa
+[2020.04.27-16.16.10:530][777]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_armchair.fireplace_armchair
+[2020.04.27-16.17.36:850][667]LogSlate: Window 'FBX Export Options' being destroyed
+[2020.04.27-16.17.36:866][667]LogFbx: Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2020.04.27-16.17.44:054][  1]LogSlate: Window 'FBX Export Options' being destroyed
+[2020.04.27-16.17.44:067][  1]LogFbx: Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2020.04.27-16.17.49:604][268]LogSlate: Window 'FBX Export Options' being destroyed
+[2020.04.27-16.17.49:617][268]LogFbx: Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2020.04.27-16.17.55:606][531]LogSlate: Window 'FBX Export Options' being destroyed
+[2020.04.27-16.17.55:620][531]LogFbx: Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2020.04.27-16.18.26:148][896]LogSlate: Window 'FBX Export Options' being destroyed
+[2020.04.27-16.18.26:160][896]LogFbx: Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2020.04.27-16.18.33:402][286]LogSlate: Window 'FBX Export Options' being destroyed
+[2020.04.27-16.18.33:421][286]LogFbx: Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2020.04.27-16.18.45:837][558]LogEditorFactories: Performing atomic reimport of [C:/Users/phand/Desktop/Neuer Ordner (3)/fireplace_ceiling_blanket.FBX]
+[2020.04.27-16.18.45:869][558]LogFbx: Loading FBX Scene from C:/Users/phand/Desktop/Neuer Ordner (3)/fireplace_ceiling_blanket.FBX
+[2020.04.27-16.18.45:878][558]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.18.45:882][558]LogFbx: Display: Triangulating mesh UCX_fireplace_ceiling_blanket for collision model
+[2020.04.27-16.18.45:909][558]LogStaticMesh: Building static mesh fireplace_ceiling_blanket...
+[2020.04.27-16.18.45:926][558]LogStaticMesh: Built static mesh [0.02s] /Game/meshes/static/furniture/fireplace_ceiling_blanket.fireplace_ceiling_blanket
+[2020.04.27-16.18.47:087][558]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2020.04.27-16.18.47:092][558]LogEditorFactories: -- imported successfully
+[2020.04.27-16.18.47:095][558]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.04.27-16.18.54:593][958]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.04.27-16.18.56:488][958]LogSlate: Window 'Delete Assets' being destroyed
+[2020.04.27-16.18.56:618][958]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.04.27-16.18.56:641][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.04.27-16.18.56:664][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.04.27-16.18.56:687][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.04.27-16.18.56:709][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.04.27-16.18.56:732][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.04.27-16.18.56:763][958]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.04.27-16.18.56:785][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.04.27-16.18.58:261][ 74]LogSlate: Window 'fireplace_armchair' being destroyed
+[2020.04.27-16.18.58:265][ 74]LogSlate: Window 'fireplace_armchair' being destroyed
+[2020.04.27-16.18.58:294][ 74]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.04.27-16.18.58:294][ 74]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.27-16.19.00:629][167]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_ceiling_blanket.FBX)
+[2020.04.27-16.19.00:637][167]LogFbx: Loading FBX Scene from C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_ceiling_blanket.FBX
+[2020.04.27-16.19.00:646][167]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.19.02:942][167]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.04.27-16.19.02:963][167]LogFbx: Display: Triangulating mesh UCX_fireplace_ceiling_blanket for collision model
+[2020.04.27-16.19.02:987][167]LogStaticMesh: Building static mesh fireplace_ceiling_blanket...
+[2020.04.27-16.19.03:006][167]LogStaticMesh: Built static mesh [0.02s] /Game/meshes/static/furniture/fireplace_ceiling_blanket.fireplace_ceiling_blanket
+[2020.04.27-16.19.03:012][167]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.04.27-16.19.03:069][167]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_crescent_pillow_with_normal_map.FBX)
+[2020.04.27-16.19.03:085][167]LogFbx: Loading FBX Scene from C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_crescent_pillow_with_normal_map.FBX
+[2020.04.27-16.19.03:093][167]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.19.03:094][167]LogFbx: Display: Triangulating mesh UCX_fireplace_crescent_pillow_with_normal_map for collision model
+[2020.04.27-16.19.03:101][167]LogStaticMesh: Building static mesh fireplace_crescent_pillow_with_normal_map...
+[2020.04.27-16.19.03:107][167]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/static/furniture/fireplace_crescent_pillow_with_normal_map.fireplace_crescent_pillow_with_normal_map
+[2020.04.27-16.19.03:110][167]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.04.27-16.19.03:113][167]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_cuckoo_clock.FBX)
+[2020.04.27-16.19.03:123][167]LogFbx: Loading FBX Scene from C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_cuckoo_clock.FBX
+[2020.04.27-16.19.03:130][167]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.19.03:130][167]LogFbx: Display: Triangulating mesh UCX_fireplace_cuckoo_clock for collision model
+[2020.04.27-16.19.03:140][167]LogStaticMesh: Building static mesh fireplace_cuckoo_clock...
+[2020.04.27-16.19.03:155][167]LogStaticMesh: Built static mesh [0.02s] /Game/meshes/static/furniture/fireplace_cuckoo_clock.fireplace_cuckoo_clock
+[2020.04.27-16.19.03:159][167]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.04.27-16.19.03:163][167]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_glass_table.FBX)
+[2020.04.27-16.19.03:173][167]LogFbx: Loading FBX Scene from C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_glass_table.FBX
+[2020.04.27-16.19.03:179][167]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.19.03:180][167]LogFbx: Display: Triangulating mesh UCX_fireplace_glass_table for collision model
+[2020.04.27-16.19.03:188][167]LogStaticMesh: Building static mesh fireplace_glass_table...
+[2020.04.27-16.19.03:194][167]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/static/furniture/fireplace_glass_table.fireplace_glass_table
+[2020.04.27-16.19.03:198][167]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.04.27-16.19.03:200][167]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_horoscope_carpet.FBX)
+[2020.04.27-16.19.03:210][167]LogFbx: Loading FBX Scene from C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_horoscope_carpet.FBX
+[2020.04.27-16.19.03:215][167]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.19.03:218][167]LogStaticMesh: Building static mesh fireplace_horoscope_carpet...
+[2020.04.27-16.19.03:223][167]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/static/furniture/fireplace_horoscope_carpet.fireplace_horoscope_carpet
+[2020.04.27-16.19.03:231][167]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.04.27-16.19.03:234][167]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_sofa.FBX)
+[2020.04.27-16.19.03:244][167]LogFbx: Loading FBX Scene from C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_sofa.FBX
+[2020.04.27-16.19.03:259][167]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.19.03:260][167]LogFbx: Display: Triangulating mesh UCX_fireplace_sofa for collision model
+[2020.04.27-16.19.03:297][167]LogStaticMesh: Building static mesh fireplace_sofa...
+[2020.04.27-16.19.03:384][167]LogStaticMesh: Built static mesh [0.09s] /Game/meshes/static/furniture/fireplace_sofa.fireplace_sofa
+[2020.04.27-16.19.03:402][167]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.04.27-16.19.05:425][351]LogSlate: Window 'Message Log' being destroyed
+[2020.04.27-16.19.05:428][351]LogSlate: Window 'Message Log' being destroyed
+[2020.04.27-16.19.10:715][524]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2020.04.27-16.19.11:477][524]LogSlate: Window 'Save Content' being destroyed
+[2020.04.27-16.19.11:525][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/static/furniture/fireplace_ceiling_blanket" FILE="D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_ceiling_blanket.uasset" SILENT=true
+[2020.04.27-16.19.11:549][524]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_ceiling_blanket3BE3B4AE4F3C19C6DECC689444FCC706.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_ceiling_blanket.uasset'
+[2020.04.27-16.19.11:582][524]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_crescent_pillow_with_nC2C83B8B4A68252D690732A43376A35E.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_crescent_pillow_with_normal_map.uasset'
+[2020.04.27-16.19.11:595][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/static/furniture/fireplace_cuckoo_clock" FILE="D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_cuckoo_clock.uasset" SILENT=true
+[2020.04.27-16.19.11:617][524]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_cuckoo_clockFBDAFA274991F00462BAC38E674BCA12.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_cuckoo_clock.uasset'
+[2020.04.27-16.19.11:632][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/static/furniture/fireplace_glass_table" FILE="D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_glass_table.uasset" SILENT=true
+[2020.04.27-16.19.11:649][524]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_glass_table48DA4AA6438928CFBA6FB18D4E3B687A.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_glass_table.uasset'
+[2020.04.27-16.19.11:681][524]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_horoscope_carpet515A3AB8427F21ADAA0629B9F3750B03.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_horoscope_carpet.uasset'
+[2020.04.27-16.19.11:694][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/static/furniture/fireplace_sofa" FILE="D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_sofa.uasset" SILENT=true
+[2020.04.27-16.19.11:740][524]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_sofa9ABCA5A34696E01258FBB6A3D8FC4FC9.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_sofa.uasset'
+[2020.04.27-16.19.11:768][524]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.27-16.19.11:768][524]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_ceiling_blanket.fireplace_ceiling_blanket
+[2020.04.27-16.19.11:768][524]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_crescent_pillow_with_normal_map.fireplace_crescent_pillow_with_normal_map
+[2020.04.27-16.19.11:768][524]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_cuckoo_clock.fireplace_cuckoo_clock
+[2020.04.27-16.19.11:768][524]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_glass_table.fireplace_glass_table
+[2020.04.27-16.19.11:768][524]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_horoscope_carpet.fireplace_horoscope_carpet
+[2020.04.27-16.19.11:768][524]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_sofa.fireplace_sofa
+[2020.04.27-16.24.47:538][848]LogSlate: Window 'FBX Export Options' being destroyed
+[2020.04.27-16.24.47:553][848]LogFbx: Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2020.04.27-16.24.53:905][247]LogSlate: Window 'FBX Export Options' being destroyed
+[2020.04.27-16.24.53:917][247]LogFbx: Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2020.04.27-16.24.58:492][483]LogSlate: Window 'FBX Export Options' being destroyed
+[2020.04.27-16.24.58:505][483]LogFbx: Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2020.04.27-16.25.03:866][798]LogSlate: Window 'FBX Export Options' being destroyed
+[2020.04.27-16.25.03:880][798]LogFbx: Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2020.04.27-16.25.09:526][ 94]LogSlate: Window 'FBX Export Options' being destroyed
+[2020.04.27-16.25.09:540][ 94]LogFbx: Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2020.04.27-16.25.27:404][491]LogSlate: Window 'FBX Export Options' being destroyed
+[2020.04.27-16.25.27:416][491]LogFbx: Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2020.04.27-16.25.33:163][791]LogSlate: Window 'FBX Export Options' being destroyed
+[2020.04.27-16.25.33:175][791]LogFbx: Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2020.04.27-16.25.41:077][352]LogSlate: Window 'FBX Export Options' being destroyed
+[2020.04.27-16.25.41:091][352]LogFbx: Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2020.04.27-16.25.56:940][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.04.27-16.25.58:588][153]LogSlate: Window 'Delete Assets' being destroyed
+[2020.04.27-16.25.58:714][153]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2020.04.27-16.25.58:737][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.04.27-16.25.58:760][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.04.27-16.25.58:782][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.04.27-16.25.58:805][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.04.27-16.25.58:828][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.04.27-16.25.58:850][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.04.27-16.25.58:882][153]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.04.27-16.25.58:905][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.04.27-16.26.01:509][276]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_all_furniture_together_clock1.FBX)
+[2020.04.27-16.26.01:520][276]LogFbx: Loading FBX Scene from C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_all_furniture_together_clock1.FBX
+[2020.04.27-16.26.01:528][276]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.26.02:848][276]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.04.27-16.26.02:871][276]LogFbx: Display: Triangulating mesh UCX_fireplace_all_furniture_together_clock1 for collision model
+[2020.04.27-16.26.02:885][276]LogStaticMesh: Building static mesh fireplace_all_furniture_together_clock1...
+[2020.04.27-16.26.02:901][276]LogStaticMesh: Built static mesh [0.02s] /Game/meshes/static/furniture/fireplace_all_furniture_together_clock1.fireplace_all_furniture_together_clock1
+[2020.04.27-16.26.02:906][276]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.04.27-16.26.02:962][276]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_all_furniture_together_crescent_lowpoly.FBX)
+[2020.04.27-16.26.02:980][276]LogFbx: Loading FBX Scene from C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_all_furniture_together_crescent_lowpoly.FBX
+[2020.04.27-16.26.02:988][276]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.26.02:989][276]LogFbx: Display: Triangulating mesh UCX_fireplace_all_furniture_together_crescent_lowpoly for collision model
+[2020.04.27-16.26.02:997][276]LogStaticMesh: Building static mesh fireplace_all_furniture_together_crescent_lowpoly...
+[2020.04.27-16.26.03:003][276]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/static/furniture/fireplace_all_furniture_together_crescent_lowpoly.fireplace_all_furniture_together_crescent_lowpoly
+[2020.04.27-16.26.03:007][276]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.04.27-16.26.03:010][276]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_all_furniture_together_fireplace_armchair.FBX)
+[2020.04.27-16.26.03:020][276]LogFbx: Loading FBX Scene from C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_all_furniture_together_fireplace_armchair.FBX
+[2020.04.27-16.26.03:029][276]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.26.03:030][276]LogFbx: Display: Triangulating mesh UCX_fireplace_all_furniture_together_fireplace_armchair for collision model
+[2020.04.27-16.26.03:049][276]LogStaticMesh: Building static mesh fireplace_all_furniture_together_fireplace_armchair...
+[2020.04.27-16.26.03:083][276]LogStaticMesh: Built static mesh [0.03s] /Game/meshes/static/furniture/fireplace_all_furniture_together_fireplace_armchair.fireplace_all_furniture_together_fireplace_armchair
+[2020.04.27-16.26.03:093][276]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.04.27-16.26.03:101][276]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_all_furniture_together_fireplace_blanket.FBX)
+[2020.04.27-16.26.03:110][276]LogFbx: Loading FBX Scene from C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_all_furniture_together_fireplace_blanket.FBX
+[2020.04.27-16.26.03:118][276]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.26.03:119][276]LogFbx: Display: Triangulating mesh UCX_fireplace_all_furniture_together_fireplace_blanket for collision model
+[2020.04.27-16.26.03:132][276]LogStaticMesh: Building static mesh fireplace_all_furniture_together_fireplace_blanket...
+[2020.04.27-16.26.03:150][276]LogStaticMesh: Built static mesh [0.02s] /Game/meshes/static/furniture/fireplace_all_furniture_together_fireplace_blanket.fireplace_all_furniture_together_fireplace_blanket
+[2020.04.27-16.26.03:155][276]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.04.27-16.26.03:161][276]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_all_furniture_together_fireplace_glass_table.FBX)
+[2020.04.27-16.26.03:171][276]LogFbx: Loading FBX Scene from C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_all_furniture_together_fireplace_glass_table.FBX
+[2020.04.27-16.26.03:177][276]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.26.03:177][276]LogFbx: Display: Triangulating mesh UCX_fireplace_all_furniture_together_fireplace_glass_table for collision model
+[2020.04.27-16.26.03:185][276]LogStaticMesh: Building static mesh fireplace_all_furniture_together_fireplace_glass_table...
+[2020.04.27-16.26.03:191][276]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/static/furniture/fireplace_all_furniture_together_fireplace_glass_table.fireplace_all_furniture_together_fireplace_glass_table
+[2020.04.27-16.26.03:194][276]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.04.27-16.26.03:197][276]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_all_furniture_together_fireplace_horoscope_carpet.FBX)
+[2020.04.27-16.26.03:208][276]LogFbx: Loading FBX Scene from C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_all_furniture_together_fireplace_horoscope_carpet.FBX
+[2020.04.27-16.26.03:214][276]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.26.03:216][276]LogStaticMesh: Building static mesh fireplace_all_furniture_together_fireplace_horoscope_carpet...
+[2020.04.27-16.26.03:221][276]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/static/furniture/fireplace_all_furniture_together_fireplace_horoscope_carpet.fireplace_all_furniture_together_fireplace_horoscope_carpet
+[2020.04.27-16.26.03:229][276]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.04.27-16.26.03:232][276]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_all_furniture_together_sofa.FBX)
+[2020.04.27-16.26.03:243][276]LogFbx: Loading FBX Scene from C:\Users\phand\Desktop\Neuer Ordner (3)\fireplace_all_furniture_together_sofa.FBX
+[2020.04.27-16.26.03:256][276]LogFbx: FBX Scene Loaded Succesfully
+[2020.04.27-16.26.03:257][276]LogFbx: Display: Triangulating mesh UCX_fireplace_all_furniture_together_sofa for collision model
+[2020.04.27-16.26.03:295][276]LogStaticMesh: Building static mesh fireplace_all_furniture_together_sofa...
+[2020.04.27-16.26.03:384][276]LogStaticMesh: Built static mesh [0.09s] /Game/meshes/static/furniture/fireplace_all_furniture_together_sofa.fireplace_all_furniture_together_sofa
+[2020.04.27-16.26.03:403][276]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.04.27-16.26.05:712][487]LogSlate: Window 'Message Log' being destroyed
+[2020.04.27-16.26.05:715][487]LogSlate: Window 'Message Log' being destroyed
+[2020.04.27-16.26.06:786][592]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2020.04.27-16.26.07:596][592]LogSlate: Window 'Save Content' being destroyed
+[2020.04.27-16.26.07:661][592]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_all_furniture_together36C1BBC44F9554DB96F295A107529167.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_all_furniture_together_clock1.uasset'
+[2020.04.27-16.26.07:692][592]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_all_furniture_togetherB551AF224A81A2C94EF1F4A8F8DE3FEB.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_all_furniture_together_crescent_lowpoly.uasset'
+[2020.04.27-16.26.07:732][592]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_all_furniture_togetherA334E57B4B22D4F8F031CCA690816F17.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_all_furniture_together_fireplace_armchair.uasset'
+[2020.04.27-16.26.07:767][592]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_all_furniture_togetherF54963E34D9BEFFAAE1240AA988C5E29.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_all_furniture_together_fireplace_blanket.uasset'
+[2020.04.27-16.26.07:797][592]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_all_furniture_togetherD9025C7543063A5EE664D19FE82F3F72.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_all_furniture_together_fireplace_glass_table.uasset'
+[2020.04.27-16.26.07:823][592]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_all_furniture_together6EC84AC2474FCBBD8AD2089384B50C29.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_all_furniture_together_fireplace_horoscope_carpet.uasset'
+[2020.04.27-16.26.07:879][592]LogSavePackage: Moving 'D:/GitFork/spacecats/UE_SpaceCats/Saved/fireplace_all_furniture_together299437584F4EFE94FFF06E9491C4CB7D.tmp' to 'D:/GitFork/spacecats/UE_SpaceCats/Content/meshes/static/furniture/fireplace_all_furniture_together_sofa.uasset'
+[2020.04.27-16.26.07:908][592]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.27-16.26.07:908][592]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_all_furniture_together_clock1.fireplace_all_furniture_together_clock1
+[2020.04.27-16.26.07:908][592]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_all_furniture_together_crescent_lowpoly.fireplace_all_furniture_together_crescent_lowpoly
+[2020.04.27-16.26.07:908][592]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_all_furniture_together_fireplace_armchair.fireplace_all_furniture_together_fireplace_armchair
+[2020.04.27-16.26.07:908][592]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_all_furniture_together_fireplace_blanket.fireplace_all_furniture_together_fireplace_blanket
+[2020.04.27-16.26.07:908][592]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_all_furniture_together_fireplace_glass_table.fireplace_all_furniture_together_fireplace_glass_table
+[2020.04.27-16.26.07:908][592]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_all_furniture_together_fireplace_horoscope_carpet.fireplace_all_furniture_together_fireplace_horoscope_carpet
+[2020.04.27-16.26.07:908][592]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/furniture/fireplace_all_furniture_together_sofa.fireplace_all_furniture_together_sofa
