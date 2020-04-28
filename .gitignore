@@ -78,3 +78,6 @@ UE_SpaceCats/Saved
 UE_SpaceCats/Intermediate
 *.log
 UE_SpaceCats/Intermediate/CachedAssetRegistry.bin
+UE_SpaceCats/Intermediate/CachedAssetRegistry.bin
+UE_SpaceCats/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+UE_SpaceCats/Saved/Logs
