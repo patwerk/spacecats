@@ -8,11 +8,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2020
 		Month: 5
-		Day: 14
-		Hour: 22
-		Minute: 59
-		Second: 13
-		Millisecond: 536
+		Day: 15
+		Hour: 20
+		Minute: 55
+		Second: 48
+		Millisecond: 29
 	}
 	Creator: "FBX SDK/FBX Plugins version 2018.1.1"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -34,13 +34,13 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "Maya"
 			P: "Original|ApplicationVersion", "KString", "", "", "201804"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "14/05/2020 20:59:13.536"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "15/05/2020 18:55:48.028"
 			P: "Original|FileName", "KString", "", "", "F:\Collaborative Project\spacecats\FBXraw\moth ears.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "Maya"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "201804"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "14/05/2020 20:59:13.536"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "15/05/2020 18:55:48.028"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "F:\Collaborative Project\spacecats\FBXraw"
 			P: "Original|ApplicationNativeFile", "KString", "", "", "C:\Users\MaroosyaLK\Desktop\fireplace_armchair.mb"
 		}
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 1728424262304, "", "Scene" {
+	Document: 2526844871808, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", "Take 001"
@@ -97,7 +97,7 @@ References:  {
 
 Definitions:  {
 	Version: 100
-	Count: 4
+	Count: 6
 	ObjectType: "GlobalSettings" {
 		Count: 1
 	}
@@ -135,6 +135,29 @@ Definitions:  {
 				P: "DisplacementFactor", "double", "Number", "",1
 				P: "VectorDisplacementColor", "ColorRGB", "Color", "",0,0,0
 				P: "VectorDisplacementFactor", "double", "Number", "",1
+			}
+		}
+	}
+	ObjectType: "Texture" {
+		Count: 1
+		PropertyTemplate: "FbxFileTexture" {
+			Properties70:  {
+				P: "TextureTypeUse", "enum", "", "",0
+				P: "Texture alpha", "Number", "", "A",1
+				P: "CurrentMappingType", "enum", "", "",0
+				P: "WrapModeU", "enum", "", "",0
+				P: "WrapModeV", "enum", "", "",0
+				P: "UVSwap", "bool", "", "",0
+				P: "PremultiplyAlpha", "bool", "", "",1
+				P: "Translation", "Vector", "", "A",0,0,0
+				P: "Rotation", "Vector", "", "A",0,0,0
+				P: "Scaling", "Vector", "", "A",1,1,1
+				P: "TextureRotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TextureScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "CurrentTextureBlendMode", "enum", "", "",1
+				P: "UVSet", "KString", "", "", "default"
+				P: "UseMaterial", "bool", "", "",0
+				P: "UseMipMap", "bool", "", "",0
 			}
 		}
 	}
@@ -216,13 +239,40 @@ Definitions:  {
 			}
 		}
 	}
+	ObjectType: "Video" {
+		Count: 1
+		PropertyTemplate: "FbxVideo" {
+			Properties70:  {
+				P: "Path", "KString", "XRefUrl", "", ""
+				P: "RelPath", "KString", "XRefUrl", "", ""
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "ClipIn", "KTime", "Time", "",0
+				P: "ClipOut", "KTime", "Time", "",0
+				P: "Offset", "KTime", "Time", "",0
+				P: "PlaySpeed", "double", "Number", "",0
+				P: "FreeRunning", "bool", "", "",0
+				P: "Loop", "bool", "", "",0
+				P: "Mute", "bool", "", "",0
+				P: "AccessMode", "enum", "", "",0
+				P: "ImageSequence", "bool", "", "",0
+				P: "ImageSequenceOffset", "int", "Integer", "",0
+				P: "FrameRate", "double", "Number", "",0
+				P: "LastFrame", "int", "Integer", "",0
+				P: "Width", "int", "Integer", "",0
+				P: "Height", "int", "Integer", "",0
+				P: "StartFrame", "int", "Integer", "",0
+				P: "StopFrame", "int", "Integer", "",0
+				P: "InterlaceMode", "enum", "", "",0
+			}
+		}
+	}
 }
 
 ; Object properties
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 1728633893008, "Geometry::", "Mesh" {
+	Geometry: 2527024686240, "Geometry::", "Mesh" {
 		Vertices: *996 {
 			a: 17.1348915100098,74.2847061157227,20.9746513366699,14.7682933807373,81.0908432006836,23.1800765991211,10.1323499679565,75.8917083740234,20.9746513366699,6.5299334526062,66.1890182495117,19.167293548584,6.04625272750854,55.7705993652344,18.1128158569336,8.69026374816895,52.6920547485352,18.2676162719727,12.5232019424438,54.2841911315918,18.1128158569336,16.5193481445313,63.8965492248535,19.167293548584,17.1348915100098,74.2847061157227,21.7301025390625,14.7682933807373,81.0908432006836,23.9355316162109,10.1323499679565,75.8917083740234,21.7301025390625,6.5299334526062,66.1890182495117,19.9227485656738,6.04625272750854,55.7705993652344,18.8682708740234,8.69026374816895,52.6920547485352,19.0230712890625,12.5232019424438,54.2841911315918,18.8682708740234,16.5193481445313,63.8965492248535,19.9227485656738,8.19038963317871,71.197021484375,19.9560050964355,17.057409286499,69.1621322631836,19.9560050964355,17.057409286499,69.1621322631836,20.7114582061768,8.19038963317871,71.197021484375,20.7114582061768,5.85272598266602,61.1396217346191,18.5048522949219,11.4778652191162,59.5921630859375,18.5048522949219,11.4778652191162,59.5921630859375,19.2603073120117,5.85272598266602,61.1396217346191,19.2603073120117,16.3939762115479,77.3103637695313,22.735668182373,11.978443145752,78.3368835449219,22.7403144836426,16.3484325408936,77.4283218383789,22.0180740356445,12.0167551040649,78.3806304931641,22.0033645629883,11.2157392501831,74.2854461669922,20.7408981323242,15.2862501144409,73.6287078857422,20.7408981323242,15.2862501144409,73.6287078857422,21.4963531494141,11.2157392501831,74.2854461669922,21.4963531494141,17.1000804901123,71.9829254150391,20.5169296264648,9.42976093292236,74.5230255126953,20.5169296264648,9.42976093292236,74.5230255126953,21.2723846435547,17.1000804901123,71.9829254150391,21.2723846435547,14.6979360580444,58.4902267456055,18.410831451416,5.89913940429688,59.8519706726074,18.410831451416,5.89913940429688,59.8519706726074,19.1662864685059,14.6979360580444,58.4902267456055,19.1662864685059,5.98861980438232,62.1528778076172,18.6377830505371,
 15.1899166107178,59.9331855773926,18.6377830505371,15.1899166107178,59.9331855773926,19.393238067627,5.98861980438232,62.1528778076172,19.393238067627,9.27511787414551,50.2173385620117,16.4049758911133,7.28572463989258,50.5946846008301,16.4049758911133,6.2910304069519,50.7833557128906,18.7919292449951,7.28572463989258,50.5946846008301,21.1788787841797,9.27511787414551,50.2173385620117,21.1788787841797,10.2698135375977,50.028678894043,18.7919292449951,14.5380363464355,80.3311157226563,23.517749786377,9.61014747619629,55.3146057128906,17.9423732757568,9.89635372161865,55.2045707702637,18.6538238525391,9.58784484863281,55.2073440551758,19.3652744293213,8.99313163757324,55.3201484680176,19.3652744293213,8.70692920684814,55.43017578125,18.6538238525391,9.01543617248535,55.4274063110352,17.9423732757568,10.8647193908691,61.3726921081543,18.4062595367432,11.1410455703735,61.2396240234375,19.1035842895508,10.8324499130249,61.2174987792969,19.800910949707,10.2475261688232,61.3284492492676,19.800910949707,9.9711971282959,61.4615249633789,19.1035842895508,10.2797975540161,61.4836502075195,18.4062595367432,11.9718828201294,66.8052215576172,19.1554622650146,12.2244901657104,66.665901184082,19.7992744445801,11.9353132247925,66.6293487548828,20.4430885314941,11.3935298919678,66.7321090698242,20.4430885314941,11.1409215927124,66.8714218139648,19.7992744445801,11.4300994873047,66.9079818725586,19.1554622650146,12.9607048034668,71.6554565429688,19.9715595245361,13.1907482147217,71.5023040771484,20.5665035247803,12.9168891906738,71.4447479248047,21.1614475250244,12.4129867553711,71.5403137207031,21.1614475250244,12.1829404830933,71.6934585571289,20.5665035247803,12.4568033218384,71.7510375976563,19.9715595245361,13.7361154556274,75.5708618164063,21.0139026641846,13.9238042831421,75.4002227783203,21.5117301940918,13.682089805603,75.3110427856445,22.0095558166504,13.2526893615723,75.3924865722656,22.0095558166504,13.0650014877319,75.5631256103516,21.5117301940918,13.3067121505737,75.6523132324219,21.0139026641846,8.96292018890381,51.1732292175293,17.5609550476074,
@@ -315,7 +365,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 1728636956736, "Model::moth_ears", "Mesh" {
+	Model: 2527072201328, "Model::moth_ears", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "RotationOffset", "Vector3D", "Vector", "",0,-89.4334092655713,43.1543220584253
@@ -326,26 +376,52 @@ Objects:  {
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",-144.703863951427,26.5273524200799,-3.14997677091971
 			P: "currentUVSet", "KString", "", "U", "map1"
 		}
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 1728520221472, "Material::lambert65", "" {
+	Material: 2526848683920, "Material::lambert66", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
 		Properties70:  {
 			P: "AmbientColor", "Color", "", "A",0,0,0
-			P: "DiffuseColor", "Color", "", "A",0.5,0.5,0.5
+			P: "DiffuseColor", "Color", "", "A",1,1,1
 			P: "DiffuseFactor", "Number", "", "A",0.800000011920929
 			P: "TransparencyFactor", "Number", "", "A",1
 			P: "Emissive", "Vector3D", "Vector", "",0,0,0
 			P: "Ambient", "Vector3D", "Vector", "",0,0,0
-			P: "Diffuse", "Vector3D", "Vector", "",0.400000005960464,0.400000005960464,0.400000005960464
+			P: "Diffuse", "Vector3D", "Vector", "",0.800000011920929,0.800000011920929,0.800000011920929
 			P: "Opacity", "double", "Number", "",1
 		}
+	}
+	Video: 2527037328512, "Video::file29", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "F:/Collaborative Project/UVmap/moth ears.png"
+			P: "RelPath", "KString", "XRefUrl", "", "..\..\UVmap\moth ears.png"
+		}
+		UseMipMap: 0
+		Filename: "F:/Collaborative Project/UVmap/moth ears.png"
+		RelativeFilename: "..\..\UVmap\moth ears.png"
+	}
+	Texture: 2527037317472, "Texture::file29", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::file29"
+		Properties70:  {
+			P: "CurrentTextureBlendMode", "enum", "", "",0
+			P: "UVSet", "KString", "", "", "map1"
+			P: "UseMaterial", "bool", "", "",1
+		}
+		Media: "Video::file29"
+		FileName: "F:/Collaborative Project/UVmap/moth ears.png"
+		RelativeFilename: "..\..\UVmap\moth ears.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
 	}
 }
 
@@ -355,11 +431,17 @@ Objects:  {
 Connections:  {
 	
 	;Model::moth_ears, Model::RootNode
-	C: "OO",1728636956736,0
+	C: "OO",2527072201328,0
+	
+	;Texture::file29, Material::lambert66
+	C: "OP",2527037317472,2526848683920, "DiffuseColor"
+	
+	;Video::file29, Texture::file29
+	C: "OO",2527037328512,2527037317472
 	
 	;Geometry::, Model::moth_ears
-	C: "OO",1728633893008,1728636956736
+	C: "OO",2527024686240,2527072201328
 	
-	;Material::lambert65, Model::moth_ears
-	C: "OO",1728520221472,1728636956736
+	;Material::lambert66, Model::moth_ears
+	C: "OO",2526848683920,2527072201328
 }
