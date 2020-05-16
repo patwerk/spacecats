@@ -831,3 +831,1194 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.16-12.12.15:858][808]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/L_cat_cafe38326B104E3AA636368D8884A2900C95.tmp' to 'D:/spacecats/UE_SpaceCats/Content/Level/L_cat_cafe.umap'
 [2020.05.16-12.12.15:898][808]AssetCheck: New page: Asset Save: L_cat_cafe
 [2020.05.16-12.12.15:898][808]LogContentValidation: Display: Validating World /Game/Level/L_cat_cafe.L_cat_cafe
+[2020.05.16-12.13.23:871][469]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/meshes/static/gameplay_items/catnip.catnip
+[2020.05.16-12.13.24:312][469]LogRenderer: Reallocating scene render targets to support 1208x632 Format 10 NumSamples 1 (Frame:1).
+[2020.05.16-12.13.24:312][469]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.05.16-12.13.25:438][580]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/meshes/static/gameplay_items/cat_treats.cat_treats
+[2020.05.16-12.13.26:088][606]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/meshes/static/gameplay_items/lightswitch_case.lightswitch_case
+[2020.05.16-12.13.26:573][622]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/meshes/static/gameplay_items/lightswitch_switch.lightswitch_switch
+[2020.05.16-12.13.27:039][637]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/meshes/static/gameplay_items/watering_can.watering_can
+[2020.05.16-12.13.28:722][729]LogRenderer: Reallocating scene render targets to support 1208x636 Format 10 NumSamples 1 (Frame:203).
+[2020.05.16-12.13.28:845][733]LogRenderer: Reallocating scene render targets to support 1432x920 Format 10 NumSamples 1 (Frame:209).
+[2020.05.16-12.13.33:479][119]LogSlate: Window 'watering_can' being destroyed
+[2020.05.16-12.14.21:272][639]LogStaticMesh: Building static mesh catnip...
+[2020.05.16-12.14.21:276][639]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/static/gameplay_items/catnip.catnip
+[2020.05.16-12.14.22:914][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/static/gameplay_items/catnip" FILE="D:/spacecats/UE_SpaceCats/Content/meshes/static/gameplay_items/catnip.uasset" SILENT=true
+[2020.05.16-12.14.22:939][712]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/catnip24D3E89E47C28DDF6AC38AB26BD94B53.tmp' to 'D:/spacecats/UE_SpaceCats/Content/meshes/static/gameplay_items/catnip.uasset'
+[2020.05.16-12.14.22:949][712]AssetCheck: New page: Asset Save: catnip
+[2020.05.16-12.14.22:949][712]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/gameplay_items/catnip.catnip
+[2020.05.16-12.14.41:166][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/static/gameplay_items/cat_treats" FILE="D:/spacecats/UE_SpaceCats/Content/meshes/static/gameplay_items/cat_treats.uasset" SILENT=true
+[2020.05.16-12.14.41:195][618]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/cat_treatsA72018804E9FD2037702CCAE5514E82D.tmp' to 'D:/spacecats/UE_SpaceCats/Content/meshes/static/gameplay_items/cat_treats.uasset'
+[2020.05.16-12.14.41:206][618]AssetCheck: New page: Asset Save: cat_treats
+[2020.05.16-12.14.41:206][618]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/gameplay_items/cat_treats.cat_treats
+[2020.05.16-12.15.07:767][915]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/static/gameplay_items/watering_can" FILE="D:/spacecats/UE_SpaceCats/Content/meshes/static/gameplay_items/watering_can.uasset" SILENT=true
+[2020.05.16-12.15.07:796][915]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/watering_canC24B94874780DA9B6E8D9987ED557EE9.tmp' to 'D:/spacecats/UE_SpaceCats/Content/meshes/static/gameplay_items/watering_can.uasset'
+[2020.05.16-12.15.07:809][915]AssetCheck: New page: Asset Save: watering_can
+[2020.05.16-12.15.07:809][915]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/gameplay_items/watering_can.watering_can
+[2020.05.16-12.15.13:241][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/static/gameplay_items/watering_can" FILE="D:/spacecats/UE_SpaceCats/Content/meshes/static/gameplay_items/watering_can.uasset" SILENT=true
+[2020.05.16-12.15.13:254][174]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/watering_can837A6610454EE2ACF688D6B03A30A83A.tmp' to 'D:/spacecats/UE_SpaceCats/Content/meshes/static/gameplay_items/watering_can.uasset'
+[2020.05.16-12.15.13:264][174]AssetCheck: New page: Asset Save: watering_can
+[2020.05.16-12.15.13:264][174]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/gameplay_items/watering_can.watering_can
+[2020.05.16-12.15.43:233][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/static/gameplay_items/lightswitch_case" FILE="D:/spacecats/UE_SpaceCats/Content/meshes/static/gameplay_items/lightswitch_case.uasset" SILENT=true
+[2020.05.16-12.15.43:256][702]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/lightswitch_case9950436D4BA2303B6869A0B0E264F058.tmp' to 'D:/spacecats/UE_SpaceCats/Content/meshes/static/gameplay_items/lightswitch_case.uasset'
+[2020.05.16-12.15.43:266][702]AssetCheck: New page: Asset Save: lightswitch_case
+[2020.05.16-12.15.43:266][702]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/gameplay_items/lightswitch_case.lightswitch_case
+[2020.05.16-12.16.01:800][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/static/gameplay_items/lightswitch_switch" FILE="D:/spacecats/UE_SpaceCats/Content/meshes/static/gameplay_items/lightswitch_switch.uasset" SILENT=true
+[2020.05.16-12.16.01:822][609]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/lightswitch_switchCC32B59941238CE1D2E46EB4C389DD87.tmp' to 'D:/spacecats/UE_SpaceCats/Content/meshes/static/gameplay_items/lightswitch_switch.uasset'
+[2020.05.16-12.16.01:832][609]AssetCheck: New page: Asset Save: lightswitch_switch
+[2020.05.16-12.16.01:832][609]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/gameplay_items/lightswitch_switch.lightswitch_switch
+[2020.05.16-12.16.09:143][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/L_cat_cafe" FILE="D:/spacecats/UE_SpaceCats/Content/Level/L_cat_cafe.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.16-12.16.09:171][916]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.05.16-12.16.09:252][916]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/L_cat_cafe6AEDB02D496B150FA69D79BF3A32EE9A.tmp' to 'D:/spacecats/UE_SpaceCats/Content/Level/L_cat_cafe.umap'
+[2020.05.16-12.16.09:291][916]AssetCheck: New page: Asset Save: L_cat_cafe
+[2020.05.16-12.16.09:291][916]LogContentValidation: Display: Validating World /Game/Level/L_cat_cafe.L_cat_cafe
+[2020.05.16-12.16.21:228][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (alien_ivy)
+[2020.05.16-12.16.25:476][567]Cmd: SELECT NONE
+[2020.05.16-12.16.28:305][682]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (sm_wall_full)
+[2020.05.16-12.16.42:776][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (alien_ivy)
+[2020.05.16-12.16.55:056][766]Cmd: SELECT NONE
+[2020.05.16-12.16.55:797][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/L_cat_cafe" FILE="D:/spacecats/UE_SpaceCats/Content/Level/L_cat_cafe.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.16-12.16.55:821][794]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.05.16-12.16.55:896][794]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/L_cat_cafe9FDAD645495E80D4E45DC7ABAEB89D24.tmp' to 'D:/spacecats/UE_SpaceCats/Content/Level/L_cat_cafe.umap'
+[2020.05.16-12.16.55:943][794]AssetCheck: New page: Asset Save: L_cat_cafe
+[2020.05.16-12.16.55:943][794]LogContentValidation: Display: Validating World /Game/Level/L_cat_cafe.L_cat_cafe
+[2020.05.16-12.17.16:435][754]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.17.16:456][754]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.05.16-12.17.16:456][754]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.05.16-12.17.16:456][754]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.05.16-12.17.16:463][754]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.17.16:489][754]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.17.18:078][851]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 30
+[2020.05.16-12.17.19:415][  2]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 20
+[2020.05.16-12.17.19:778][ 43]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 13
+[2020.05.16-12.17.21:517][235]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.05.16-12.17.22:327][326]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.17.22:397][334]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.05.16-12.17.22:958][393]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.17.39:803][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/materials/static/gameplayitems/catnip2_Mat" FILE="D:/spacecats/UE_SpaceCats/Content/materials/static/gameplayitems/catnip2_Mat.uasset" SILENT=true
+[2020.05.16-12.17.39:819][357]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/catnip2_Mat7C6D2C5042C84713DFC79892318D4BF6.tmp' to 'D:/spacecats/UE_SpaceCats/Content/materials/static/gameplayitems/catnip2_Mat.uasset'
+[2020.05.16-12.17.39:829][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/materials/static/gameplayitems/catnip_Mat" FILE="D:/spacecats/UE_SpaceCats/Content/materials/static/gameplayitems/catnip_Mat.uasset" SILENT=true
+[2020.05.16-12.17.39:845][357]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/catnip_Mat0010C8FD41AD3064620258B79B604211.tmp' to 'D:/spacecats/UE_SpaceCats/Content/materials/static/gameplayitems/catnip_Mat.uasset'
+[2020.05.16-12.17.39:855][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/materials/static/gameplayitems/cat_treats_Mat" FILE="D:/spacecats/UE_SpaceCats/Content/materials/static/gameplayitems/cat_treats_Mat.uasset" SILENT=true
+[2020.05.16-12.17.39:870][357]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/cat_treats_Mat117FCB7D4D69060DE1BE329F7C8A8084.tmp' to 'D:/spacecats/UE_SpaceCats/Content/materials/static/gameplayitems/cat_treats_Mat.uasset'
+[2020.05.16-12.17.40:117][357]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2020.05.16-12.17.40:143][357]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.05.16-12.17.40:168][357]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.05.16-12.17.40:200][357]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2020.05.16-12.17.40:224][357]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.05.16-12.17.40:270][357]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.16-12.17.40:270][357]LogContentValidation: Display: Validating Material /Game/materials/static/gameplayitems/catnip2_Mat.catnip2_Mat
+[2020.05.16-12.17.40:270][357]LogContentValidation: Display: Validating Material /Game/materials/static/gameplayitems/catnip_Mat.catnip_Mat
+[2020.05.16-12.17.40:270][357]LogContentValidation: Display: Validating Material /Game/materials/static/gameplayitems/cat_treats_Mat.cat_treats_Mat
+[2020.05.16-12.18.47:633][985]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_garden_suitcase_open)
+[2020.05.16-12.18.56:505][345]Cmd: SELECT NONE
+[2020.05.16-12.18.57:297][376]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/L_cat_cafe" FILE="D:/spacecats/UE_SpaceCats/Content/Level/L_cat_cafe.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.16-12.18.57:322][376]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.05.16-12.18.57:399][376]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/L_cat_cafe49AD3FF94ECA2569AE8043B5F585A132.tmp' to 'D:/spacecats/UE_SpaceCats/Content/Level/L_cat_cafe.umap'
+[2020.05.16-12.18.57:440][376]AssetCheck: New page: Asset Save: L_cat_cafe
+[2020.05.16-12.18.57:440][376]LogContentValidation: Display: Validating World /Game/Level/L_cat_cafe.L_cat_cafe
+[2020.05.16-12.18.58:005][400]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pot_1)
+[2020.05.16-12.18.59:216][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/L_cat_cafe" FILE="D:/spacecats/UE_SpaceCats/Content/Level/L_cat_cafe.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.16-12.18.59:240][447]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.05.16-12.18.59:316][447]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/L_cat_cafe359D79AF45226B2F01C45D90670DA1DD.tmp' to 'D:/spacecats/UE_SpaceCats/Content/Level/L_cat_cafe.umap'
+[2020.05.16-12.18.59:357][447]AssetCheck: New page: Asset Save: L_cat_cafe
+[2020.05.16-12.18.59:357][447]LogContentValidation: Display: Validating World /Game/Level/L_cat_cafe.L_cat_cafe
+[2020.05.16-12.18.59:950][472]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_floor)
+[2020.05.16-12.19.16:196][ 91]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/materials/static/gameplayitems/catnip2_Mat.catnip2_Mat
+[2020.05.16-12.19.16:201][ 91]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.19.16:278][ 91]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.19.16:293][ 91]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.19.16:308][ 91]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.19.16:308][ 91]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.19.16:308][ 91]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.19.16:316][ 91]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.05.16-12.19.16:362][ 91]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.05.16-12.19.16:975][116]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 10
+[2020.05.16-12.19.17:362][132]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.05.16-12.19.17:548][140]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.05.16-12.19.17:810][152]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.19.18:136][167]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.05.16-12.19.18:559][185]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.19.18:609][187]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.05.16-12.19.19:189][215]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.05.16-12.19.19:220][216]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.05.16-12.19.19:247][217]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.19.19:247][217]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.19.19:247][217]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.19.19:247][217]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.19.19:247][217]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.19.19:247][217]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.19.19:656][236]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2020.05.16-12.19.25:440][565]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.19.25:468][566]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.19.25:468][566]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.19.25:468][566]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.19.26:297][607]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.19.26:358][612]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.19.26:364][612]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.19.26:468][617]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.05.16-12.19.26:786][632]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.19.27:373][660]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.05.16-12.19.27:506][666]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.05.16-12.19.27:537][667]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2020.05.16-12.19.27:924][702]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2020.05.16-12.19.28:075][719]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2020.05.16-12.19.28:174][727]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.05.16-12.19.28:494][760]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.05.16-12.19.28:545][766]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.05.16-12.19.28:617][774]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2020.05.16-12.19.28:850][799]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.19.29:003][805]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.05.16-12.19.29:137][812]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 8
+[2020.05.16-12.19.29:258][814]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2020.05.16-12.19.29:783][850]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.05.16-12.19.29:792][851]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.19.29:960][868]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.05.16-12.19.30:171][891]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.19.30:502][906]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.05.16-12.19.30:605][911]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.05.16-12.19.30:705][915]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2020.05.16-12.19.31:326][952]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2020.05.16-12.19.31:408][958]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2020.05.16-12.19.31:494][969]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.05.16-12.19.31:836][  7]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.05.16-12.19.31:911][ 15]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2020.05.16-12.19.32:008][ 26]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2020.05.16-12.19.32:169][ 43]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.19.32:422][ 54]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.19.32:488][ 57]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 8
+[2020.05.16-12.19.32:771][ 70]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2020.05.16-12.19.33:359][ 96]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2020.05.16-12.19.33:473][101]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.19.33:638][109]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.05.16-12.19.34:366][142]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.05.16-12.19.34:406][144]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2020.05.16-12.19.34:535][150]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.19.35:321][184]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.05.16-12.19.35:321][184]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.05.16-12.19.35:321][184]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.19.35:321][184]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.19.35:321][184]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.19.35:321][184]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.19.44:691][624]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.19.44:706][624]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.19.44:728][626]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.19.44:728][626]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.19.44:728][626]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.19.45:460][660]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.19.45:889][680]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.19.45:927][682]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.19.45:988][683]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.19.46:562][712]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.05.16-12.19.46:628][715]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.19.47:037][735]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2020.05.16-12.19.47:466][755]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.19.47:594][761]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.19.47:658][764]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.19.48:364][800]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.05.16-12.19.48:410][802]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.05.16-12.19.48:479][805]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2020.05.16-12.19.48:860][821]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.19.48:876][821]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.19.49:099][832]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.05.16-12.19.49:106][832]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.19.49:265][839]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2020.05.16-12.19.49:894][868]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.05.16-12.19.50:143][880]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2020.05.16-12.19.50:193][881]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.19.50:213][881]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.19.50:860][911]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.05.16-12.19.50:971][916]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.05.16-12.19.51:391][938]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.19.51:926][966]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2020.05.16-12.19.51:991][969]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2020.05.16-12.19.52:049][972]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.05.16-12.19.52:521][992]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.19.52:537][992]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.19.52:652][998]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.19.52:771][  3]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.19.52:987][ 13]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.19.53:616][ 43]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.19.53:703][ 45]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.19.53:804][ 51]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.19.53:961][ 59]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.19.54:606][ 88]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.19.54:824][ 99]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.05.16-12.19.54:968][105]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.19.55:350][123]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.05.16-12.19.55:838][146]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.05.16-12.19.56:100][157]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.05.16-12.19.56:187][161]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.05.16-12.19.56:897][194]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.19.56:897][194]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.19.56:897][194]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.19.56:897][194]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.19.56:897][194]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.19.56:897][194]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.20.06:742][655]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.20.06:756][655]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.20.06:779][657]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.20.06:779][657]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.20.06:779][657]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.20.07:305][681]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.20.07:755][701]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.20.07:933][709]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.20.08:373][730]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.05.16-12.20.08:504][735]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2020.05.16-12.20.08:866][751]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.20.09:402][776]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.20.09:402][776]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.20.09:402][776]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.20.09:402][776]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.20.09:402][776]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.20.09:402][776]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.20.10:377][820]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.20.10:388][820]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.20.10:388][820]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.20.10:388][820]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.20.11:174][858]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.20.11:434][870]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.20.11:651][880]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.05.16-12.20.12:145][902]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.05.16-12.20.12:268][908]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.05.16-12.20.12:621][924]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.05.16-12.20.13:198][951]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.20.13:198][951]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.20.13:198][951]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.20.13:198][951]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.20.13:198][951]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.20.13:198][951]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.20.32:533][215]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.20.32:548][215]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.20.32:565][216]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.20.32:565][216]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.20.32:565][216]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.20.33:213][246]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.20.33:584][262]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.20.33:603][263]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.05.16-12.20.33:833][272]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.20.34:121][286]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.05.16-12.20.34:290][292]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.05.16-12.20.34:663][310]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2020.05.16-12.20.35:190][335]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.20.35:368][343]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.20.35:535][351]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.20.36:110][378]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.05.16-12.20.36:145][380]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.05.16-12.20.36:458][394]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.20.37:177][427]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.20.37:177][427]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.20.37:177][427]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.20.37:177][427]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.20.37:177][427]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.20.37:177][427]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.20.41:137][611]LogMaterialEditor: Saving and Compiling material catnip2_Mat
+[2020.05.16-12.20.41:564][611]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.20.41:611][611]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.20.41:611][611]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.20.41:611][611]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.20.41:624][611]LogMaterial: Display: Missing cached shader map for material catnip2_Mat, compiling. 
+[2020.05.16-12.20.41:669][611]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2020.05.16-12.20.41:682][611]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.16-12.20.42:866][611]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 23
+[2020.05.16-12.20.42:866][611]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
+[2020.05.16-12.20.42:866][611]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
+[2020.05.16-12.20.42:866][611]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 20
+[2020.05.16-12.20.42:866][611]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
+[2020.05.16-12.20.42:866][611]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 18
+[2020.05.16-12.20.42:866][611]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 17
+[2020.05.16-12.20.42:866][611]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 16
+[2020.05.16-12.20.42:866][611]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 15
+[2020.05.16-12.20.42:866][611]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.05.16-12.20.42:866][611]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.20.42:868][611]TextureStreamingBuild: Display: Compiling optional shaders took 1.199 seconds.
+[2020.05.16-12.20.42:902][611]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.05.16-12.20.44:267][611]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.05.16-12.20.44:267][611]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.20.44:282][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/materials/static/gameplayitems/catnip2_Mat" FILE="D:/spacecats/UE_SpaceCats/Content/materials/static/gameplayitems/catnip2_Mat.uasset" SILENT=true
+[2020.05.16-12.20.44:305][611]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/catnip2_Mat4E5FDCB942D26A04B24EC68CFFD74E51.tmp' to 'D:/spacecats/UE_SpaceCats/Content/materials/static/gameplayitems/catnip2_Mat.uasset'
+[2020.05.16-12.20.44:350][611]AssetCheck: New page: Asset Save: catnip2_Mat
+[2020.05.16-12.20.44:350][611]LogContentValidation: Display: Validating Material /Game/materials/static/gameplayitems/catnip2_Mat.catnip2_Mat
+[2020.05.16-12.20.44:355][611]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.20.44:355][611]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.20.44:355][611]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.20.44:355][611]MaterialEditorStats: Texture samplers: 4/16
+[2020.05.16-12.20.44:355][611]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.20.44:355][611]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.20.48:692][809]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.05.16-12.20.48:692][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.16-12.20.58:356][430]LogStaticMesh: Building static mesh catnip...
+[2020.05.16-12.20.58:384][430]LogStaticMesh: Built static mesh [0.03s] /Game/meshes/static/gameplay_items/catnip.catnip
+[2020.05.16-12.21.26:557][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/static/gameplay_items/catnip" FILE="D:/spacecats/UE_SpaceCats/Content/meshes/static/gameplay_items/catnip.uasset" SILENT=true
+[2020.05.16-12.21.26:581][165]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/catnip56F266AB4927FE4B2C6766B6140274B7.tmp' to 'D:/spacecats/UE_SpaceCats/Content/meshes/static/gameplay_items/catnip.uasset'
+[2020.05.16-12.21.26:594][165]AssetCheck: New page: Asset Save: catnip
+[2020.05.16-12.21.26:594][165]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/gameplay_items/catnip.catnip
+[2020.05.16-12.21.28:965][289]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.05.16-12.21.28:965][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.16-12.21.31:333][393]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/materials/static/gameplayitems/catnip_Mat.catnip_Mat
+[2020.05.16-12.21.31:338][393]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.21.31:409][393]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.21.31:424][393]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.21.31:440][393]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.21.31:440][393]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.21.31:440][393]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.21.31:447][393]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.05.16-12.21.32:495][446]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 10
+[2020.05.16-12.21.32:536][449]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.21.32:838][464]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.21.33:397][496]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2020.05.16-12.21.33:542][504]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2020.05.16-12.21.33:650][509]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2020.05.16-12.21.34:140][539]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.05.16-12.21.34:282][546]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.05.16-12.21.34:490][560]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2020.05.16-12.21.34:491][560]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.21.34:491][560]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.21.34:491][560]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.21.34:491][560]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.21.34:491][560]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.21.34:491][560]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.21.34:882][586]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.21.35:425][622]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.21.35:452][623]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.21.35:452][623]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.21.35:452][623]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.21.35:963][655]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.21.36:107][662]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.05.16-12.21.36:500][685]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.21.36:605][693]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2020.05.16-12.21.36:631][694]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.21.37:128][722]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.05.16-12.21.37:297][732]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.05.16-12.21.37:504][747]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2020.05.16-12.21.37:871][787]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.21.37:888][789]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.21.37:940][795]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.05.16-12.21.38:202][823]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.21.38:345][831]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.21.38:604][844]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.21.38:950][864]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.21.39:171][885]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.05.16-12.21.39:328][894]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2020.05.16-12.21.39:422][905]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.21.39:619][926]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.21.39:777][931]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.21.39:961][940]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.21.40:261][958]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.21.40:729][991]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.21.40:779][995]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.21.40:795][996]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.21.41:152][ 35]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.05.16-12.21.41:305][ 52]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.05.16-12.21.41:333][ 54]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.21.41:400][ 58]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.21.41:783][ 77]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.21.42:319][107]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.21.42:575][121]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.05.16-12.21.42:857][137]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.21.42:918][141]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.05.16-12.21.43:600][182]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.05.16-12.21.43:667][186]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.05.16-12.21.43:914][199]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.05.16-12.21.44:562][238]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.05.16-12.21.44:562][238]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.05.16-12.21.44:562][238]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.21.44:562][238]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.21.44:562][238]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.21.44:562][238]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.21.47:186][395]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.21.47:202][395]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.21.47:222][397]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.21.47:222][397]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.21.47:222][397]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.21.48:053][443]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.21.48:253][455]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.21.48:331][457]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.21.48:609][471]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.21.49:499][522]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.05.16-12.21.49:672][532]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 8
+[2020.05.16-12.21.49:971][552]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2020.05.16-12.21.50:542][584]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.05.16-12.21.50:634][589]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2020.05.16-12.21.50:704][593]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.21.51:494][637]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.21.51:509][637]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.21.51:603][642]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.05.16-12.21.51:649][645]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.05.16-12.21.51:860][657]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.21.52:627][700]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.21.52:744][705]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.21.52:750][706]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.21.53:462][747]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.05.16-12.21.53:594][753]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.21.53:609][753]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.21.53:687][757]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.05.16-12.21.53:863][767]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.05.16-12.21.54:494][804]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2020.05.16-12.21.54:721][816]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.21.54:988][830]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.21.55:220][840]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.21.55:749][871]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.05.16-12.21.55:940][881]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2020.05.16-12.21.55:976][883]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.21.56:817][929]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.21.56:832][929]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.21.56:854][930]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.21.56:854][930]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.21.56:854][930]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.21.57:563][969]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.21.58:030][996]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.21.58:314][ 12]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.21.58:664][ 30]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.05.16-12.21.58:849][ 38]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.21.58:990][ 46]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.05.16-12.21.59:244][ 60]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.05.16-12.21.59:629][ 82]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.22.00:257][118]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2020.05.16-12.22.00:417][126]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.22.00:467][129]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.05.16-12.22.01:241][173]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.05.16-12.22.01:531][190]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2020.05.16-12.22.01:584][193]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.22.02:520][245]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.22.02:520][245]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.22.02:520][245]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.22.02:520][245]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.22.02:520][245]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.22.02:520][245]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.22.09:991][672]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.22.10:006][672]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.22.10:032][674]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.22.10:032][674]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.22.10:032][674]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.22.10:780][716]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.22.11:249][738]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.22.11:346][743]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.22.12:059][773]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.05.16-12.22.12:140][775]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.05.16-12.22.12:360][782]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.22.12:725][794]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.22.12:735][794]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.05.16-12.22.12:787][799]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 8
+[2020.05.16-12.22.12:872][804]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2020.05.16-12.22.13:717][852]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.05.16-12.22.14:093][874]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.22.14:148][877]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.05.16-12.22.14:673][905]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.05.16-12.22.14:969][922]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.05.16-12.22.15:132][931]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.05.16-12.22.15:919][974]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.22.15:919][974]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.22.15:919][974]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.22.15:919][974]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.22.15:919][974]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.22.15:919][974]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.22.19:906][201]LogMaterialEditor: Saving and Compiling material catnip_Mat
+[2020.05.16-12.22.20:353][201]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.22.20:385][201]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.22.20:385][201]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.22.20:385][201]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.22.20:408][201]LogMaterial: Display: Missing cached shader map for material catnip_Mat, compiling. 
+[2020.05.16-12.22.20:454][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2020.05.16-12.22.20:468][201]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.16-12.22.21:605][201]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 23
+[2020.05.16-12.22.21:606][201]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
+[2020.05.16-12.22.21:606][201]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
+[2020.05.16-12.22.21:606][201]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
+[2020.05.16-12.22.21:606][201]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 19
+[2020.05.16-12.22.21:606][201]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 18
+[2020.05.16-12.22.21:606][201]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 17
+[2020.05.16-12.22.21:606][201]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 16
+[2020.05.16-12.22.21:606][201]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.05.16-12.22.21:606][201]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.05.16-12.22.21:606][201]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2020.05.16-12.22.21:611][201]TextureStreamingBuild: Display: Compiling optional shaders took 1.155 seconds.
+[2020.05.16-12.22.21:634][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.05.16-12.22.22:990][201]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.05.16-12.22.22:990][201]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2020.05.16-12.22.23:005][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/materials/static/gameplayitems/catnip_Mat" FILE="D:/spacecats/UE_SpaceCats/Content/materials/static/gameplayitems/catnip_Mat.uasset" SILENT=true
+[2020.05.16-12.22.23:028][201]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/catnip_MatA4D046C347E2EF8DA96568B7F49A86E6.tmp' to 'D:/spacecats/UE_SpaceCats/Content/materials/static/gameplayitems/catnip_Mat.uasset'
+[2020.05.16-12.22.23:068][201]AssetCheck: New page: Asset Save: catnip_Mat
+[2020.05.16-12.22.23:068][201]LogContentValidation: Display: Validating Material /Game/materials/static/gameplayitems/catnip_Mat.catnip_Mat
+[2020.05.16-12.22.23:073][201]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.22.23:073][201]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.22.23:073][201]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.22.23:073][201]MaterialEditorStats: Texture samplers: 4/16
+[2020.05.16-12.22.23:073][201]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.22.23:073][201]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.22.31:172][658]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.05.16-12.22.31:172][658]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.16-12.22.35:968][883]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/materials/static/gameplayitems/cat_treats_Mat.cat_treats_Mat
+[2020.05.16-12.22.35:973][883]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.22.36:046][883]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.22.36:061][883]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.22.36:078][883]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.22.36:078][883]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.22.36:078][883]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.22.36:086][883]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.05.16-12.22.36:727][913]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 10
+[2020.05.16-12.22.37:051][930]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.05.16-12.22.37:156][936]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.05.16-12.22.37:741][969]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.22.37:864][979]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.05.16-12.22.38:030][989]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.22.38:227][  1]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.22.38:638][ 25]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 13
+[2020.05.16-12.22.38:749][ 31]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
+[2020.05.16-12.22.38:849][ 37]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 11
+[2020.05.16-12.22.39:025][ 49]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.22.39:407][ 70]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 10
+[2020.05.16-12.22.39:539][ 78]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.05.16-12.22.39:547][ 78]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.05.16-12.22.39:641][ 87]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.22.39:940][102]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.05.16-12.22.40:513][133]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.05.16-12.22.40:553][135]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2020.05.16-12.22.40:794][157]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.22.40:944][175]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.22.41:212][194]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.05.16-12.22.41:370][209]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.05.16-12.22.41:580][233]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.05.16-12.22.41:587][234]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.05.16-12.22.43:062][357]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.22.43:080][358]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.22.43:080][358]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.22.43:080][358]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.22.43:752][392]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.22.43:957][403]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.22.44:197][427]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.22.44:397][447]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.05.16-12.22.44:571][468]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2020.05.16-12.22.44:607][471]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.22.44:640][473]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.22.45:346][511]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 8
+[2020.05.16-12.22.45:491][522]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2020.05.16-12.22.45:632][538]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.05.16-12.22.45:857][562]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.22.45:963][574]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.05.16-12.22.46:223][601]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.22.46:241][602]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.22.46:315][605]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 8
+[2020.05.16-12.22.46:626][621]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2020.05.16-12.22.47:281][660]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2020.05.16-12.22.47:335][665]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.22.47:540][676]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.05.16-12.22.48:112][714]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.05.16-12.22.48:208][725]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2020.05.16-12.22.48:224][727]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.22.48:834][796]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.05.16-12.22.48:834][796]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.05.16-12.22.48:834][796]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.22.48:834][796]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.22.48:834][796]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.22.48:834][796]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.22.58:520][349]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.22.58:535][349]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.22.58:551][350]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.22.58:551][350]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.22.58:551][350]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.22.59:172][385]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.22.59:696][414]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.22.59:706][415]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.05.16-12.22.59:805][418]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.23.00:181][439]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.05.16-12.23.00:393][451]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.05.16-12.23.00:779][475]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2020.05.16-12.23.01:198][502]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.23.01:365][511]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.23.01:506][519]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.05.16-12.23.02:059][550]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.05.16-12.23.02:126][552]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.05.16-12.23.02:469][571]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.05.16-12.23.03:015][600]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.23.03:015][600]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.23.03:015][600]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.23.03:015][600]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.23.03:015][600]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.23.03:015][600]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.23.04:958][705]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.23.04:973][705]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.23.04:995][707]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.23.04:995][707]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.23.04:995][707]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.23.05:671][743]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.23.06:108][766]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.23.06:225][773]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.23.06:784][804]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.05.16-12.23.07:082][821]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.05.16-12.23.07:094][822]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.23.07:863][864]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.23.07:863][864]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.23.07:863][864]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.23.07:863][864]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.23.07:863][864]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.23.07:863][864]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.23.08:973][925]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.23.08:993][926]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.23.08:993][926]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.23.08:993][926]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.23.09:656][963]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.23.09:937][978]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.23.10:073][983]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.23.10:673][ 17]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.05.16-12.23.10:778][ 22]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2020.05.16-12.23.11:259][ 49]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.23.11:839][ 80]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.23.11:839][ 80]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.23.11:839][ 80]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.23.11:839][ 80]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.23.11:839][ 80]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.23.11:839][ 80]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.23.18:151][442]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.23.18:166][442]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.23.18:186][443]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.23.18:186][443]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.23.18:186][443]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.23.18:653][471]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2020.05.16-12.23.18:702][474]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 10
+[2020.05.16-12.23.19:141][498]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.23.19:331][511]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.23.19:618][526]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.23.20:090][552]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2020.05.16-12.23.20:348][566]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.23.20:569][578]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.05.16-12.23.21:101][609]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.05.16-12.23.21:109][609]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.05.16-12.23.21:129][610]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.23.21:129][610]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.23.21:129][610]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.23.21:129][610]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.23.21:129][610]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.23.21:129][610]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.23.21:386][625]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2020.05.16-12.23.23:239][730]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.23.23:254][730]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.23.23:270][731]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.23.23:270][731]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.23.23:270][731]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.23.23:857][764]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.23.24:374][792]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.23.24:491][797]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.23.24:543][801]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.05.16-12.23.24:894][820]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 8
+[2020.05.16-12.23.25:489][850]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2020.05.16-12.23.25:574][854]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.05.16-12.23.25:995][882]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.23.26:004][883]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.05.16-12.23.26:501][912]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.05.16-12.23.26:690][922]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.05.16-12.23.27:133][947]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.05.16-12.23.27:173][947]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.23.27:188][947]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.23.27:435][960]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.05.16-12.23.27:486][962]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.05.16-12.23.27:642][971]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2020.05.16-12.23.28:362][ 10]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2020.05.16-12.23.28:426][ 12]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.23.28:498][ 17]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.05.16-12.23.28:639][ 26]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.05.16-12.23.29:384][ 68]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2020.05.16-12.23.29:462][ 71]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.23.29:829][ 91]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.23.29:957][ 98]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.23.30:524][127]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.05.16-12.23.30:684][136]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.05.16-12.23.30:828][144]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.23.31:721][194]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.23.31:721][194]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.23.31:721][194]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.23.31:721][194]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.23.31:721][194]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.23.31:721][194]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.23.44:783][940]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.23.44:797][940]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.23.44:813][941]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.23.44:813][941]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.23.44:813][941]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.23.45:554][982]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.23.45:958][  4]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.23.45:996][  6]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.05.16-12.23.46:033][  6]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.23.46:564][ 35]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.05.16-12.23.46:642][ 39]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.05.16-12.23.46:979][ 62]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2020.05.16-12.23.47:541][ 96]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2020.05.16-12.23.47:571][ 98]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2020.05.16-12.23.47:677][103]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.05.16-12.23.48:220][131]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.05.16-12.23.48:236][131]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.23.48:252][131]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.23.48:434][141]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.05.16-12.23.48:577][149]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 8
+[2020.05.16-12.23.49:202][183]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2020.05.16-12.23.49:420][195]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2020.05.16-12.23.49:468][196]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.23.49:650][206]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.05.16-12.23.49:859][217]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.05.16-12.23.50:400][246]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2020.05.16-12.23.50:609][258]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.23.51:010][281]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.23.51:173][290]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.05.16-12.23.51:776][324]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.05.16-12.23.51:965][335]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.05.16-12.23.52:194][347]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.05.16-12.23.52:863][384]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.23.52:863][384]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.23.52:863][384]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.23.52:863][384]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.23.52:863][384]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.23.52:863][384]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.24.15:445][654]LogMaterialEditor: Saving and Compiling material cat_treats_Mat
+[2020.05.16-12.24.15:872][654]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.24.15:903][654]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.24.15:903][654]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.24.15:903][654]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.24.15:929][654]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.24.15:984][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2020.05.16-12.24.15:998][654]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.16-12.24.17:203][654]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 23
+[2020.05.16-12.24.17:203][654]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
+[2020.05.16-12.24.17:203][654]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
+[2020.05.16-12.24.17:203][654]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 20
+[2020.05.16-12.24.17:203][654]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
+[2020.05.16-12.24.17:203][654]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 18
+[2020.05.16-12.24.17:203][654]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 17
+[2020.05.16-12.24.17:203][654]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 16
+[2020.05.16-12.24.17:203][654]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.05.16-12.24.17:203][654]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.05.16-12.24.17:203][654]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.24.17:205][654]TextureStreamingBuild: Display: Compiling optional shaders took 1.220 seconds.
+[2020.05.16-12.24.17:231][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2020.05.16-12.24.18:581][654]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.05.16-12.24.18:581][654]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.05.16-12.24.18:597][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/materials/static/gameplayitems/cat_treats_Mat" FILE="D:/spacecats/UE_SpaceCats/Content/materials/static/gameplayitems/cat_treats_Mat.uasset" SILENT=true
+[2020.05.16-12.24.18:618][654]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/cat_treats_Mat0B8FE35448A9022E483BA0954CE74380.tmp' to 'D:/spacecats/UE_SpaceCats/Content/materials/static/gameplayitems/cat_treats_Mat.uasset'
+[2020.05.16-12.24.18:654][654]AssetCheck: New page: Asset Save: cat_treats_Mat
+[2020.05.16-12.24.18:654][654]LogContentValidation: Display: Validating Material /Game/materials/static/gameplayitems/cat_treats_Mat.cat_treats_Mat
+[2020.05.16-12.24.18:659][654]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.24.18:659][654]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.24.18:659][654]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.24.18:659][654]MaterialEditorStats: Texture samplers: 4/16
+[2020.05.16-12.24.18:659][654]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.24.18:659][654]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.24.26:401][ 83]LogMaterialEditor: Saving and Compiling material cat_treats_Mat
+[2020.05.16-12.24.26:436][ 83]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/materials/static/gameplayitems/cat_treats_Mat" FILE="D:/spacecats/UE_SpaceCats/Content/materials/static/gameplayitems/cat_treats_Mat.uasset" SILENT=true
+[2020.05.16-12.24.26:446][ 83]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/cat_treats_Mat8617819242073244072A73BB7BE923C8.tmp' to 'D:/spacecats/UE_SpaceCats/Content/materials/static/gameplayitems/cat_treats_Mat.uasset'
+[2020.05.16-12.24.26:454][ 83]AssetCheck: New page: Asset Save: cat_treats_Mat
+[2020.05.16-12.24.26:454][ 83]LogContentValidation: Display: Validating Material /Game/materials/static/gameplayitems/cat_treats_Mat.cat_treats_Mat
+[2020.05.16-12.24.34:177][511]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.05.16-12.24.34:177][511]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.16-12.24.37:787][696]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/materials/static/gameplayitems/M_Basket.M_Basket
+[2020.05.16-12.24.37:792][696]LogMaterial: Display: Missing cached shader map for material M_Basket, compiling. 
+[2020.05.16-12.24.37:865][696]LogMaterial: Display: Missing cached shader map for material M_Basket, compiling. 
+[2020.05.16-12.24.37:880][696]LogMaterial: Display: Missing cached shader map for material M_Basket, compiling. 
+[2020.05.16-12.24.37:893][696]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.24.37:893][696]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.24.37:893][696]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.24.37:900][696]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.05.16-12.24.38:438][720]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 10
+[2020.05.16-12.24.38:750][738]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.24.39:090][756]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.24.39:743][794]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.24.39:787][797]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.05.16-12.24.39:865][801]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.24.40:597][840]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.24.40:618][841]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.05.16-12.24.40:654][843]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.05.16-12.24.40:686][844]MaterialEditorStats: Base pass shader: 119 instructions
+[2020.05.16-12.24.40:686][844]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2020.05.16-12.24.40:686][844]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.24.40:686][844]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.24.40:686][844]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.24.40:686][844]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.24.41:429][886]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.24.50:399][400]LogMaterial: Display: Missing cached shader map for material M_Basket, compiling. 
+[2020.05.16-12.24.50:419][402]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.24.50:419][402]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.24.50:419][402]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.24.51:040][442]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.24.51:361][461]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.24.51:467][471]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.24.52:098][508]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.05.16-12.24.52:227][514]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.05.16-12.24.52:518][531]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.24.53:142][565]LogMaterial: Display: Missing cached shader map for material M_Basket, compiling. 
+[2020.05.16-12.24.53:157][565]LogMaterial: Display: Missing cached shader map for material M_Basket, compiling. 
+[2020.05.16-12.24.53:180][567]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.24.53:180][567]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.24.53:180][567]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.24.53:963][611]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.24.54:139][620]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.24.54:247][626]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.24.54:878][661]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.05.16-12.24.55:075][672]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.05.16-12.24.55:192][677]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.24.55:926][717]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.24.55:926][717]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.24.55:926][717]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.24.55:926][717]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.24.55:926][717]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.24.55:926][717]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.24.56:621][754]LogMaterial: Display: Missing cached shader map for material M_Basket, compiling. 
+[2020.05.16-12.24.56:641][755]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.24.56:641][755]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.24.56:641][755]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.24.57:438][800]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.24.57:791][820]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.24.57:824][822]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.05.16-12.24.58:439][857]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.05.16-12.24.58:495][860]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.05.16-12.24.58:901][883]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.05.16-12.24.59:523][918]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.24.59:523][918]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.24.59:523][918]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.24.59:523][918]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.24.59:523][918]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.24.59:523][918]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.25.08:915][454]LogMaterialEditor: Saving and Compiling material M_Basket
+[2020.05.16-12.25.09:363][454]LogMaterial: Display: Missing cached shader map for material M_Basket, compiling. 
+[2020.05.16-12.25.09:417][454]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.25.09:417][454]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.25.09:417][454]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.25.09:432][454]LogMaterial: Display: Missing cached shader map for material M_Basket, compiling. 
+[2020.05.16-12.25.09:476][454]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2020.05.16-12.25.09:490][454]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.16-12.25.10:634][454]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 23
+[2020.05.16-12.25.10:634][454]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
+[2020.05.16-12.25.10:634][454]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
+[2020.05.16-12.25.10:634][454]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 20
+[2020.05.16-12.25.10:634][454]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
+[2020.05.16-12.25.10:634][454]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 18
+[2020.05.16-12.25.10:634][454]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 17
+[2020.05.16-12.25.10:634][454]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 16
+[2020.05.16-12.25.10:634][454]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 15
+[2020.05.16-12.25.10:634][454]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.05.16-12.25.10:634][454]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.25.10:647][454]TextureStreamingBuild: Display: Compiling optional shaders took 1.169 seconds.
+[2020.05.16-12.25.10:673][454]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2020.05.16-12.25.12:004][454]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.05.16-12.25.12:004][454]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.25.12:020][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/materials/static/gameplayitems/M_Basket" FILE="D:/spacecats/UE_SpaceCats/Content/materials/static/gameplayitems/M_Basket.uasset" SILENT=true
+[2020.05.16-12.25.12:043][454]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/M_Basket7BE582CB49EB9F8A1C7126901389E4C1.tmp' to 'D:/spacecats/UE_SpaceCats/Content/materials/static/gameplayitems/M_Basket.uasset'
+[2020.05.16-12.25.12:072][454]AssetCheck: New page: Asset Save: M_Basket
+[2020.05.16-12.25.12:072][454]LogContentValidation: Display: Validating Material /Game/materials/static/gameplayitems/M_Basket.M_Basket
+[2020.05.16-12.25.12:076][454]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.25.12:076][454]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.25.12:077][454]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.25.12:077][454]MaterialEditorStats: Texture samplers: 4/16
+[2020.05.16-12.25.12:077][454]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.25.12:077][454]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.25.16:431][688]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.05.16-12.25.16:431][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.16-12.26.05:599][478]LogStaticMesh: Building static mesh cat_treats...
+[2020.05.16-12.26.05:632][478]LogStaticMesh: Built static mesh [0.03s] /Game/meshes/static/gameplay_items/cat_treats.cat_treats
+[2020.05.16-12.26.26:899][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/static/gameplay_items/cat_treats" FILE="D:/spacecats/UE_SpaceCats/Content/meshes/static/gameplay_items/cat_treats.uasset" SILENT=true
+[2020.05.16-12.26.26:927][770]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/cat_treatsC5390EBC42CBA526394DF684C1C13717.tmp' to 'D:/spacecats/UE_SpaceCats/Content/meshes/static/gameplay_items/cat_treats.uasset'
+[2020.05.16-12.26.26:938][770]AssetCheck: New page: Asset Save: cat_treats
+[2020.05.16-12.26.26:938][770]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/gameplay_items/cat_treats.cat_treats
+[2020.05.16-12.26.30:356][925]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/materials/static/gameplayitems/cat_treats_Mat.cat_treats_Mat
+[2020.05.16-12.26.30:361][925]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.05.16-12.26.30:435][925]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.05.16-12.26.30:449][925]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.05.16-12.26.30:466][925]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.26.30:466][925]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.26.30:466][925]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.26.30:472][925]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.05.16-12.26.31:552][980]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 10
+[2020.05.16-12.26.31:723][990]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.26.32:042][  8]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.26.32:636][ 39]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.26.32:668][ 41]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2020.05.16-12.26.33:023][ 63]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.26.33:567][ 93]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.26.33:625][ 94]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.05.16-12.26.33:665][ 96]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.05.16-12.26.33:687][ 97]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.26.33:687][ 97]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.26.33:687][ 97]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.26.33:687][ 97]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.26.33:687][ 97]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.26.33:687][ 97]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.26.34:233][128]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.26.34:984][168]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.05.16-12.26.35:000][168]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.05.16-12.26.35:022][170]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.26.35:022][170]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.26.35:022][170]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.26.35:773][211]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.26.35:909][219]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.26.36:314][242]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.26.36:986][280]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.05.16-12.26.37:058][284]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.05.16-12.26.37:153][287]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.26.37:275][292]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.05.16-12.26.37:773][321]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.26.37:843][323]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.26.37:857][324]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.26.38:503][363]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.26.38:860][386]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.26.38:937][390]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.05.16-12.26.39:552][425]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.05.16-12.26.39:562][426]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.05.16-12.26.39:759][435]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.05.16-12.26.39:774][435]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.05.16-12.26.39:987][447]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.05.16-12.26.40:288][459]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 8
+[2020.05.16-12.26.40:332][461]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2020.05.16-12.26.40:903][493]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.05.16-12.26.40:941][495]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.26.41:454][524]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.05.16-12.26.41:760][541]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.05.16-12.26.42:056][558]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2020.05.16-12.26.42:183][565]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2020.05.16-12.26.42:906][605]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.26.42:906][605]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.26.42:906][605]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.26.42:906][605]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.26.42:906][605]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.26.42:906][605]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.26.43:947][662]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.05.16-12.26.43:967][663]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.26.43:967][663]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.26.43:967][663]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.26.44:611][697]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.26.45:077][724]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.26.45:238][731]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.26.45:760][761]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.05.16-12.26.45:955][772]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2020.05.16-12.26.46:363][795]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.26.46:919][824]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.26.46:919][824]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.26.46:919][824]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.26.46:919][824]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.26.46:919][824]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.26.46:919][824]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.26.54:773][274]LogMaterialEditor: Saving and Compiling material cat_treats_Mat
+[2020.05.16-12.26.55:221][274]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.05.16-12.26.55:270][274]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.26.55:270][274]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.26.55:270][274]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.26.55:283][274]LogMaterial: Display: Missing cached shader map for material cat_treats_Mat, compiling. 
+[2020.05.16-12.26.55:331][274]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.05.16-12.26.55:345][274]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.16-12.26.56:464][274]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 23
+[2020.05.16-12.26.56:464][274]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
+[2020.05.16-12.26.56:464][274]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
+[2020.05.16-12.26.56:464][274]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 20
+[2020.05.16-12.26.56:464][274]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
+[2020.05.16-12.26.56:464][274]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 18
+[2020.05.16-12.26.56:464][274]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 17
+[2020.05.16-12.26.56:464][274]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 16
+[2020.05.16-12.26.56:464][274]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.05.16-12.26.56:464][274]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.05.16-12.26.56:464][274]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.26.56:471][274]TextureStreamingBuild: Display: Compiling optional shaders took 1.139 seconds.
+[2020.05.16-12.26.56:496][274]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.05.16-12.26.57:832][274]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.05.16-12.26.57:832][274]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.05.16-12.26.57:847][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/materials/static/gameplayitems/cat_treats_Mat" FILE="D:/spacecats/UE_SpaceCats/Content/materials/static/gameplayitems/cat_treats_Mat.uasset" SILENT=true
+[2020.05.16-12.26.57:865][274]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/cat_treats_MatA466FF58401873969D0DE7888E6D358B.tmp' to 'D:/spacecats/UE_SpaceCats/Content/materials/static/gameplayitems/cat_treats_Mat.uasset'
+[2020.05.16-12.26.57:907][274]AssetCheck: New page: Asset Save: cat_treats_Mat
+[2020.05.16-12.26.57:908][274]LogContentValidation: Display: Validating Material /Game/materials/static/gameplayitems/cat_treats_Mat.cat_treats_Mat
+[2020.05.16-12.26.57:913][274]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.26.57:913][274]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.26.57:913][274]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.26.57:913][274]MaterialEditorStats: Texture samplers: 4/16
+[2020.05.16-12.26.57:913][274]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.26.57:913][274]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.27.00:474][416]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.05.16-12.27.00:474][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.16-12.27.15:256][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/static/gameplay_items/cat_treats" FILE="D:/spacecats/UE_SpaceCats/Content/meshes/static/gameplay_items/cat_treats.uasset" SILENT=true
+[2020.05.16-12.27.15:270][320]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/cat_treats3A287BCA45374F9AC1FCE6AD5D89D75F.tmp' to 'D:/spacecats/UE_SpaceCats/Content/meshes/static/gameplay_items/cat_treats.uasset'
+[2020.05.16-12.27.15:280][320]AssetCheck: New page: Asset Save: cat_treats
+[2020.05.16-12.27.15:280][320]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/gameplay_items/cat_treats.cat_treats
+[2020.05.16-12.27.21:062][676]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.05.16-12.27.21:062][676]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.16-12.27.27:465][ 22]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pot_1)
+[2020.05.16-12.27.32:021][290]Cmd: TRANSACTION UNDO
+[2020.05.16-12.27.32:021][290]LogEditorTransaction: Undo Move Actors
+[2020.05.16-12.27.33:166][336]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_garden_suitcase_open)
+[2020.05.16-12.27.35:745][484]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pot_1)
+[2020.05.16-12.27.38:458][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/L_cat_cafe" FILE="D:/spacecats/UE_SpaceCats/Content/Level/L_cat_cafe.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.16-12.27.38:487][639]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.05.16-12.27.38:569][639]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/L_cat_cafe8290EEB24BFA727A40E67A94AD32C8D2.tmp' to 'D:/spacecats/UE_SpaceCats/Content/Level/L_cat_cafe.umap'
+[2020.05.16-12.27.38:611][639]AssetCheck: New page: Asset Save: L_cat_cafe
+[2020.05.16-12.27.38:611][639]LogContentValidation: Display: Validating World /Game/Level/L_cat_cafe.L_cat_cafe
+[2020.05.16-12.27.59:242][844]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/materials/static/gameplayitems/M_wateringcan.M_wateringcan
+[2020.05.16-12.27.59:247][844]LogMaterial: Display: Missing cached shader map for material M_wateringcan, compiling. 
+[2020.05.16-12.27.59:322][844]LogMaterial: Display: Missing cached shader map for material M_wateringcan, compiling. 
+[2020.05.16-12.27.59:336][844]LogMaterial: Display: Missing cached shader map for material M_wateringcan, compiling. 
+[2020.05.16-12.27.59:353][844]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.27.59:353][844]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.27.59:354][844]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.27.59:361][844]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.05.16-12.28.00:432][915]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 10
+[2020.05.16-12.28.00:517][920]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.05.16-12.28.01:421][982]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 8
+[2020.05.16-12.28.01:475][984]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2020.05.16-12.28.01:547][989]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2020.05.16-12.28.02:066][ 24]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2020.05.16-12.28.02:450][ 54]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.05.16-12.28.02:467][ 56]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.05.16-12.28.02:585][ 69]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.05.16-12.28.02:869][101]MaterialEditorStats: Base pass shader: 121 instructions
+[2020.05.16-12.28.02:869][101]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 195 instructions
+[2020.05.16-12.28.02:869][101]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.28.02:869][101]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.28.02:869][101]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.28.02:869][101]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.28.02:969][110]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.05.16-12.28.10:803][701]LogMaterial: Display: Missing cached shader map for material M_wateringcan, compiling. 
+[2020.05.16-12.28.10:818][701]LogMaterial: Display: Missing cached shader map for material M_wateringcan, compiling. 
+[2020.05.16-12.28.10:839][703]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.28.10:839][703]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.28.10:839][703]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.28.11:708][766]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.28.12:002][786]LogMaterial: Display: Missing cached shader map for material M_wateringcan, compiling. 
+[2020.05.16-12.28.12:177][799]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.28.12:250][804]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.28.13:053][861]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.28.13:476][892]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.05.16-12.28.13:588][900]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.28.13:966][928]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.05.16-12.28.14:644][976]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.05.16-12.28.14:743][983]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.05.16-12.28.14:832][990]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.05.16-12.28.15:671][ 47]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.28.15:671][ 47]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.28.15:671][ 47]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.28.15:671][ 47]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.28.15:671][ 47]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.28.15:671][ 47]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.28.23:187][581]LogMaterial: Display: Missing cached shader map for material M_wateringcan, compiling. 
+[2020.05.16-12.28.23:202][581]LogMaterial: Display: Missing cached shader map for material M_wateringcan, compiling. 
+[2020.05.16-12.28.23:223][583]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.28.23:223][583]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.28.23:223][583]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.28.23:947][633]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.28.24:362][663]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.28.24:415][667]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.28.25:186][722]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.05.16-12.28.25:247][726]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.05.16-12.28.25:458][741]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.28.26:493][816]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.28.26:493][816]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.28.26:493][816]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.28.26:493][816]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.28.26:493][816]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.28.26:493][816]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.28.26:746][833]LogMaterial: Display: Missing cached shader map for material M_wateringcan, compiling. 
+[2020.05.16-12.28.26:760][834]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.28.26:760][834]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.28.26:760][834]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.28.27:552][896]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.28.27:944][920]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.28.28:072][931]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.28.28:770][981]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.05.16-12.28.28:941][993]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.05.16-12.28.29:139][  8]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.28.29:947][ 67]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.28.29:947][ 67]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.28.29:947][ 67]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.28.29:947][ 67]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.28.29:947][ 67]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.28.29:947][ 67]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.28.45:453][190]LogMaterial: Display: Missing cached shader map for material M_wateringcan, compiling. 
+[2020.05.16-12.28.45:472][192]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.28.45:472][192]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.28.45:472][192]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.28.46:334][256]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.28.46:723][285]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.28.46:779][289]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.28.47:523][341]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.05.16-12.28.47:737][354]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.05.16-12.28.47:854][364]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.28.48:615][421]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.28.48:615][421]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.28.48:615][421]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.28.48:615][421]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.28.48:615][421]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.28.48:615][421]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.28.49:672][492]LogMaterial: Display: Missing cached shader map for material M_wateringcan, compiling. 
+[2020.05.16-12.28.49:686][492]LogMaterial: Display: Missing cached shader map for material M_wateringcan, compiling. 
+[2020.05.16-12.28.49:708][494]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.28.49:708][494]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.28.49:708][494]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.28.50:345][538]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.28.50:885][575]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.16-12.28.50:961][581]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2020.05.16-12.28.51:633][630]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.05.16-12.28.51:970][655]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.05.16-12.28.52:275][677]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.05.16-12.28.52:993][729]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.28.52:993][729]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.28.52:993][729]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.28.52:993][729]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.28.52:994][729]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.28.52:994][729]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.28.53:574][770]LogMaterial: Display: Missing cached shader map for material M_wateringcan, compiling. 
+[2020.05.16-12.28.53:590][771]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.28.53:590][771]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.28.53:590][771]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.28.55:464][905]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2020.05.16-12.28.55:874][933]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.28.56:112][948]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.05.16-12.28.57:569][ 56]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.05.16-12.28.57:872][ 78]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.05.16-12.28.57:925][ 82]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.28.58:816][146]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.28.58:816][146]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.28.58:816][146]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.28.58:816][146]MaterialEditorStats: Texture samplers: 3/16
+[2020.05.16-12.28.58:816][146]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.28.58:816][146]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.29.01:636][351]LogMaterialEditor: Saving and Compiling material M_wateringcan
+[2020.05.16-12.29.03:712][351]LogMaterial: Display: Missing cached shader map for material M_wateringcan, compiling. 
+[2020.05.16-12.29.03:757][351]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.16-12.29.03:757][351]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.16-12.29.03:757][351]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.16-12.29.03:779][351]LogMaterial: Display: Missing cached shader map for material M_wateringcan, compiling. 
+[2020.05.16-12.29.03:825][351]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.05.16-12.29.03:839][351]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.16-12.29.05:003][351]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 23
+[2020.05.16-12.29.05:003][351]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
+[2020.05.16-12.29.05:003][351]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
+[2020.05.16-12.29.05:003][351]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 20
+[2020.05.16-12.29.05:003][351]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
+[2020.05.16-12.29.05:003][351]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 18
+[2020.05.16-12.29.05:003][351]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 17
+[2020.05.16-12.29.05:003][351]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 16
+[2020.05.16-12.29.05:003][351]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 15
+[2020.05.16-12.29.05:003][351]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.05.16-12.29.05:003][351]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2020.05.16-12.29.05:005][351]TextureStreamingBuild: Display: Compiling optional shaders took 1.178 seconds.
+[2020.05.16-12.29.05:045][351]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.05.16-12.29.06:352][351]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.05.16-12.29.06:352][351]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.05.16-12.29.06:371][351]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/materials/static/gameplayitems/M_wateringcan" FILE="D:/spacecats/UE_SpaceCats/Content/materials/static/gameplayitems/M_wateringcan.uasset" SILENT=true
+[2020.05.16-12.29.06:393][351]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/M_wateringcan61F88FD64F5B147C505972ABF2227D3C.tmp' to 'D:/spacecats/UE_SpaceCats/Content/materials/static/gameplayitems/M_wateringcan.uasset'
+[2020.05.16-12.29.06:427][351]AssetCheck: New page: Asset Save: M_wateringcan
+[2020.05.16-12.29.06:427][351]LogContentValidation: Display: Validating Material /Game/materials/static/gameplayitems/M_wateringcan.M_wateringcan
+[2020.05.16-12.29.06:433][351]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.16-12.29.06:433][351]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.16-12.29.06:433][351]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.16-12.29.06:433][351]MaterialEditorStats: Texture samplers: 4/16
+[2020.05.16-12.29.06:433][351]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.16-12.29.06:433][351]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.16-12.29.09:874][587]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.05.16-12.29.09:874][587]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.16-12.29.24:127][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/static/gameplay_items/watering_can" FILE="D:/spacecats/UE_SpaceCats/Content/meshes/static/gameplay_items/watering_can.uasset" SILENT=true
+[2020.05.16-12.29.24:149][770]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/watering_can3DFA3D894AF68EC791E07A9F808041F9.tmp' to 'D:/spacecats/UE_SpaceCats/Content/meshes/static/gameplay_items/watering_can.uasset'
+[2020.05.16-12.29.24:158][770]AssetCheck: New page: Asset Save: watering_can
+[2020.05.16-12.29.24:158][770]LogContentValidation: Display: Validating StaticMesh /Game/meshes/static/gameplay_items/watering_can.watering_can
+[2020.05.16-12.29.25:620][893]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.05.16-12.29.25:620][893]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.16-12.29.27:780][ 90]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.05.16-12.29.27:780][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.16-12.29.31:121][472]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.05.16-12.29.31:121][472]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.16-12.30.20:676][582]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/L_cat_cafe" FILE="D:/spacecats/UE_SpaceCats/Content/Level/L_cat_cafe.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.16-12.30.20:705][582]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.05.16-12.30.20:785][582]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/L_cat_cafe88975D82483B03180B6A26913092B8F0.tmp' to 'D:/spacecats/UE_SpaceCats/Content/Level/L_cat_cafe.umap'
+[2020.05.16-12.30.20:824][582]AssetCheck: New page: Asset Save: L_cat_cafe
+[2020.05.16-12.30.20:824][582]LogContentValidation: Display: Validating World /Game/Level/L_cat_cafe.L_cat_cafe
