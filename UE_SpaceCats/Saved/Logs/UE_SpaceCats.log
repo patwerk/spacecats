@@ -732,3 +732,102 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.16-11.55.55:031][691]LogEditorActor: Deleted Actor: SkyLight
 [2020.05.16-11.55.55:057][691]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
 [2020.05.16-11.55.55:060][691]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2020.05.16-11.58.49:464][235]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.05.16-11.58.49:465][235]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/L_cat_cafe" FILE="D:/spacecats/UE_SpaceCats/Saved/Autosaves/Game/Level/L_cat_cafe_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.05.16-11.58.49:545][235]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/L_cat_cafe_Auto10E876EF740DA59C7007535980650856F.tmp' to 'D:/spacecats/UE_SpaceCats/Saved/Autosaves/Game/Level/L_cat_cafe_Auto1.umap'
+[2020.05.16-11.58.49:547][235]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/L_cat_cafe' took 0.107
+[2020.05.16-11.58.49:547][235]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.107
+[2020.05.16-12.01.47:645][261]LogStaticMesh: Building static mesh flour...
+[2020.05.16-12.01.47:685][261]LogStaticMesh: Built static mesh [0.04s] /Game/meshes/static/base_ingredients/flour.flour
+[2020.05.16-12.01.47:725][261]LogActorFactory: Actor Factory created flour
+[2020.05.16-12.01.48:420][333]LogActorFactory: Actor Factory created flour
+[2020.05.16-12.02.03:018][ 11]LogStaticMesh: Building static mesh eggs_karton...
+[2020.05.16-12.02.03:050][ 11]LogStaticMesh: Built static mesh [0.03s] /Game/meshes/static/base_ingredients/eggs_karton.eggs_karton
+[2020.05.16-12.02.03:061][ 11]LogMaterial: Display: Missing cached shader map for material M_BaseIngredient_Parent, compiling. 
+[2020.05.16-12.02.03:092][ 11]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.05.16-12.02.03:092][ 11]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.05.16-12.02.03:092][ 11]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.05.16-12.02.03:134][ 16]LogActorFactory: Actor Factory created eggs_karton
+[2020.05.16-12.02.03:835][ 68]LogActorFactory: Actor Factory created eggs_karton
+[2020.05.16-12.02.21:650][180]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2020.05.16-12.02.45:261][937]LogStaticMesh: Building static mesh eggs_eggs...
+[2020.05.16-12.02.45:322][937]LogStaticMesh: Built static mesh [0.06s] /Game/meshes/static/base_ingredients/eggs_eggs.eggs_eggs
+[2020.05.16-12.02.45:358][937]LogActorFactory: Actor Factory created eggs_eggs
+[2020.05.16-12.02.52:481][767]LogActorFactory: Actor Factory created eggs_eggs
+[2020.05.16-12.03.05:760][293]Cmd: MODE GRID=1
+[2020.05.16-12.03.06:966][436]Cmd: MODE GRID=0
+[2020.05.16-12.03.09:163][689]Cmd: MODE GRID=1
+[2020.05.16-12.03.24:147][429]Cmd: MODE GRID=0
+[2020.05.16-12.03.28:572][942]Cmd: MODE GRID=1
+[2020.05.16-12.03.29:519][ 54]Cmd: MODE GRID=0
+[2020.05.16-12.03.54:150][982]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (eggs_karton)
+[2020.05.16-12.03.59:154][575]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_floor)
+[2020.05.16-12.04.00:003][672]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (eggs_eggs)
+[2020.05.16-12.04.08:731][671]Cmd: MODE GRID=1
+[2020.05.16-12.04.27:647][931]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_floor)
+[2020.05.16-12.04.31:277][323]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (eggs_eggs)
+[2020.05.16-12.04.40:131][365]Cmd: MODE GRID=0
+[2020.05.16-12.05.15:815][558]Cmd: SELECT NONE
+[2020.05.16-12.05.31:224][266]LogStaticMesh: Building static mesh butter...
+[2020.05.16-12.05.31:251][266]LogStaticMesh: Built static mesh [0.03s] /Game/meshes/static/base_ingredients/butter.butter
+[2020.05.16-12.05.31:342][274]LogActorFactory: Actor Factory created butter
+[2020.05.16-12.05.32:093][349]LogActorFactory: Actor Factory created butter
+[2020.05.16-12.06.15:421][439]Cmd: SELECT NONE
+[2020.05.16-12.06.48:573][370]LogStaticMesh: Building static mesh honey_pot...
+[2020.05.16-12.06.48:613][370]LogStaticMesh: Built static mesh [0.04s] /Game/meshes/static/base_ingredients/honey_pot.honey_pot
+[2020.05.16-12.06.48:692][375]LogActorFactory: Actor Factory created honey_pot
+[2020.05.16-12.06.49:381][446]LogActorFactory: Actor Factory created honey_pot
+[2020.05.16-12.06.58:445][501]LogStaticMesh: Building static mesh honey_dipper...
+[2020.05.16-12.06.58:476][501]LogStaticMesh: Built static mesh [0.03s] /Game/meshes/static/base_ingredients/honey_dipper.honey_dipper
+[2020.05.16-12.06.58:528][504]LogActorFactory: Actor Factory created honey_dipper
+[2020.05.16-12.07.05:331][303]LogActorFactory: Actor Factory created honey_dipper
+[2020.05.16-12.07.14:701][419]Cmd: SELECT NONE
+[2020.05.16-12.07.16:542][625]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (honey_dipper)
+[2020.05.16-12.07.18:713][874]Cmd: SELECT NONE
+[2020.05.16-12.07.23:037][373]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2020.05.16-12.07.51:020][598]LogActorFactory: Actor Factory created sugar
+[2020.05.16-12.07.54:831][973]LogActorFactory: Actor Factory created sugar
+[2020.05.16-12.08.00:146][489]LogActorFactory: Actor Factory created sugar
+[2020.05.16-12.08.08:713][393]LogActorFactory: Actor Factory created sugar
+[2020.05.16-12.09.07:900][269]LogActorFactory: Actor Factory created milk
+[2020.05.16-12.09.10:005][492]LogActorFactory: Actor Factory created milk
+[2020.05.16-12.10.12:527][902]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (honey_pot)
+[2020.05.16-12.10.34:238][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/L_cat_cafe" FILE="D:/spacecats/UE_SpaceCats/Content/Level/L_cat_cafe.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.16-12.10.34:268][424]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.05.16-12.10.34:348][424]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/L_cat_cafe536239C4484AEFDB0102BE88F0214603.tmp' to 'D:/spacecats/UE_SpaceCats/Content/Level/L_cat_cafe.umap'
+[2020.05.16-12.10.34:396][424]AssetCheck: New page: Asset Save: L_cat_cafe
+[2020.05.16-12.10.34:397][424]LogContentValidation: Display: Validating World /Game/Level/L_cat_cafe.L_cat_cafe
+[2020.05.16-12.10.35:877][600]Cmd: SELECT NONE
+[2020.05.16-12.10.43:860][519]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_kitchen_column_shelves)
+[2020.05.16-12.10.56:091][944]Cmd: SELECT NONE
+[2020.05.16-12.10.57:335][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/L_cat_cafe" FILE="D:/spacecats/UE_SpaceCats/Content/Level/L_cat_cafe.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.16-12.10.57:361][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2020.05.16-12.10.57:438][ 79]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/L_cat_cafeFB6A65734071CE6AB9AAE0A975D2AF76.tmp' to 'D:/spacecats/UE_SpaceCats/Content/Level/L_cat_cafe.umap'
+[2020.05.16-12.10.57:477][ 79]AssetCheck: New page: Asset Save: L_cat_cafe
+[2020.05.16-12.10.57:477][ 79]LogContentValidation: Display: Validating World /Game/Level/L_cat_cafe.L_cat_cafe
+[2020.05.16-12.11.05:226][908]LogEditorViewport: Clicking on Actor (LMB): BP_LightSwitch_C (BP_LightSwitch)
+[2020.05.16-12.11.48:009][857]Cmd: TRANSACTION UNDO
+[2020.05.16-12.11.48:009][857]LogEditorTransaction: Undo Move Actors
+[2020.05.16-12.11.48:352][866]Cmd: TRANSACTION UNDO
+[2020.05.16-12.11.48:352][866]LogEditorTransaction: Undo Rotate Actors
+[2020.05.16-12.11.48:569][875]Cmd: TRANSACTION UNDO
+[2020.05.16-12.11.48:569][875]LogEditorTransaction: Undo Move Actors
+[2020.05.16-12.11.48:945][918]Cmd: TRANSACTION UNDO
+[2020.05.16-12.11.48:945][918]LogEditorTransaction: Undo Rotate Actors
+[2020.05.16-12.11.49:234][950]Cmd: TRANSACTION UNDO
+[2020.05.16-12.11.49:234][950]LogEditorTransaction: Undo Move Actors
+[2020.05.16-12.11.49:760][ 11]Cmd: TRANSACTION UNDO
+[2020.05.16-12.11.49:760][ 11]LogEditorTransaction: Undo Move Actors
+[2020.05.16-12.11.50:258][ 70]Cmd: TRANSACTION UNDO
+[2020.05.16-12.11.50:258][ 70]LogEditorTransaction: Undo Move Actors
+[2020.05.16-12.12.03:538][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/L_cat_cafe" FILE="D:/spacecats/UE_SpaceCats/Content/Level/L_cat_cafe.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.16-12.12.03:572][554]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.05.16-12.12.03:648][554]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/L_cat_cafe4BDEAE0E42A6918F7803188E6892BA3D.tmp' to 'D:/spacecats/UE_SpaceCats/Content/Level/L_cat_cafe.umap'
+[2020.05.16-12.12.03:694][554]AssetCheck: New page: Asset Save: L_cat_cafe
+[2020.05.16-12.12.03:694][554]LogContentValidation: Display: Validating World /Game/Level/L_cat_cafe.L_cat_cafe
+[2020.05.16-12.12.04:877][694]Cmd: SELECT NONE
+[2020.05.16-12.12.15:755][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/L_cat_cafe" FILE="D:/spacecats/UE_SpaceCats/Content/Level/L_cat_cafe.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.16-12.12.15:779][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.05.16-12.12.15:858][808]LogSavePackage: Moving 'D:/spacecats/UE_SpaceCats/Saved/L_cat_cafe38326B104E3AA636368D8884A2900C95.tmp' to 'D:/spacecats/UE_SpaceCats/Content/Level/L_cat_cafe.umap'
+[2020.05.16-12.12.15:898][808]AssetCheck: New page: Asset Save: L_cat_cafe
+[2020.05.16-12.12.15:898][808]LogContentValidation: Display: Validating World /Game/Level/L_cat_cafe.L_cat_cafe
