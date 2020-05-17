@@ -1282,3 +1282,283 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.17-13.20.25:812][159]LogSavePackage: Moving 'D:/spacecats2/UE_SpaceCats/Saved/L_cat_cafe040DF6364A8929228ADDE3821DE41EBD.tmp' to 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap'
 [2020.05.17-13.20.25:856][159]AssetCheck: New page: Asset Save: L_cat_cafe
 [2020.05.17-13.20.25:856][159]LogContentValidation: Display: Validating World /Game/Level/L_cat_cafe.L_cat_cafe
+[2020.05.17-13.21.23:502][806]Cmd: SELECT NONE
+[2020.05.17-13.21.55:648][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cat_treats)
+[2020.05.17-13.22.03:214][970]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_painting_large2)
+[2020.05.17-13.22.24:806][793]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_s_rockets)
+[2020.05.17-13.23.01:282][ 77]Cmd: SELECT NONE
+[2020.05.17-13.23.09:973][ 79]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_s_rockets)
+[2020.05.17-13.23.10:741][165]Cmd: EDIT COPY
+[2020.05.17-13.23.10:929][187]Cmd: EDIT PASTE
+[2020.05.17-13.23.42:459][735]Cmd: SELECT NONE
+[2020.05.17-13.23.44:003][915]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_s_rockets2)
+[2020.05.17-13.23.48:595][451]Cmd: SELECT NONE
+[2020.05.17-13.23.51:280][760]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_s_rockets2)
+[2020.05.17-13.24.03:283][ 92]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_painting_large)
+[2020.05.17-13.24.07:781][586]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_painting_small)
+[2020.05.17-13.24.10:466][857]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_s_rockets2)
+[2020.05.17-13.24.24:343][453]Cmd: SELECT NONE
+[2020.05.17-13.24.41:531][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_fireplace_armchair4)
+[2020.05.17-13.25.06:456][331]LogEditorViewport: Clicking on Actor (LMB): BP_Pot_C (BP_Pot)
+[2020.05.17-13.25.07:545][457]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pot_6)
+[2020.05.17-13.25.10:801][777]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/materials/static/plant_pots/m_pot_03.m_pot_03
+[2020.05.17-13.25.10:806][777]LogMaterial: Display: Missing cached shader map for material m_pot_03, compiling. 
+[2020.05.17-13.25.10:937][777]LogMaterial: Display: Missing cached shader map for material m_pot_03, compiling. 
+[2020.05.17-13.25.10:953][777]LogMaterial: Display: Missing cached shader map for material m_pot_03, compiling. 
+[2020.05.17-13.25.10:971][777]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2020.05.17-13.25.10:971][777]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 10
+[2020.05.17-13.25.10:971][777]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.05.17-13.25.10:977][777]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.05.17-13.25.12:643][908]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
+[2020.05.17-13.25.12:961][934]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 11
+[2020.05.17-13.25.13:749][ 12]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 10
+[2020.05.17-13.25.14:036][ 42]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.05.17-13.25.14:073][ 46]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2020.05.17-13.25.14:263][ 66]LogMaterial: Display: Missing cached shader map for material m_pot_03, compiling. 
+[2020.05.17-13.25.15:191][141]LogMaterialEditor: Saving and Compiling material m_pot_03
+[2020.05.17-13.25.15:666][141]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.05.17-13.25.15:666][141]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 14
+[2020.05.17-13.25.15:680][141]LogMaterial: Display: Missing cached shader map for material m_pot_03, compiling. 
+[2020.05.17-13.25.15:717][141]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2020.05.17-13.25.15:749][141]LogMaterial: Display: Missing cached shader map for material m_pot_03, compiling. 
+[2020.05.17-13.25.15:817][141]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2020.05.17-13.25.15:833][141]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.17-13.25.17:599][141]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 38
+[2020.05.17-13.25.17:599][141]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 37
+[2020.05.17-13.25.17:599][141]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 36
+[2020.05.17-13.25.17:599][141]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 35
+[2020.05.17-13.25.17:599][141]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 34
+[2020.05.17-13.25.17:599][141]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 33
+[2020.05.17-13.25.17:599][141]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 32
+[2020.05.17-13.25.17:599][141]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 31
+[2020.05.17-13.25.17:599][141]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 30
+[2020.05.17-13.25.17:599][141]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 29
+[2020.05.17-13.25.17:599][141]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 28
+[2020.05.17-13.25.17:599][141]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 27
+[2020.05.17-13.25.17:599][141]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 26
+[2020.05.17-13.25.17:599][141]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 25
+[2020.05.17-13.25.17:599][141]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 24
+[2020.05.17-13.25.17:599][141]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2020.05.17-13.25.17:599][141]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.05.17-13.25.17:601][141]TextureStreamingBuild: Display: Compiling optional shaders took 1.782 seconds.
+[2020.05.17-13.25.17:627][141]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.05.17-13.25.20:068][141]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.17-13.25.20:068][141]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2020.05.17-13.25.20:068][141]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.05.17-13.25.20:092][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/materials/static/plant_pots/m_pot_03" FILE="D:/spacecats2/UE_SpaceCats/Content/materials/static/plant_pots/m_pot_03.uasset" SILENT=true
+[2020.05.17-13.25.20:117][141]LogSavePackage: Moving 'D:/spacecats2/UE_SpaceCats/Saved/m_pot_0394B6F3E4490D8DEF18D92C8D15866A5D.tmp' to 'D:/spacecats2/UE_SpaceCats/Content/materials/static/plant_pots/m_pot_03.uasset'
+[2020.05.17-13.25.20:156][141]AssetCheck: New page: Asset Save: m_pot_03
+[2020.05.17-13.25.20:156][141]LogContentValidation: Display: Validating Material /Game/materials/static/plant_pots/m_pot_03.m_pot_03
+[2020.05.17-13.25.20:161][141]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.17-13.25.20:161][141]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2020.05.17-13.25.20:161][141]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.17-13.25.20:161][141]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.17-13.25.20:161][141]MaterialEditorStats: Texture samplers: 4/16
+[2020.05.17-13.25.20:161][141]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.17-13.25.20:161][141]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.17-13.25.22:070][334]LogSlate: Window 'm_pot_03' being destroyed
+[2020.05.17-13.25.22:073][334]LogSlate: Window 'm_pot_03' being destroyed
+[2020.05.17-13.25.22:109][334]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.05.17-13.25.22:109][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.17-13.25.23:594][507]LogEditorViewport: Clicking on Actor (LMB): BP_PickupItem_C (BP_PickupItem)
+[2020.05.17-13.25.25:247][700]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pot_2)
+[2020.05.17-13.25.26:617][827]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/materials/static/plant_pots/m_pot_02.m_pot_02
+[2020.05.17-13.25.26:622][827]LogMaterial: Display: Missing cached shader map for material m_pot_02, compiling. 
+[2020.05.17-13.25.26:750][827]LogMaterial: Display: Missing cached shader map for material m_pot_02, compiling. 
+[2020.05.17-13.25.26:766][827]LogMaterial: Display: Missing cached shader map for material m_pot_02, compiling. 
+[2020.05.17-13.25.26:782][827]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2020.05.17-13.25.26:782][827]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 10
+[2020.05.17-13.25.26:782][827]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2020.05.17-13.25.26:787][827]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.05.17-13.25.28:313][937]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 12
+[2020.05.17-13.25.28:350][937]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2020.05.17-13.25.28:350][937]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 10
+[2020.05.17-13.25.29:024][999]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2020.05.17-13.25.29:258][ 23]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2020.05.17-13.25.29:406][ 39]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.05.17-13.25.29:669][ 66]LogMaterial: Display: Missing cached shader map for material m_pot_02, compiling. 
+[2020.05.17-13.25.29:812][ 76]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 15
+[2020.05.17-13.25.29:860][ 80]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 14
+[2020.05.17-13.25.30:456][132]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 13
+[2020.05.17-13.25.30:747][158]LogMaterialEditor: Saving and Compiling material m_pot_02
+[2020.05.17-13.25.31:213][158]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 12
+[2020.05.17-13.25.31:213][158]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2020.05.17-13.25.31:213][158]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 10
+[2020.05.17-13.25.31:227][158]LogMaterial: Display: Missing cached shader map for material m_pot_02, compiling. 
+[2020.05.17-13.25.31:282][158]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2020.05.17-13.25.31:299][158]LogMaterial: Display: Missing cached shader map for material m_pot_02, compiling. 
+[2020.05.17-13.25.31:367][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.05.17-13.25.31:381][158]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.17-13.25.32:985][158]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 36
+[2020.05.17-13.25.32:985][158]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 35
+[2020.05.17-13.25.32:985][158]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 34
+[2020.05.17-13.25.32:985][158]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 33
+[2020.05.17-13.25.32:985][158]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 32
+[2020.05.17-13.25.32:985][158]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 31
+[2020.05.17-13.25.32:985][158]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
+[2020.05.17-13.25.32:985][158]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 29
+[2020.05.17-13.25.32:985][158]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 28
+[2020.05.17-13.25.32:985][158]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 27
+[2020.05.17-13.25.32:985][158]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 26
+[2020.05.17-13.25.32:985][158]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 25
+[2020.05.17-13.25.32:985][158]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
+[2020.05.17-13.25.32:985][158]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 15
+[2020.05.17-13.25.32:985][158]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
+[2020.05.17-13.25.32:987][158]TextureStreamingBuild: Display: Compiling optional shaders took 1.619 seconds.
+[2020.05.17-13.25.33:014][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.05.17-13.25.35:476][158]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2020.05.17-13.25.35:476][158]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2020.05.17-13.25.35:476][158]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.05.17-13.25.35:496][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/materials/static/plant_pots/m_pot_02" FILE="D:/spacecats2/UE_SpaceCats/Content/materials/static/plant_pots/m_pot_02.uasset" SILENT=true
+[2020.05.17-13.25.35:520][158]LogSavePackage: Moving 'D:/spacecats2/UE_SpaceCats/Saved/m_pot_0289DC52BD4EB7C278D0FB6E90C1E90910.tmp' to 'D:/spacecats2/UE_SpaceCats/Content/materials/static/plant_pots/m_pot_02.uasset'
+[2020.05.17-13.25.35:556][158]AssetCheck: New page: Asset Save: m_pot_02
+[2020.05.17-13.25.35:556][158]LogContentValidation: Display: Validating Material /Game/materials/static/plant_pots/m_pot_02.m_pot_02
+[2020.05.17-13.25.35:561][158]MaterialEditorStats: Base pass shader: 120 instructions
+[2020.05.17-13.25.35:561][158]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2020.05.17-13.25.35:561][158]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2020.05.17-13.25.35:561][158]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2020.05.17-13.25.35:561][158]MaterialEditorStats: Texture samplers: 4/16
+[2020.05.17-13.25.35:561][158]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.05.17-13.25.35:561][158]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.05.17-13.25.36:561][261]LogSlate: Window 'm_pot_02' being destroyed
+[2020.05.17-13.25.36:564][261]LogSlate: Window 'm_pot_02' being destroyed
+[2020.05.17-13.25.36:604][261]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2020.05.17-13.25.36:604][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.17-13.26.07:863][936]LogEditorViewport: Clicking on Actor (LMB): BP_Cat_C (BP_Cat3)
+[2020.05.17-13.26.19:826][337]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cat_treats)
+[2020.05.17-13.26.20:700][422]Cmd: SELECT NONE
+[2020.05.17-13.26.28:540][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (jar_1_big5)
+[2020.05.17-13.26.29:373][419]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (jar_1_small4)
+[2020.05.17-13.26.30:025][493]Cmd: SELECT NONE
+[2020.05.17-13.26.42:393][929]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (jar_3_small)
+[2020.05.17-13.26.57:157][607]Cmd: TRANSACTION UNDO
+[2020.05.17-13.26.57:157][607]LogEditorTransaction: Undo Move Actors
+[2020.05.17-13.26.59:607][840]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (sm_beam_full9)
+[2020.05.17-13.27.00:179][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (jar_3_big)
+[2020.05.17-13.27.04:707][390]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (jar_2_medium2)
+[2020.05.17-13.27.07:091][662]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (jar_2_big)
+[2020.05.17-13.27.28:819][190]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (paintings)
+[2020.05.17-13.27.30:519][384]Cmd: SELECT NONE
+[2020.05.17-13.27.41:804][708]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_painting_small)
+[2020.05.17-13.27.50:871][721]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cat_treats)
+[2020.05.17-13.28.01:842][955]Cmd: SELECT NONE
+[2020.05.17-13.28.01:942][967]Cmd: SELECT NONE
+[2020.05.17-13.28.22:844][448]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_seating_books)
+[2020.05.17-13.28.28:581][ 96]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_seating_shelf)
+[2020.05.17-13.28.47:737][289]Cmd: EDIT COPY
+[2020.05.17-13.28.47:883][306]Cmd: EDIT PASTE
+[2020.05.17-13.29.08:544][697]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_seating_books)
+[2020.05.17-13.29.10:800][939]Cmd: SELECT NONE
+[2020.05.17-13.29.24:987][628]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (sm_wall_full4)
+[2020.05.17-13.29.25:656][701]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (jar_2_medium3)
+[2020.05.17-13.29.27:851][957]Cmd: SELECT NONE
+[2020.05.17-13.29.28:793][ 70]Cmd: TRANSACTION UNDO
+[2020.05.17-13.29.28:793][ 70]LogEditorTransaction: Undo Select None
+[2020.05.17-13.29.29:308][ 85]Cmd: TRANSACTION UNDO
+[2020.05.17-13.29.29:308][ 85]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2020.05.17-13.29.30:241][190]Cmd: SELECT NONE
+[2020.05.17-13.29.37:143][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_seating_shelf2)
+[2020.05.17-13.29.38:045][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_seating_shelf2)
+[2020.05.17-13.29.38:626][150]Cmd: SELECT NONE
+[2020.05.17-13.29.44:433][834]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_seating_books2)
+[2020.05.17-13.29.48:919][345]Cmd: EDIT COPY
+[2020.05.17-13.29.49:114][368]Cmd: EDIT PASTE
+[2020.05.17-13.30.24:382][292]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_painting_small2)
+[2020.05.17-13.30.31:757][165]Cmd: SELECT NONE
+[2020.05.17-13.30.32:487][252]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_seating_books3)
+[2020.05.17-13.30.51:866][496]Cmd: SELECT NONE
+[2020.05.17-13.31.04:338][961]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_seating_books3)
+[2020.05.17-13.31.05:284][ 67]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_seating_shelf4)
+[2020.05.17-13.31.06:046][153]Cmd: SELECT NONE
+[2020.05.17-13.31.18:344][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/L_cat_cafe" FILE="D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.17-13.31.18:372][594]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2020.05.17-13.31.18:527][594]LogSavePackage: Moving 'D:/spacecats2/UE_SpaceCats/Saved/L_cat_cafe043FB7CD45E880FCA0B3E8A2DC82EBC4.tmp' to 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap'
+[2020.05.17-13.31.18:571][594]AssetCheck: New page: Asset Save: L_cat_cafe
+[2020.05.17-13.31.18:571][594]LogContentValidation: Display: Validating World /Game/Level/L_cat_cafe.L_cat_cafe
+[2020.05.17-13.31.57:811][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/L_cat_cafe" FILE="D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.17-13.31.57:839][992]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2020.05.17-13.31.57:976][992]LogSavePackage: Moving 'D:/spacecats2/UE_SpaceCats/Saved/L_cat_cafe5AEB8FD54FE861956A4681B58531A0C2.tmp' to 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap'
+[2020.05.17-13.31.58:020][992]AssetCheck: New page: Asset Save: L_cat_cafe
+[2020.05.17-13.31.58:020][992]LogContentValidation: Display: Validating World /Game/Level/L_cat_cafe.L_cat_cafe
+[2020.05.17-13.31.58:571][ 57]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.17-13.31.58:587][ 57]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.17-13.31.58:587][ 57]PIE: New page: PIE session: L_cat_cafe (17.05.2020, 17:31:58)
+[2020.05.17-13.31.58:588][ 57]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.05.17-13.31.58:589][ 57]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.05.17-13.31.58:595][ 57]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_L_cat_cafe
+[2020.05.17-13.31.58:619][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023760s)
+[2020.05.17-13.31.58:620][ 57]LogAIModule: Creating AISystem for world L_cat_cafe
+[2020.05.17-13.31.58:620][ 57]LogPlayLevel: PIE: World Init took: (0.000988s)
+[2020.05.17-13.31.58:620][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/L_cat_cafe.L_cat_cafe to /Game/Level/UEDPIE_0_L_cat_cafe.L_cat_cafe (0.025019s)
+[2020.05.17-13.31.58:646][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2020.05.17-13.31.58:647][ 57]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.17-13.31.58:647][ 57]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.17-13.31.58:647][ 57]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.17-13.31.58:647][ 57]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.17-13.31.58:647][ 57]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.17-13.31.58:647][ 57]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.17-13.31.58:647][ 57]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.17-13.31.58:647][ 57]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.17-13.31.58:647][ 57]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.17-13.31.58:647][ 57]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.17-13.31.58:659][ 57]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.17-13.31.58:659][ 57]LogAudioMixer: Display: Name: Kopfhörer (HyperX Virtual Surround Sound)
+[2020.05.17-13.31.58:659][ 57]LogAudioMixer: Display: Is Default: Yes
+[2020.05.17-13.31.58:659][ 57]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.17-13.31.58:659][ 57]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.17-13.31.58:659][ 57]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.17-13.31.58:659][ 57]LogAudioMixer: Display: Channel Order:
+[2020.05.17-13.31.58:659][ 57]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.17-13.31.58:659][ 57]LogAudioMixer: Display: 1: FrontRight
+[2020.05.17-13.31.58:670][ 57]LogAudioMixer: Display: Using Audio Device Kopfhörer (HyperX Virtual Surround Sound)
+[2020.05.17-13.31.58:671][ 57]LogInit: FAudioDevice initialized.
+[2020.05.17-13.31.58:679][ 57]LogLoad: Game class is 'GM_CafeExplore_C'
+[2020.05.17-13.31.58:690][ 57]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot_2.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.05.17-13.31.58:690][ 57]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/UEDPIE_0_L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot_2.SproutMesh' 
+[2020.05.17-13.31.58:690][ 57]LogWorld: Bringing World /Game/Level/UEDPIE_0_L_cat_cafe.L_cat_cafe up for play (max tick rate 0) at 2020.05.17-15.31.58
+[2020.05.17-13.31.58:691][ 57]LogWorld: Bringing up level for play took: 0.010743
+[2020.05.17-13.31.58:691][ 57]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.05.17-13.31.58:694][ 57]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.05.17-13.31.58:699][ 57]PIE: Play in editor start time for /Game/Level/UEDPIE_0_L_cat_cafe -0,872
+[2020.05.17-13.32.49:679][161]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.17-13.32.49:694][161]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.17-13.32.49:724][161]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.17-13.32.49:724][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.17-13.32.49:724][161]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_L_cat_cafe
+[2020.05.17-13.32.49:724][161]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.17-13.32.49:725][161]LogWorld: UWorld::CleanupWorld for L_cat_cafe, bSessionEnded=true, bCleanupResources=true
+[2020.05.17-13.32.49:727][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.17-13.32.49:737][161]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.17-13.32.49:741][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.17-13.32.49:766][161]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.17-13.32.49:769][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.17-13.32.49:776][161]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.05.17-13.32.49:795][162]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.05.17-13.33.02:227][599]LogEditorViewport: Clicking on Actor (LMB): BP_Cat_C (BP_Cat3)
+[2020.05.17-13.33.07:618][179]Cmd: SELECT NONE
+[2020.05.17-13.33.09:412][386]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_fireplace_sofa2)
+[2020.05.17-13.33.27:443][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_seating_table2)
+[2020.05.17-13.33.31:916][952]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_jellylamp6)
+[2020.05.17-13.33.33:002][ 77]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight12)
+[2020.05.17-13.33.34:441][245]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2020.05.17-13.33.37:640][601]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_seating_table2)
+[2020.05.17-13.33.45:606][512]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_fireplace_armchair6)
+[2020.05.17-13.33.49:700][989]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_fireplace_armchair5)
+[2020.05.17-13.33.50:991][139]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_seating_table2)
+[2020.05.17-13.33.56:648][802]Cmd: SELECT NONE
+[2020.05.17-13.34.02:208][426]LogEditorViewport: Clicking on Actor (LMB): BP_Cat_C (BP_Cat3)
+[2020.05.17-13.34.09:188][191]Cmd: SELECT NONE
+[2020.05.17-13.34.14:074][753]LogEditorViewport: Clicking on Actor (LMB): BP_Cat_C (BP_Cat3)
+[2020.05.17-13.34.19:228][338]Cmd: SELECT NONE
+[2020.05.17-13.34.21:485][593]LogEditorViewport: Clicking on Actor (LMB): BP_Cat_C (BP_Cat3)
+[2020.05.17-13.34.34:846][114]Cmd: SELECT NONE
+[2020.05.17-13.34.38:417][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/L_cat_cafe" FILE="D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.17-13.34.38:451][520]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.05.17-13.34.38:587][520]LogSavePackage: Moving 'D:/spacecats2/UE_SpaceCats/Saved/L_cat_cafeDF97BE6041D67D74380CF596166794D3.tmp' to 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap'
+[2020.05.17-13.34.38:632][520]AssetCheck: New page: Asset Save: L_cat_cafe
+[2020.05.17-13.34.38:632][520]LogContentValidation: Display: Validating World /Game/Level/L_cat_cafe.L_cat_cafe
+[2020.05.17-13.34.51:532][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/L_cat_cafe" FILE="D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.17-13.34.51:558][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.05.17-13.34.51:696][ 54]LogSavePackage: Moving 'D:/spacecats2/UE_SpaceCats/Saved/L_cat_cafe2B480EEC4273D8EE5D13D5A589651C7B.tmp' to 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap'
+[2020.05.17-13.34.51:738][ 54]AssetCheck: New page: Asset Save: L_cat_cafe
+[2020.05.17-13.34.51:738][ 54]LogContentValidation: Display: Validating World /Game/Level/L_cat_cafe.L_cat_cafe
