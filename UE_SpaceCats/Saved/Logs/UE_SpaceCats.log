@@ -1,4 +1,4 @@
-﻿Log file open, 05/18/20 08:47:18
+﻿Log file open, 05/18/20 09:17:23
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: UE_SpaceCats
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.141641
+LogStats: Stats thread started at 0.062542
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -164,605 +164,562 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.05.18-06.47.19:035][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.05.18-06.47.19:035][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.05.18-06.47.19:036][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
-[2020.05.18-06.47.19:036][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.05.18-06.47.19:036][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
-[2020.05.18-06.47.19:037][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.05.18-06.47.19:037][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
-[2020.05.18-06.47.19:037][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
-[2020.05.18-06.47.19:047][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.05.18-06.47.19:047][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.05.18-06.47.19:048][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.05.18-06.47.19:050][  0]LogInit: Selected Device Profile: [Windows]
-[2020.05.18-06.47.19:051][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.05.18-06.47.19:061][  0]LogHAL: Display: Platform has ~ 16 GB [17109581824 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.05.18-06.47.19:061][  0]LogInit: Going up to parent DeviceProfile []
-[2020.05.18-06.47.19:063][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.05.18-06.47.19:063][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.05.18-06.47.19:064][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.05.18-06.47.19:069][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.05.18-06.47.19:069][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.05.18-06.47.19:069][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.05.18-06.47.19:069][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
-[2020.05.18-06.47.19:071][  0]LogInit: Computer: DESKTOP-32D01G4
-[2020.05.18-06.47.19:072][  0]LogInit: User: User
-[2020.05.18-06.47.19:072][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.05.18-06.47.19:072][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.05.18-06.47.19:072][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.05.18-06.47.19:072][  0]LogMemory: Platform Memory Stats for Windows
-[2020.05.18-06.47.19:072][  0]LogMemory: Process Physical Memory: 105.66 MB used, 105.67 MB peak
-[2020.05.18-06.47.19:072][  0]LogMemory: Process Virtual Memory: 100.11 MB used, 100.11 MB peak
-[2020.05.18-06.47.19:072][  0]LogMemory: Physical Memory: 4403.18 MB used,  11913.79 MB free, 16316.97 MB total
-[2020.05.18-06.47.19:072][  0]LogMemory: Virtual Memory: 5122.03 MB used,  134212608.00 MB free, 134217728.00 MB total
-[2020.05.18-06.47.19:079][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.05.18-06.47.19:351][  0]LogInit: Using OS detected language (de-DE).
-[2020.05.18-06.47.19:351][  0]LogInit: Using OS detected locale (de-DE).
-[2020.05.18-06.47.19:353][  0]LogTextLocalizationManager: No specific localization for 'de-DE' exists, so the 'de' localization will be used.
-[2020.05.18-06.47.19:354][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/de/Editor.locres' could not be opened for reading!
-[2020.05.18-06.47.19:354][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/de/EditorTutorials.locres' could not be opened for reading!
-[2020.05.18-06.47.19:354][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/de/Keywords.locres' could not be opened for reading!
-[2020.05.18-06.47.19:354][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/de/Category.locres' could not be opened for reading!
-[2020.05.18-06.47.19:354][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/de/ToolTips.locres' could not be opened for reading!
-[2020.05.18-06.47.19:354][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/de/PropertyNames.locres' could not be opened for reading!
-[2020.05.18-06.47.19:354][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/de/Engine.locres' could not be opened for reading!
-[2020.05.18-06.47.19:383][  0]LogInit: Setting process to per monitor DPI aware
-[2020.05.18-06.47.19:475][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.05.18-06.47.19:475][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.05.18-06.47.21:930][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.05.18-06.47.21:930][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.05.18-06.47.21:930][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.05.18-06.47.21:930][  0]LogD3D11RHI: D3D11 adapters:
-[2020.05.18-06.47.21:998][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2020.05.18-06.47.21:998][  0]LogD3D11RHI:       6052/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.05.18-06.47.22:000][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.05.18-06.47.22:001][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.05.18-06.47.22:001][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.05.18-06.47.22:008][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.05.18-06.47.22:009][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2020.05.18-06.47.22:009][  0]LogWindows: EnumDisplayDevices:
-[2020.05.18-06.47.22:009][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2020.05.18-06.47.22:009][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2020.05.18-06.47.22:009][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2020.05.18-06.47.22:010][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2020.05.18-06.47.22:010][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.05.18-06.47.22:010][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2020.05.18-06.47.22:010][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
-[2020.05.18-06.47.22:010][  0]LogD3D11RHI:      Driver Date: 3-17-2020
-[2020.05.18-06.47.22:010][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2020.05.18-06.47.22:053][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.05.18-06.47.22:054][  0]LogD3D11RHI: Async texture creation enabled
-[2020.05.18-06.47.22:103][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.05.18-06.47.22:546][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.05.18-06.47.22:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.05.18-06.47.22:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.05.18-06.47.22:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.05.18-06.47.22:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.05.18-06.47.22:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.05.18-06.47.22:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.05.18-06.47.22:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.05.18-06.47.22:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.05.18-06.47.22:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.05.18-06.47.22:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.05.18-06.47.22:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.05.18-06.47.22:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.05.18-06.47.22:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.05.18-06.47.22:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.05.18-06.47.22:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.05.18-06.47.22:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.05.18-06.47.22:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.05.18-06.47.22:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.05.18-06.47.22:615][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.05.18-06.47.22:615][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.05.18-06.47.22:623][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.05.18-06.47.22:630][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.05.18-06.47.22:638][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.05.18-06.47.22:645][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.05.18-06.47.22:652][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.05.18-06.47.22:660][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.05.18-06.47.22:686][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.05.18-06.47.22:686][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.05.18-06.47.22:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.05.18-06.47.22:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.05.18-06.47.22:706][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.05.18-06.47.22:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.05.18-06.47.22:722][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.05.18-06.47.22:730][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.05.18-06.47.22:730][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.05.18-06.47.22:738][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.05.18-06.47.22:843][  0]LogShaderCompilers: Guid format shader working directory is 18 characters bigger than the processId version (D:/spacecats2/UE_SpaceCats/Intermediate/Shaders/WorkingDirectory/11956/).
-[2020.05.18-06.47.22:844][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/057FFAAE49A1D78A8CDFC8BDCDE631D8/'.
-[2020.05.18-06.47.22:845][  0]LogXGEController: Cleaning working directory: C:/Users/User/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.05.18-06.47.22:846][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.05.18-06.47.22:846][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.05.18-06.47.22:846][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.05.18-06.47.25:568][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.05.18-06.47.25:670][  0]LogDerivedDataCache: Loaded boot cache 0.10s 80MB C:/Users/User/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.05.18-06.47.25:670][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.05.18-06.47.25:670][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/spacecats2/UE_SpaceCats/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.05.18-06.47.25:670][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.05.18-06.47.25:670][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/spacecats2/UE_SpaceCats/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.05.18-06.47.25:670][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.05.18-06.47.25:688][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.05.18-06.47.25:689][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.05.18-06.47.25:689][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.05.18-06.47.25:690][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.05.18-06.47.25:690][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.05.18-06.47.25:690][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.05.18-06.47.25:716][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.05.18-06.47.25:726][  0]LogSlate: Using FreeType 2.10.0
-[2020.05.18-06.47.25:741][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.05.18-06.47.26:131][  0]LogAssetRegistry: FAssetRegistry took 0.0058 seconds to start up
-[2020.05.18-06.47.26:615][  0]LogInit: Selected Device Profile: [Windows]
-[2020.05.18-06.47.26:954][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.05.18-06.47.26:954][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.05.18-06.47.26:954][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.05.18-06.47.26:954][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.05.18-06.47.26:954][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.05.18-06.47.27:008][  0]LogNetVersion: UE_SpaceCats 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1511205519)
-[2020.05.18-06.47.30:309][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.049039 seconds
-[2020.05.18-06.47.30:317][  0]LogUObjectArray: 46775 objects as part of root set at end of initial load.
-[2020.05.18-06.47.30:317][  0]LogUObjectAllocator: 8142024 out of 0 bytes used by permanent object pool.
-[2020.05.18-06.47.30:317][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.05.18-06.47.31:290][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.05.18-06.47.31:297][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.05.18-06.47.31:399][  0]SourceControl: Source control is disabled
-[2020.05.18-06.47.31:400][  0]SourceControl: Source control is disabled
-[2020.05.18-06.47.31:409][  0]SourceControl: Source control is disabled
-[2020.05.18-06.47.31:414][  0]SourceControl: Source control is disabled
-[2020.05.18-06.47.31:418][  0]SourceControl: Source control is disabled
-[2020.05.18-06.47.31:647][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.05.18-06.47.31:665][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.05.18-06.47.31:665][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.05.18-06.47.31:825][  0]LogOcInput: OculusInput pre-init called
-[2020.05.18-06.47.31:839][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.05.18-06.47.31:839][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.05.18-06.47.31:961][  0]LogEngine: Initializing Engine...
-[2020.05.18-06.47.31:963][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.05.18-06.47.31:967][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
-[2020.05.18-06.47.32:317][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.05.18-06.47.32:350][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.05.18-06.47.32:361][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.05.18-06.47.32:361][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.05.18-06.47.32:361][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.05.18-06.47.32:361][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.05.18-06.47.32:361][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.05.18-06.47.32:361][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.05.18-06.47.32:361][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.05.18-06.47.32:361][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.05.18-06.47.32:362][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.05.18-06.47.32:362][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.05.18-06.47.32:383][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.05.18-06.47.32:384][  0]LogAudioMixer: Display: Name: Kopfhörer (HyperX Virtual Surround Sound)
-[2020.05.18-06.47.32:384][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.05.18-06.47.32:384][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.05.18-06.47.32:384][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2020.05.18-06.47.32:384][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2020.05.18-06.47.32:384][  0]LogAudioMixer: Display: Channel Order:
-[2020.05.18-06.47.32:384][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.05.18-06.47.32:384][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.05.18-06.47.32:441][  0]LogAudioMixer: Display: Using Audio Device Kopfhörer (HyperX Virtual Surround Sound)
-[2020.05.18-06.47.32:447][  0]LogInit: FAudioDevice initialized.
-[2020.05.18-06.47.32:448][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.05.18-06.47.32:504][  0]LogDerivedDataCache: Saved boot cache 0.06s 80MB C:/Users/User/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.05.18-06.47.32:511][  0]LogInit: Texture streaming: Enabled
-[2020.05.18-06.47.32:526][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.05.18-06.47.32:527][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.05.18-06.47.32:528][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.05.18-06.47.32:590][  0]LogInit: Transaction tracking system initialized
-[2020.05.18-06.47.32:625][  0]BlueprintLog: New page: Editor Load
-[2020.05.18-06.47.32:741][  0]LocalizationService: Localization service is disabled
-[2020.05.18-06.47.33:101][  0]LogFileCache: Scanning file cache for directory 'D:/spacecats2/UE_SpaceCats/Content/' took 0.00s
-[2020.05.18-06.47.33:101][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.05.18-06.47.33:102][  0]LogCook: Display: Mobile HDR setting 1
-[2020.05.18-06.47.33:906][  0]SourceControl: Source control is disabled
-[2020.05.18-06.47.33:908][  0]Cmd: MAP LOAD FILE="D:/spacecats2/UE_SpaceCats/Content/Level/Greybox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.05.18-06.47.33:928][  0]LightingResults: New page: Lighting Build
-[2020.05.18-06.47.33:933][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.05.18-06.47.33:934][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.05.18-06.47.33:934][  0]MapCheck: New page: Map Check
-[2020.05.18-06.47.33:934][  0]LightingResults: New page: Lighting Build
-[2020.05.18-06.47.33:962][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
-[2020.05.18-06.47.37:571][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/meshes/actor/mrdeluxe/ABP_Mrdeluxe.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst4': Can't find file.
-[2020.05.18-06.47.37:571][  0]LoadErrors: Failed to load /Engine/BasicShapes/BasicShapeMaterial_Inst4.BasicShapeMaterial_Inst4 Referenced by Mesh_GEN_VARIABLE
-[2020.05.18-06.47.37:572][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/meshes/actor/mrdeluxe/ABP_Mrdeluxe.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst4': Can't find file.
-[2020.05.18-06.47.37:572][  0]LoadErrors: Failed to load /Engine/BasicShapes/BasicShapeMaterial_Inst4.BasicShapeMaterial_Inst4 Referenced by Mesh_GEN_VARIABLE
-[2020.05.18-06.47.37:575][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/meshes/actor/mrdeluxe/ABP_Mrdeluxe.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst4': Can't find file.
-[2020.05.18-06.47.37:575][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/meshes/actor/mrdeluxe/ABP_Mrdeluxe.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst4': Can't find file.
-[2020.05.18-06.47.37:575][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/meshes/actor/mrdeluxe/ABP_Mrdeluxe.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst4': Can't find file.
-[2020.05.18-06.47.37:576][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/meshes/actor/mrdeluxe/ABP_Mrdeluxe.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst4': Can't find file.
-[2020.05.18-06.47.37:607][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Blueprints/Interactables/BP_Blender.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst4': Can't find file.
-[2020.05.18-06.47.37:607][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Blueprints/Interactables/BP_Blender.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst4': Can't find file.
-[2020.05.18-06.47.37:607][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Blueprints/Interactables/BP_Blender.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst4': Can't find file.
-[2020.05.18-06.47.37:608][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Blueprints/Interactables/BP_Blender.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst4': Can't find file.
-[2020.05.18-06.47.37:741][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/FbxScene_greybox_test.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
-[2020.05.18-06.47.37:741][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/FbxScene_greybox_test.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
-[2020.05.18-06.47.37:741][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/FbxScene_greybox_test.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
-[2020.05.18-06.47.37:741][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/FbxScene_greybox_test.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
-[2020.05.18-06.47.37:743][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/Greybox.umap' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
-[2020.05.18-06.47.37:743][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/Greybox.umap' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
-[2020.05.18-06.47.37:743][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/Greybox.umap' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
-[2020.05.18-06.47.37:743][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/Greybox.umap' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
-[2020.05.18-06.47.37:744][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/Greybox.umap' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
-[2020.05.18-06.47.37:744][  0]LoadErrors: Failed to load /Engine/BasicShapes/BasicShapeMaterial_Inst.BasicShapeMaterial_Inst Referenced by Cylinder030_GEN_VARIABLE
-[2020.05.18-06.47.37:744][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/Greybox.umap' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
-[2020.05.18-06.47.37:744][  0]LoadErrors: Failed to load /Engine/BasicShapes/BasicShapeMaterial_Inst.BasicShapeMaterial_Inst Referenced by Cylinder030_GEN_VARIABLE
-[2020.05.18-06.47.38:392][  0]LogTexture: Display: Building textures: moth_ears (AutoDXT, 1024X1024)
-[2020.05.18-06.47.38:392][  0]LogTexture: Display: Building textures: witch_hat (AutoDXT, 1024X1024)
-[2020.05.18-06.47.38:392][  0]LogStaticMesh: Building static mesh SM_cat_moth_ears...
-[2020.05.18-06.47.38:405][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Environment/Cat/SM_cat_moth_ears.SM_cat_moth_ears
-[2020.05.18-06.47.38:592][  0]LogMaterial: Display: Missing cached shader map for material alien_ivy_Mat, compiling. 
-[2020.05.18-06.47.38:897][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 29
-[2020.05.18-06.47.38:897][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
-[2020.05.18-06.47.38:897][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
-[2020.05.18-06.47.38:897][  0]LogMaterial: Display: Missing cached shader map for material alien_flower_Mat, compiling. 
-[2020.05.18-06.47.39:174][  0]LogStaticMesh: Building static mesh SM_cat_hat...
-[2020.05.18-06.47.39:185][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Environment/Cat/SM_cat_hat.SM_cat_hat
-[2020.05.18-06.47.39:823][  0]LogStaticMesh: Building static mesh alien_ivy...
-[2020.05.18-06.47.40:874][  0]LogStaticMesh: Built static mesh [1.05s] /Game/meshes/static/plants/alien_ivy.alien_ivy
-[2020.05.18-06.47.41:298][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10025600-1-1-1-1-1 wave water_Drop...
-[2020.05.18-06.47.41:298][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Environment/Audio/SFX/RAW/water_Drop.water_Drop will be modified from 40 to 40.
-[2020.05.18-06.47.41:323][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 50496 while cooking SoundWave /Game/Environment/Audio/SFX/RAW/water_Drop.water_Drop.
-[2020.05.18-06.47.41:533][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10025600-1-1-1-1-1 wave interact_1...
-[2020.05.18-06.47.41:533][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Environment/Audio/SFX/RAW/interact_1.interact_1 will be modified from 40 to 40.
-[2020.05.18-06.47.41:547][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 47076 while cooking SoundWave /Game/Environment/Audio/SFX/RAW/interact_1.interact_1.
-[2020.05.18-06.47.41:547][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10025600-1-1-1-1-1 wave interact_2...
-[2020.05.18-06.47.41:563][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Environment/Audio/SFX/RAW/interact_2.interact_2 will be modified from 40 to 40.
-[2020.05.18-06.47.41:582][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 58616 while cooking SoundWave /Game/Environment/Audio/SFX/RAW/interact_2.interact_2.
-[2020.05.18-06.47.41:589][  0]LogAIModule: Creating AISystem for world Greybox
-[2020.05.18-06.47.41:617][  0]PIE: Warning: AttachTo: '/Game/Level/Greybox.Greybox:PersistentLevel.FbxScene_greybox_test.DefaultSceneRoot' is not static  (in blueprint "FbxScene_greybox_test"), cannot attach '/Game/Level/Greybox.Greybox:PersistentLevel.FbxScene_greybox_test.DefaultSceneRoot1' which is static to it. Aborting.
-[2020.05.18-06.47.41:647][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.05.18-06.47.41:679][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
-[2020.05.18-06.47.41:683][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.05.18-06.47.41:683][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,293ms to complete.
-[2020.05.18-06.47.41:683][  0]LogFileHelpers: Loading map 'Greybox' took 7.776
-[2020.05.18-06.47.41:882][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.05.18-06.47.41:889][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.05.18-06.47.41:895][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.05.18-06.47.41:901][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.05.18-06.47.41:918][  0]LogCollectionManager: Loaded 0 collections in 0.001764 seconds
-[2020.05.18-06.47.41:946][  0]LogFileCache: Scanning file cache for directory 'D:/spacecats2/UE_SpaceCats/Saved/Collections/' took 0.00s
-[2020.05.18-06.47.41:946][  0]LogFileCache: Scanning file cache for directory 'D:/spacecats2/UE_SpaceCats/Content/Developers/User/Collections/' took 0.00s
-[2020.05.18-06.47.41:946][  0]LogFileCache: Scanning file cache for directory 'D:/spacecats2/UE_SpaceCats/Content/Collections/' took 0.00s
-[2020.05.18-06.47.41:946][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 3165 classes and 735 folders.
-[2020.05.18-06.47.41:962][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.05.18-06.47.42:299][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.05.18-06.47.42:310][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 3 folders.
-[2020.05.18-06.47.42:389][  0]LogSlate: Took 0.005891 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.05.18-06.47.42:397][  0]LogSlate: Took 0.005895 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.05.18-06.47.42:408][  0]LogSlate: Took 0.006524 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.05.18-06.47.42:523][  0]LogRenderer: Reallocating scene render targets to support 1340x632 Format 10 NumSamples 1 (Frame:1).
-[2020.05.18-06.47.43:036][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.05.18-06.47.43:036][  0]LogLoad: (Engine Initialization) Total time: 28.20 seconds
-[2020.05.18-06.47.43:036][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.05.18-06.47.43:091][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.05.18-06.47.43:172][  0]LogSlate: Took 0.005459 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.05.18-06.47.43:181][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/spacecats2/UE_SpaceCats/Content/' took 0.13s
-[2020.05.18-06.47.43:192][  1]LogSlate: Last resort fallback font was requested. Font: '/Game/Environment/MSC/SpaceGalaxyRegularFonty-RlOl.SpaceGalaxyRegularFonty-RlOl', Character: '_ (U+005f)'
-[2020.05.18-06.47.43:207][  1]LogSlate: Took 0.013137 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
-[2020.05.18-06.47.44:096][ 90]LogAssetRegistry: Asset discovery search completed in 17.9666 seconds
-[2020.05.18-06.47.44:100][ 90]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000010 seconds (updated 0 objects)
-[2020.05.18-06.47.44:981][188]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 20
-[2020.05.18-06.47.45:500][246]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 13
-[2020.05.18-06.47.46:592][366]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
-[2020.05.18-06.47.47:235][432]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
-[2020.05.18-06.47.48:372][559]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
-[2020.05.18-06.47.48:462][569]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
-[2020.05.18-06.48.28:865][397]LogSlate: Window 'Message Log' being destroyed
-[2020.05.18-06.48.28:868][397]LogSlate: Window 'Message Log' being destroyed
-[2020.05.18-06.48.30:281][560]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.FbxScene_greybox_test_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_greybox_test"), cannot attach '/Engine/Transient.World_0:PersistentLevel.FbxScene_greybox_test_C_0.DefaultSceneRoot1' which is static to it. Aborting.
-[2020.05.18-06.48.31:040][631]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.05.18-06.48.31:097][631]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Blueprints/Interactables/BP_Trash.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
-[2020.05.18-06.48.31:097][631]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Blueprints/Interactables/BP_Trash.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
-[2020.05.18-06.48.31:098][631]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Blueprints/Interactables/BP_Trash.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
-[2020.05.18-06.48.31:098][631]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Blueprints/Interactables/BP_Trash.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
-[2020.05.18-06.48.31:099][631]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
-[2020.05.18-06.48.31:099][631]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
-[2020.05.18-06.48.31:100][631]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
-[2020.05.18-06.48.31:100][631]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
-[2020.05.18-06.48.31:102][631]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
-[2020.05.18-06.48.31:102][631]LoadErrors: Failed to load /Engine/BasicShapes/BasicShapeMaterial_Inst.BasicShapeMaterial_Inst Referenced by Mesh_GEN_VARIABLE
-[2020.05.18-06.48.31:102][631]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
-[2020.05.18-06.48.31:115][631]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap' failed to load '/Game/Level/L_cat_cafe_BuiltData': Can't find file.
-[2020.05.18-06.48.31:116][631]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap' failed to load '/Game/Level/L_cat_cafe_BuiltData': Can't find file.
-[2020.05.18-06.48.31:173][631]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap' failed to load '/Game/Level/L_cat_cafe_BuiltData': Can't find file.
-[2020.05.18-06.48.31:173][631]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap' failed to load '/Game/Level/L_cat_cafe_BuiltData': Can't find file.
-[2020.05.18-06.48.31:254][631]LogLinker: Warning: Failed to load '/Game/Level/L_cat_cafe_BuiltData': Can't find file.
-[2020.05.18-06.48.31:254][631]LogLinker: Warning: Failed to load '/Game/Level/L_cat_cafe_BuiltData': Can't find file.
-[2020.05.18-06.48.31:254][631]LogLinker: Warning: Failed to load '/Game/Level/L_cat_cafe_BuiltData': Can't find file.
-[2020.05.18-06.48.31:254][631]LogLinker: Warning: Failed to load '/Game/Level/L_cat_cafe_BuiltData': Can't find file.
-[2020.05.18-06.48.31:287][631]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap' failed to load '/Game/Level/L_cat_cafe_BuiltData': Can't find file.
-[2020.05.18-06.48.31:287][631]LoadErrors: Failed to load /Game/Level/L_cat_cafe_BuiltData.L_cat_cafe_BuiltData Referenced by PersistentLevel
-[2020.05.18-06.48.31:287][631]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap' failed to load '/Game/Level/L_cat_cafe_BuiltData': Can't find file.
-[2020.05.18-06.48.32:712][631]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10025600-1-1-1-1-1 wave saber_audio...
-[2020.05.18-06.48.32:713][631]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Environment/Audio/SFX/RAW/saber_audio.saber_audio will be modified from 40 to 40.
-[2020.05.18-06.48.32:893][631]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 2042832 while cooking SoundWave /Game/Environment/Audio/SFX/RAW/saber_audio.saber_audio.
-[2020.05.18-06.48.33:166][631]LogMaterial: Display: Missing cached shader map for material Clipboardb_Mat, compiling. 
-[2020.05.18-06.48.34:149][631]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
-[2020.05.18-06.48.34:149][631]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 15
-[2020.05.18-06.48.34:149][631]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
-[2020.05.18-06.48.34:149][631]LogAIModule: Creating AISystem for world L_cat_cafe
-[2020.05.18-06.48.34:205][631]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/L_cat_cafe.L_cat_cafe
-[2020.05.18-06.48.34:238][631]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
-[2020.05.18-06.48.34:241][631]Cmd: MAP LOAD FILE="D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.05.18-06.48.34:241][631]LightingResults: New page: Lighting Build
-[2020.05.18-06.48.34:242][631]LoadErrors: New page: Loading map: L_cat_cafe.umap
-[2020.05.18-06.48.34:243][631]LogWorld: UWorld::CleanupWorld for Greybox, bSessionEnded=true, bCleanupResources=true
-[2020.05.18-06.48.34:243][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.05.18-06.48.34:243][631]MapCheck: New page: Map Check
-[2020.05.18-06.48.34:243][631]LightingResults: New page: Lighting Build
-[2020.05.18-06.48.34:272][631]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
-[2020.05.18-06.48.34:282][631]LogPhysics: Warning: Scale for /Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot2.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.05.18-06.48.34:282][631]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot2.SproutMesh' 
-[2020.05.18-06.48.34:282][631]LogPhysics: Warning: Scale for /Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot3.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.05.18-06.48.34:282][631]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot3.SproutMesh' 
-[2020.05.18-06.48.34:282][631]LogPhysics: Warning: Scale for /Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot_2.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.05.18-06.48.34:282][631]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot_2.SproutMesh' 
-[2020.05.18-06.48.34:298][631]LogPhysics: Warning: Scale for /Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot2.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.05.18-06.48.34:298][631]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot2.SproutMesh' 
-[2020.05.18-06.48.34:299][631]LogPhysics: Warning: Scale for /Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot2.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.05.18-06.48.34:299][631]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot2.SproutMesh' 
-[2020.05.18-06.48.34:299][631]LogPhysics: Warning: Scale for /Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot2.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.05.18-06.48.34:299][631]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot2.SproutMesh' 
-[2020.05.18-06.48.34:300][631]LogPhysics: Warning: Scale for /Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot3.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.05.18-06.48.34:300][631]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot3.SproutMesh' 
-[2020.05.18-06.48.34:300][631]LogPhysics: Warning: Scale for /Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot3.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.05.18-06.48.34:300][631]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot3.SproutMesh' 
-[2020.05.18-06.48.34:300][631]LogPhysics: Warning: Scale for /Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot3.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.05.18-06.48.34:300][631]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot3.SproutMesh' 
-[2020.05.18-06.48.34:301][631]LogPhysics: Warning: Scale for /Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot_2.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.05.18-06.48.34:302][631]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot_2.SproutMesh' 
-[2020.05.18-06.48.34:302][631]LogPhysics: Warning: Scale for /Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot_2.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.05.18-06.48.34:302][631]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot_2.SproutMesh' 
-[2020.05.18-06.48.34:302][631]LogPhysics: Warning: Scale for /Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot_2.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
-[2020.05.18-06.48.34:302][631]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot_2.SproutMesh' 
-[2020.05.18-06.48.34:349][631]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.05.18-06.48.34:393][631]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
-[2020.05.18-06.48.34:423][631]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.05.18-06.48.34:424][631]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,113ms to complete.
-[2020.05.18-06.48.34:424][631]LogFileHelpers: Loading map 'L_cat_cafe' took 0.185
-[2020.05.18-06.49.17:499][546]LogTemp: Repeating last play command: Standalone Game
-[2020.05.18-06.49.17:540][546]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
-[2020.05.18-06.59.24:530][857]LogTemp: Repeating last play command: Standalone Game
-[2020.05.18-06.59.24:572][857]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
-[2020.05.18-07.00.09:904][384]LogTemp: Repeating last play command: Standalone Game
-[2020.05.18-07.00.09:947][384]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
-[2020.05.18-07.00.11:235][523]LogTemp: Repeating last play command: Standalone Game
-[2020.05.18-07.00.11:276][523]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
-[2020.05.18-07.07.39:138][771]LogTemp: Repeating last play command: Standalone Game
-[2020.05.18-07.07.39:182][771]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
-[2020.05.18-07.08.36:033][430]LogTemp: Repeating last play command: Standalone Game
-[2020.05.18-07.08.36:074][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
-[2020.05.18-07.09.14:524][956]LogTemp: Repeating last play command: Standalone Game
-[2020.05.18-07.09.14:566][956]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
-[2020.05.18-07.14.51:205][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_seating_sofa)
-[2020.05.18-07.14.52:218][ 49]Cmd: SELECT NONE
-[2020.05.18-07.15.02:192][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_kitchen_citruspillow)
-[2020.05.18-07.15.19:203][ 85]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (sm_entrance_door)
-[2020.05.18-07.15.21:861][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/L_cat_cafe" FILE="D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.05.18-07.15.21:888][354]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
-[2020.05.18-07.15.22:234][354]LogSavePackage: Moving 'D:/spacecats2/UE_SpaceCats/Saved/L_cat_cafe25B611B64897CA5F827D348B33797E93.tmp' to 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap'
-[2020.05.18-07.15.22:278][354]AssetCheck: New page: Asset Save: L_cat_cafe
-[2020.05.18-07.15.22:278][354]LogContentValidation: Display: Validating World /Game/Level/L_cat_cafe.L_cat_cafe
+[2020.05.18-07.17.23:771][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.05.18-07.17.23:771][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.05.18-07.17.23:771][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
+[2020.05.18-07.17.23:771][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.05.18-07.17.23:771][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
+[2020.05.18-07.17.23:771][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
+[2020.05.18-07.17.23:771][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.05.18-07.17.23:771][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.05.18-07.17.23:771][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.05.18-07.17.23:771][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.05.18-07.17.23:771][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.05.18-07.17.23:771][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.05.18-07.17.23:771][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.05.18-07.17.23:771][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.05.18-07.17.23:771][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.05.18-07.17.23:771][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.05.18-07.17.23:771][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.05.18-07.17.23:772][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.05.18-07.17.23:772][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.05.18-07.17.23:772][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.05.18-07.17.23:772][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
+[2020.05.18-07.17.23:772][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.05.18-07.17.23:772][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.05.18-07.17.23:772][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.05.18-07.17.23:772][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.05.18-07.17.23:772][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.05.18-07.17.23:772][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.05.18-07.17.23:772][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.05.18-07.17.23:772][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.05.18-07.17.23:772][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.05.18-07.17.23:772][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.05.18-07.17.23:772][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.05.18-07.17.23:772][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.05.18-07.17.23:772][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.05.18-07.17.23:772][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
+[2020.05.18-07.17.23:772][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
+[2020.05.18-07.17.23:774][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.18-07.17.23:774][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.18-07.17.23:775][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.18-07.17.23:775][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.18-07.17.23:775][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.05.18-07.17.23:777][  0]LogHAL: Display: Platform has ~ 16 GB [17109581824 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.05.18-07.17.23:777][  0]LogInit: Going up to parent DeviceProfile []
+[2020.05.18-07.17.23:777][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.05.18-07.17.23:777][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.18-07.17.23:777][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.18-07.17.23:778][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.18-07.17.23:779][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.18-07.17.23:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.18-07.17.23:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.18-07.17.23:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.18-07.17.23:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.18-07.17.23:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.18-07.17.23:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.18-07.17.23:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.18-07.17.23:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.18-07.17.23:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.18-07.17.23:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.18-07.17.23:779][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.18-07.17.23:779][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.05.18-07.17.23:779][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.18-07.17.23:779][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.18-07.17.23:779][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Scalability.ini]
+[2020.05.18-07.17.23:779][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.18-07.17.23:779][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.18-07.17.23:779][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.18-07.17.23:779][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.05.18-07.17.23:779][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.05.18-07.17.23:779][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.05.18-07.17.23:779][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.05.18-07.17.23:779][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/spacecats2/UE_SpaceCats/Saved/Config/Windows/Engine.ini]
+[2020.05.18-07.17.23:779][  0]LogInit: Computer: DESKTOP-32D01G4
+[2020.05.18-07.17.23:779][  0]LogInit: User: User
+[2020.05.18-07.17.23:779][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.05.18-07.17.23:779][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.05.18-07.17.23:779][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.05.18-07.17.23:779][  0]LogMemory: Platform Memory Stats for Windows
+[2020.05.18-07.17.23:779][  0]LogMemory: Process Physical Memory: 105.61 MB used, 105.62 MB peak
+[2020.05.18-07.17.23:779][  0]LogMemory: Process Virtual Memory: 100.18 MB used, 100.18 MB peak
+[2020.05.18-07.17.23:779][  0]LogMemory: Physical Memory: 4897.71 MB used,  11419.26 MB free, 16316.97 MB total
+[2020.05.18-07.17.23:779][  0]LogMemory: Virtual Memory: 5122.03 MB used,  134212608.00 MB free, 134217728.00 MB total
+[2020.05.18-07.17.23:782][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.05.18-07.17.23:800][  0]LogInit: Using OS detected language (de-DE).
+[2020.05.18-07.17.23:800][  0]LogInit: Using OS detected locale (de-DE).
+[2020.05.18-07.17.23:800][  0]LogTextLocalizationManager: No specific localization for 'de-DE' exists, so the 'de' localization will be used.
+[2020.05.18-07.17.23:801][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/de/Editor.locres' could not be opened for reading!
+[2020.05.18-07.17.23:801][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/de/EditorTutorials.locres' could not be opened for reading!
+[2020.05.18-07.17.23:801][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/de/Keywords.locres' could not be opened for reading!
+[2020.05.18-07.17.23:801][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/de/Category.locres' could not be opened for reading!
+[2020.05.18-07.17.23:801][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/de/ToolTips.locres' could not be opened for reading!
+[2020.05.18-07.17.23:801][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/de/PropertyNames.locres' could not be opened for reading!
+[2020.05.18-07.17.23:801][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/de/Engine.locres' could not be opened for reading!
+[2020.05.18-07.17.23:802][  0]LogInit: Setting process to per monitor DPI aware
+[2020.05.18-07.17.23:824][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.05.18-07.17.23:824][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.05.18-07.17.23:937][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.18-07.17.23:937][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.05.18-07.17.23:937][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.05.18-07.17.23:937][  0]LogD3D11RHI: D3D11 adapters:
+[2020.05.18-07.17.23:990][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2020.05.18-07.17.23:990][  0]LogD3D11RHI:       6052/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.05.18-07.17.23:992][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.05.18-07.17.23:992][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.05.18-07.17.23:992][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.05.18-07.17.23:999][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.05.18-07.17.23:999][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2020.05.18-07.17.23:999][  0]LogWindows: EnumDisplayDevices:
+[2020.05.18-07.17.23:999][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2020.05.18-07.17.23:999][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.05.18-07.17.24:000][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.05.18-07.17.24:000][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.05.18-07.17.24:000][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.05.18-07.17.24:000][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2020.05.18-07.17.24:000][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
+[2020.05.18-07.17.24:000][  0]LogD3D11RHI:      Driver Date: 3-17-2020
+[2020.05.18-07.17.24:000][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2020.05.18-07.17.24:034][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.05.18-07.17.24:035][  0]LogD3D11RHI: Async texture creation enabled
+[2020.05.18-07.17.24:059][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.05.18-07.17.24:309][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.05.18-07.17.24:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.05.18-07.17.24:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.05.18-07.17.24:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.05.18-07.17.24:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.05.18-07.17.24:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.05.18-07.17.24:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.05.18-07.17.24:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.05.18-07.17.24:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.05.18-07.17.24:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.05.18-07.17.24:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.05.18-07.17.24:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.05.18-07.17.24:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.05.18-07.17.24:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.05.18-07.17.24:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.05.18-07.17.24:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.05.18-07.17.24:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.05.18-07.17.24:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.05.18-07.17.24:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.05.18-07.17.24:354][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.05.18-07.17.24:354][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.05.18-07.17.24:360][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.05.18-07.17.24:366][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.05.18-07.17.24:373][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.05.18-07.17.24:379][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.05.18-07.17.24:385][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.05.18-07.17.24:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.05.18-07.17.24:411][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.05.18-07.17.24:411][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.05.18-07.17.24:423][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.05.18-07.17.24:423][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.05.18-07.17.24:429][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.05.18-07.17.24:436][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.05.18-07.17.24:442][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.05.18-07.17.24:448][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.05.18-07.17.24:448][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.05.18-07.17.24:451][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.05.18-07.17.24:472][  0]LogShaderCompilers: Guid format shader working directory is 19 characters bigger than the processId version (D:/spacecats2/UE_SpaceCats/Intermediate/Shaders/WorkingDirectory/6976/).
+[2020.05.18-07.17.24:472][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/B8070CFD4D8AF4A94B0939AB5D84D073/'.
+[2020.05.18-07.17.24:472][  0]LogXGEController: Cleaning working directory: C:/Users/User/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.05.18-07.17.24:473][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.05.18-07.17.24:473][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.05.18-07.17.24:473][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.05.18-07.17.25:128][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.05.18-07.17.25:178][  0]LogDerivedDataCache: Loaded boot cache 0.05s 80MB C:/Users/User/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.18-07.17.25:178][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.05.18-07.17.25:178][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/spacecats2/UE_SpaceCats/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.05.18-07.17.25:178][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.05.18-07.17.25:178][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/spacecats2/UE_SpaceCats/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.18-07.17.25:178][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.05.18-07.17.25:189][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.05.18-07.17.25:189][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.18-07.17.25:189][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.05.18-07.17.25:190][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.05.18-07.17.25:190][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.05.18-07.17.25:190][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.05.18-07.17.25:215][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.05.18-07.17.25:218][  0]LogSlate: Using FreeType 2.10.0
+[2020.05.18-07.17.25:218][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.05.18-07.17.25:265][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
+[2020.05.18-07.17.25:520][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.18-07.17.25:671][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.05.18-07.17.25:671][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.05.18-07.17.25:671][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.05.18-07.17.25:671][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.05.18-07.17.25:671][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.05.18-07.17.25:682][  0]LogNetVersion: UE_SpaceCats 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1511205519)
+[2020.05.18-07.17.26:617][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.037713 seconds
+[2020.05.18-07.17.26:623][  0]LogUObjectArray: 46775 objects as part of root set at end of initial load.
+[2020.05.18-07.17.26:623][  0]LogUObjectAllocator: 8142024 out of 0 bytes used by permanent object pool.
+[2020.05.18-07.17.26:623][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.05.18-07.17.27:027][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.05.18-07.17.27:030][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.05.18-07.17.27:074][  0]SourceControl: Source control is disabled
+[2020.05.18-07.17.27:074][  0]SourceControl: Source control is disabled
+[2020.05.18-07.17.27:075][  0]SourceControl: Source control is disabled
+[2020.05.18-07.17.27:076][  0]SourceControl: Source control is disabled
+[2020.05.18-07.17.27:077][  0]SourceControl: Source control is disabled
+[2020.05.18-07.17.27:150][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.05.18-07.17.27:159][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.18-07.17.27:159][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.18-07.17.27:239][  0]LogOcInput: OculusInput pre-init called
+[2020.05.18-07.17.27:245][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.05.18-07.17.27:245][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.05.18-07.17.27:308][  0]LogEngine: Initializing Engine...
+[2020.05.18-07.17.27:309][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.18-07.17.27:310][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.05.18-07.17.27:641][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.05.18-07.17.27:646][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.05.18-07.17.27:666][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.18-07.17.27:666][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.18-07.17.27:666][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.18-07.17.27:666][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.18-07.17.27:666][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.18-07.17.27:666][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.18-07.17.27:666][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.18-07.17.27:666][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.18-07.17.27:666][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.18-07.17.27:666][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.18-07.17.27:682][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.18-07.17.27:682][  0]LogAudioMixer: Display: Name: Kopfhörer (HyperX Virtual Surround Sound)
+[2020.05.18-07.17.27:682][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.05.18-07.17.27:682][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.18-07.17.27:682][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.18-07.17.27:682][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.18-07.17.27:682][  0]LogAudioMixer: Display: Channel Order:
+[2020.05.18-07.17.27:682][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.18-07.17.27:682][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.05.18-07.17.27:708][  0]LogAudioMixer: Display: Using Audio Device Kopfhörer (HyperX Virtual Surround Sound)
+[2020.05.18-07.17.27:712][  0]LogInit: FAudioDevice initialized.
+[2020.05.18-07.17.27:712][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.05.18-07.17.27:771][  0]LogDerivedDataCache: Saved boot cache 0.06s 80MB C:/Users/User/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.18-07.17.27:775][  0]LogInit: Texture streaming: Enabled
+[2020.05.18-07.17.27:783][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.05.18-07.17.27:783][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.05.18-07.17.27:784][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.05.18-07.17.27:832][  0]LogInit: Transaction tracking system initialized
+[2020.05.18-07.17.27:840][  0]BlueprintLog: New page: Editor Load
+[2020.05.18-07.17.27:864][  0]LocalizationService: Localization service is disabled
+[2020.05.18-07.17.28:117][  0]LogFileCache: Scanning file cache for directory 'D:/spacecats2/UE_SpaceCats/Content/' took 0.00s
+[2020.05.18-07.17.28:117][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.05.18-07.17.28:117][  0]LogCook: Display: Mobile HDR setting 1
+[2020.05.18-07.17.28:690][  0]SourceControl: Source control is disabled
+[2020.05.18-07.17.28:691][  0]Cmd: MAP LOAD FILE="D:/spacecats2/UE_SpaceCats/Content/Level/Greybox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.18-07.17.28:691][  0]LightingResults: New page: Lighting Build
+[2020.05.18-07.17.28:691][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.05.18-07.17.28:691][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.18-07.17.28:692][  0]MapCheck: New page: Map Check
+[2020.05.18-07.17.28:692][  0]LightingResults: New page: Lighting Build
+[2020.05.18-07.17.28:716][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2020.05.18-07.17.29:178][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/meshes/actor/mrdeluxe/ABP_Mrdeluxe.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst4': Can't find file.
+[2020.05.18-07.17.29:178][  0]LoadErrors: Failed to load /Engine/BasicShapes/BasicShapeMaterial_Inst4.BasicShapeMaterial_Inst4 Referenced by Mesh_GEN_VARIABLE
+[2020.05.18-07.17.29:178][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/meshes/actor/mrdeluxe/ABP_Mrdeluxe.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst4': Can't find file.
+[2020.05.18-07.17.29:178][  0]LoadErrors: Failed to load /Engine/BasicShapes/BasicShapeMaterial_Inst4.BasicShapeMaterial_Inst4 Referenced by Mesh_GEN_VARIABLE
+[2020.05.18-07.17.29:181][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/meshes/actor/mrdeluxe/ABP_Mrdeluxe.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst4': Can't find file.
+[2020.05.18-07.17.29:182][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/meshes/actor/mrdeluxe/ABP_Mrdeluxe.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst4': Can't find file.
+[2020.05.18-07.17.29:182][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/meshes/actor/mrdeluxe/ABP_Mrdeluxe.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst4': Can't find file.
+[2020.05.18-07.17.29:182][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/meshes/actor/mrdeluxe/ABP_Mrdeluxe.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst4': Can't find file.
+[2020.05.18-07.17.29:212][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Blueprints/Interactables/BP_Blender.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst4': Can't find file.
+[2020.05.18-07.17.29:212][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Blueprints/Interactables/BP_Blender.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst4': Can't find file.
+[2020.05.18-07.17.29:212][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Blueprints/Interactables/BP_Blender.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst4': Can't find file.
+[2020.05.18-07.17.29:212][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Blueprints/Interactables/BP_Blender.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst4': Can't find file.
+[2020.05.18-07.17.29:233][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/FbxScene_greybox_test.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
+[2020.05.18-07.17.29:233][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/FbxScene_greybox_test.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
+[2020.05.18-07.17.29:233][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/FbxScene_greybox_test.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
+[2020.05.18-07.17.29:234][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/FbxScene_greybox_test.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
+[2020.05.18-07.17.29:235][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/Greybox.umap' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
+[2020.05.18-07.17.29:235][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/Greybox.umap' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
+[2020.05.18-07.17.29:235][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/Greybox.umap' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
+[2020.05.18-07.17.29:235][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/Greybox.umap' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
+[2020.05.18-07.17.29:236][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/Greybox.umap' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
+[2020.05.18-07.17.29:236][  0]LoadErrors: Failed to load /Engine/BasicShapes/BasicShapeMaterial_Inst.BasicShapeMaterial_Inst Referenced by Cylinder030_GEN_VARIABLE
+[2020.05.18-07.17.29:236][  0]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/Greybox.umap' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
+[2020.05.18-07.17.29:236][  0]LoadErrors: Failed to load /Engine/BasicShapes/BasicShapeMaterial_Inst.BasicShapeMaterial_Inst Referenced by Cylinder030_GEN_VARIABLE
+[2020.05.18-07.17.29:781][  0]LogAIModule: Creating AISystem for world Greybox
+[2020.05.18-07.17.29:792][  0]PIE: Warning: AttachTo: '/Game/Level/Greybox.Greybox:PersistentLevel.FbxScene_greybox_test.DefaultSceneRoot' is not static  (in blueprint "FbxScene_greybox_test"), cannot attach '/Game/Level/Greybox.Greybox:PersistentLevel.FbxScene_greybox_test.DefaultSceneRoot1' which is static to it. Aborting.
+[2020.05.18-07.17.29:815][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.18-07.17.29:847][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.05.18-07.17.29:849][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.18-07.17.29:849][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,077ms to complete.
+[2020.05.18-07.17.29:849][  0]LogFileHelpers: Loading map 'Greybox' took 1.158
+[2020.05.18-07.17.29:996][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.18-07.17.30:002][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.18-07.17.30:009][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.18-07.17.30:015][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.18-07.17.30:019][  0]LogCollectionManager: Loaded 0 collections in 0.001517 seconds
+[2020.05.18-07.17.30:031][  0]LogFileCache: Scanning file cache for directory 'D:/spacecats2/UE_SpaceCats/Saved/Collections/' took 0.00s
+[2020.05.18-07.17.30:031][  0]LogFileCache: Scanning file cache for directory 'D:/spacecats2/UE_SpaceCats/Content/Developers/User/Collections/' took 0.00s
+[2020.05.18-07.17.30:031][  0]LogFileCache: Scanning file cache for directory 'D:/spacecats2/UE_SpaceCats/Content/Collections/' took 0.00s
+[2020.05.18-07.17.30:031][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 3165 classes and 735 folders.
+[2020.05.18-07.17.30:033][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.05.18-07.17.30:078][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.05.18-07.17.30:081][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 3 folders.
+[2020.05.18-07.17.30:123][  0]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.05.18-07.17.30:125][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.05.18-07.17.30:129][  0]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.05.18-07.17.30:197][  0]LogRenderer: Reallocating scene render targets to support 1340x632 Format 10 NumSamples 1 (Frame:1).
+[2020.05.18-07.17.30:283][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.05.18-07.17.30:283][  0]LogLoad: (Engine Initialization) Total time: 7.53 seconds
+[2020.05.18-07.17.30:283][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.05.18-07.17.30:333][  0]LogAssetRegistry: Asset discovery search completed in 5.0691 seconds
+[2020.05.18-07.17.30:336][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000008 seconds (updated 0 objects)
+[2020.05.18-07.17.30:338][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.05.18-07.17.30:421][  0]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.18-07.17.30:429][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/spacecats2/UE_SpaceCats/Content/' took 0.13s
+[2020.05.18-07.17.30:444][  1]LogSlate: Last resort fallback font was requested. Font: '/Game/Environment/MSC/SpaceGalaxyRegularFonty-RlOl.SpaceGalaxyRegularFonty-RlOl', Character: '_ (U+005f)'
+[2020.05.18-07.17.30:448][  1]LogSlate: Took 0.001794 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2020.05.18-07.17.34:766][517]LogSlate: Window 'Message Log' being destroyed
+[2020.05.18-07.17.34:770][517]LogSlate: Window 'Message Log' being destroyed
+[2020.05.18-07.17.35:728][627]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.FbxScene_greybox_test_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_greybox_test"), cannot attach '/Engine/Transient.World_0:PersistentLevel.FbxScene_greybox_test_C_0.DefaultSceneRoot1' which is static to it. Aborting.
+[2020.05.18-07.17.36:483][701]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.18-07.17.36:536][701]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Blueprints/Interactables/BP_Trash.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
+[2020.05.18-07.17.36:536][701]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Blueprints/Interactables/BP_Trash.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
+[2020.05.18-07.17.36:536][701]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Blueprints/Interactables/BP_Trash.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
+[2020.05.18-07.17.36:536][701]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Blueprints/Interactables/BP_Trash.uasset' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
+[2020.05.18-07.17.36:538][701]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
+[2020.05.18-07.17.36:538][701]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
+[2020.05.18-07.17.36:538][701]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
+[2020.05.18-07.17.36:538][701]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
+[2020.05.18-07.17.36:540][701]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
+[2020.05.18-07.17.36:540][701]LoadErrors: Failed to load /Engine/BasicShapes/BasicShapeMaterial_Inst.BasicShapeMaterial_Inst Referenced by Mesh_GEN_VARIABLE
+[2020.05.18-07.17.36:541][701]LogLinker: Warning: While loading 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap' failed to load '/Engine/BasicShapes/BasicShapeMaterial_Inst': Can't find file.
+[2020.05.18-07.17.37:504][701]LogAIModule: Creating AISystem for world L_cat_cafe
+[2020.05.18-07.17.37:559][701]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/L_cat_cafe.L_cat_cafe
+[2020.05.18-07.17.37:590][701]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.05.18-07.17.37:591][701]Cmd: MAP LOAD FILE="D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.18-07.17.37:591][701]LightingResults: New page: Lighting Build
+[2020.05.18-07.17.37:592][701]LoadErrors: New page: Loading map: L_cat_cafe.umap
+[2020.05.18-07.17.37:593][701]LogWorld: UWorld::CleanupWorld for Greybox, bSessionEnded=true, bCleanupResources=true
+[2020.05.18-07.17.37:593][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.18-07.17.37:593][701]MapCheck: New page: Map Check
+[2020.05.18-07.17.37:593][701]LightingResults: New page: Lighting Build
+[2020.05.18-07.17.37:622][701]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2020.05.18-07.17.37:631][701]LogPhysics: Warning: Scale for /Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot2.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.05.18-07.17.37:631][701]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot2.SproutMesh' 
+[2020.05.18-07.17.37:631][701]LogPhysics: Warning: Scale for /Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot3.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.05.18-07.17.37:632][701]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot3.SproutMesh' 
+[2020.05.18-07.17.37:632][701]LogPhysics: Warning: Scale for /Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot_2.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.05.18-07.17.37:632][701]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot_2.SproutMesh' 
+[2020.05.18-07.17.37:646][701]LogPhysics: Warning: Scale for /Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot2.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.05.18-07.17.37:646][701]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot2.SproutMesh' 
+[2020.05.18-07.17.37:647][701]LogPhysics: Warning: Scale for /Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot2.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.05.18-07.17.37:647][701]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot2.SproutMesh' 
+[2020.05.18-07.17.37:647][701]LogPhysics: Warning: Scale for /Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot2.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.05.18-07.17.37:647][701]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot2.SproutMesh' 
+[2020.05.18-07.17.37:648][701]LogPhysics: Warning: Scale for /Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot3.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.05.18-07.17.37:648][701]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot3.SproutMesh' 
+[2020.05.18-07.17.37:649][701]LogPhysics: Warning: Scale for /Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot3.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.05.18-07.17.37:649][701]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot3.SproutMesh' 
+[2020.05.18-07.17.37:649][701]LogPhysics: Warning: Scale for /Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot3.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.05.18-07.17.37:649][701]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot3.SproutMesh' 
+[2020.05.18-07.17.37:650][701]LogPhysics: Warning: Scale for /Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot_2.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.05.18-07.17.37:650][701]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot_2.SproutMesh' 
+[2020.05.18-07.17.37:650][701]LogPhysics: Warning: Scale for /Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot_2.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.05.18-07.17.37:650][701]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot_2.SproutMesh' 
+[2020.05.18-07.17.37:650][701]LogPhysics: Warning: Scale for /Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot_2.SproutMesh has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2020.05.18-07.17.37:650][701]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/L_cat_cafe.L_cat_cafe:PersistentLevel.BP_Pot_2.SproutMesh' 
+[2020.05.18-07.17.37:685][701]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.18-07.17.37:715][701]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.05.18-07.17.37:749][701]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.18-07.17.37:749][701]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,105ms to complete.
+[2020.05.18-07.17.37:750][701]LogFileHelpers: Loading map 'L_cat_cafe' took 0.160
+[2020.05.18-07.17.41:930][169]LogTemp: Repeating last play command: Standalone Game
+[2020.05.18-07.17.41:970][169]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.05.18-07.18.49:408][754]LogTemp: Repeating last play command: Standalone Game
+[2020.05.18-07.18.49:449][754]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.05.18-07.22.55:042][350]LogEditorViewport: Clicking on Actor (LMB): BP_Ivy_C (BP_Ivy)
+[2020.05.18-07.22.58:948][795]LogSlate: Took 0.006847 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.05.18-07.23.42:402][709]Cmd: SELECT NONE
+[2020.05.18-07.23.47:749][321]LogEditorViewport: Clicking on Actor (LMB): BP_Ivy_C (BP_Ivy)
+[2020.05.18-07.23.55:868][209]Cmd: SELECT NONE
+[2020.05.18-07.24.03:182][ 64]LogEditorViewport: Clicking on Actor (LMB): BP_Ivy_C (BP_Ivy)
+[2020.05.18-07.24.05:705][358]Cmd: SELECT NONE
+[2020.05.18-07.24.20:507][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/L_cat_cafe" FILE="D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.18-07.24.20:545][127]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.05.18-07.24.20:877][127]LogSavePackage: Moving 'D:/spacecats2/UE_SpaceCats/Saved/L_cat_cafe715310594D0CC595FC8C7A9A872DF404.tmp' to 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap'
+[2020.05.18-07.24.20:877][127]LogFileManager: Warning: DeleteFile was unable to delete 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap', retrying in .5s...
+[2020.05.18-07.24.21:378][127]LogFileManager: Error: Error deleting file 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap'.
+[2020.05.18-07.24.21:378][127]LogSavePackage: Error: Error saving 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap'
+[2020.05.18-07.24.21:382][127]EditorErrors: New page: Save Output
+[2020.05.18-07.24.21:383][127]EditorErrors: Warning: Error saving 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap'
+[2020.05.18-07.24.29:850][801]LogSlate: Window 'Message Log' being destroyed
+[2020.05.18-07.24.29:854][801]LogSlate: Window 'Message Log' being destroyed
+[2020.05.18-07.24.30:755][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/L_cat_cafe" FILE="D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.18-07.24.30:782][906]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.05.18-07.24.31:078][906]LogSavePackage: Moving 'D:/spacecats2/UE_SpaceCats/Saved/L_cat_cafeEA99AEF140DB0FEF3668D7953D4145E9.tmp' to 'D:/spacecats2/UE_SpaceCats/Content/Level/L_cat_cafe.umap'
+[2020.05.18-07.24.31:121][906]AssetCheck: New page: Asset Save: L_cat_cafe
+[2020.05.18-07.24.31:121][906]LogContentValidation: Display: Validating World /Game/Level/L_cat_cafe.L_cat_cafe
